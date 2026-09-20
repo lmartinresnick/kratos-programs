@@ -1,0 +1,4659 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": 1,
+  "program": {
+    "id": "vertical-jump-base",
+    "sourceTitle": "Vertical Jump Base",
+    "displayTitle": "Vertical Jump Base",
+    "summary": null,
+    "goals": [
+      "vertical jump"
+    ],
+    "difficulty": null,
+    "duration": {
+      "weeks": 8,
+      "days": null,
+      "sourceText": "Week 1 – 4; Week 5 – 8"
+    },
+    "daysPerWeek": {
+      "minimum": 5,
+      "maximum": 5,
+      "sourceText": "Day 1; Day 2; Day 3: Off; Day 4; Day 5"
+    },
+    "tags": []
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "kind": "docx",
+      "fileName": "Vertical Jump Base.docx",
+      "url": null,
+      "author": null,
+      "publisher": null
+    }
+  ],
+  "contentTypes": [
+    "schedule"
+  ],
+  "tagCatalog": [
+    {
+      "id": "strength",
+      "displayName": "Strength",
+      "aliases": []
+    },
+    {
+      "id": "power",
+      "displayName": "Power",
+      "aliases": []
+    },
+    {
+      "id": "plyometric",
+      "displayName": "Plyometrics",
+      "aliases": [
+        "plyos"
+      ]
+    },
+    {
+      "id": "mobility",
+      "displayName": "Mobility",
+      "aliases": []
+    },
+    {
+      "id": "cardio",
+      "displayName": "Cardio",
+      "aliases": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "category-strength",
+      "displayName": "Strength",
+      "recognizedKind": "strength"
+    },
+    {
+      "id": "category-plyometrics",
+      "displayName": "Plyometrics",
+      "recognizedKind": "plyometric"
+    },
+    {
+      "id": "category-medicine-ball",
+      "displayName": "Medicine Ball",
+      "recognizedKind": "medicineBall"
+    }
+  ],
+  "groupings": [],
+  "schedule": {
+    "assignmentOrigin": "source",
+    "weeks": [
+      {
+        "id": "week-01",
+        "ordinal": 1,
+        "sourceLabel": "Week 1 – 4",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-01-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-000"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-000"
+            }
+          },
+          {
+            "id": "week-01-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-010"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-010"
+            }
+          },
+          {
+            "id": "week-01-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-018"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-018"
+            }
+          },
+          {
+            "id": "week-01-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-019"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-019"
+            }
+          },
+          {
+            "id": "week-01-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-029"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-029"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-02",
+        "ordinal": 2,
+        "sourceLabel": "Week 1 – 4",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-02-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-000"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-000"
+            }
+          },
+          {
+            "id": "week-02-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-010"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-010"
+            }
+          },
+          {
+            "id": "week-02-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-018"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-018"
+            }
+          },
+          {
+            "id": "week-02-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-019"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-019"
+            }
+          },
+          {
+            "id": "week-02-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-029"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-029"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-03",
+        "ordinal": 3,
+        "sourceLabel": "Week 1 – 4",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-03-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-000"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-000"
+            }
+          },
+          {
+            "id": "week-03-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-010"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-010"
+            }
+          },
+          {
+            "id": "week-03-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-018"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-018"
+            }
+          },
+          {
+            "id": "week-03-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-019"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-019"
+            }
+          },
+          {
+            "id": "week-03-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-029"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-029"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-04",
+        "ordinal": 4,
+        "sourceLabel": "Week 1 – 4",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-04-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-000"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-000"
+            }
+          },
+          {
+            "id": "week-04-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-010"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-010"
+            }
+          },
+          {
+            "id": "week-04-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-018"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-018"
+            }
+          },
+          {
+            "id": "week-04-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-019"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-019"
+            }
+          },
+          {
+            "id": "week-04-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-01-04-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-029"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-029"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-05",
+        "ordinal": 5,
+        "sourceLabel": "Week 5 – 8",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-05-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-037"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-037"
+            }
+          },
+          {
+            "id": "week-05-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-043"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-043"
+            }
+          },
+          {
+            "id": "week-05-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-047"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-047"
+            }
+          },
+          {
+            "id": "week-05-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-048"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-048"
+            }
+          },
+          {
+            "id": "week-05-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-054"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-054"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-06",
+        "ordinal": 6,
+        "sourceLabel": "Week 5 – 8",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-06-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-037"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-037"
+            }
+          },
+          {
+            "id": "week-06-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-043"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-043"
+            }
+          },
+          {
+            "id": "week-06-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-047"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-047"
+            }
+          },
+          {
+            "id": "week-06-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-048"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-048"
+            }
+          },
+          {
+            "id": "week-06-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-054"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-054"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-07",
+        "ordinal": 7,
+        "sourceLabel": "Week 5 – 8",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-07-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-037"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-037"
+            }
+          },
+          {
+            "id": "week-07-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-043"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-043"
+            }
+          },
+          {
+            "id": "week-07-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-047"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-047"
+            }
+          },
+          {
+            "id": "week-07-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-048"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-048"
+            }
+          },
+          {
+            "id": "week-07-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-054"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-054"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-08",
+        "ordinal": 8,
+        "sourceLabel": "Week 5 – 8",
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-08-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-037"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-037"
+            }
+          },
+          {
+            "id": "week-08-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-043"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-043"
+            }
+          },
+          {
+            "id": "week-08-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Off",
+            "displayTitle": "Day 3: Off",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3: Off",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-047"
+                }
+              }
+            ],
+            "sourceText": "Day 3: Off",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-047"
+            }
+          },
+          {
+            "id": "week-08-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-048"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-048"
+            }
+          },
+          {
+            "id": "week-08-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "weeks-05-08-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-054"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-054"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dayTemplates": [],
+  "supplementalProtocols": [
+    {
+      "id": "jump-protocol-phase-01",
+      "sourceTitle": "Phase 1 – Weeks 1 – 3",
+      "displayTitle": "Jump Protocol Phase 1",
+      "applicability": {
+        "weekIds": [
+          "week-01",
+          "week-02",
+          "week-03"
+        ],
+        "dayIds": [],
+        "placement": "sourceUnspecified"
+      },
+      "sections": [
+        {
+          "id": "jump-protocol-phase-01-main",
+          "nodeType": "section",
+          "sourceTitle": "Phase 1 – Weeks 1 – 3",
+          "displayTitle": "Phase 1",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Phase 1 – Weeks 1 – 3",
+          "children": [
+            {
+              "id": "jump-protocol-phase-01-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 2,
+                  "unit": "minutes"
+                },
+                "sourceText": "1. Jumping Rope – 2 minutes."
+              },
+              "notes": [],
+              "sourceText": "1. Jumping Rope – 2 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-059"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "stretching",
+              "title": "Stretching",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sourceText": "2. Stretching"
+              },
+              "notes": [],
+              "sourceText": "2. Stretching",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-060"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 2,
+                  "unit": "minutes"
+                },
+                "sourceText": "3. Jumping Rope – 2 minutes."
+              },
+              "notes": [],
+              "sourceText": "3. Jumping Rope – 2 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-061"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "slow-motion-squat",
+              "title": "Slow Motion Squats",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "4. Slow Motion Squats – 3 sets of 10 repetitions."
+              },
+              "notes": [],
+              "sourceText": "4. Slow Motion Squats – 3 sets of 10 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-062"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "lateral-jump",
+              "title": "Lateral Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "sourceText": "5. Lateral Jumps – 3 sets of 20 repetitions."
+              },
+              "notes": [],
+              "sourceText": "5. Lateral Jumps – 3 sets of 20 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-063"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-06",
+              "nodeType": "exercise",
+              "exerciseId": "alternating-jump-lunge",
+              "title": "Alternating Jump Lunges",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "6. Alternating Jump Lunges – 3 sets of 10 repetitions."
+              },
+              "notes": [],
+              "sourceText": "6. Alternating Jump Lunges – 3 sets of 10 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-064"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "tuck-jump",
+              "title": "Tuck Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "7. Tuck Jumps – 3 sets of 8 repetitions."
+              },
+              "notes": [],
+              "sourceText": "7. Tuck Jumps – 3 sets of 8 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-065"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-01-exercise-08",
+              "nodeType": "exercise",
+              "exerciseId": "toe-raise",
+              "title": "Toe Raises",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "sourceText": "8. Toe Raises – 3 sets of 20 repetitions."
+              },
+              "notes": [],
+              "sourceText": "8. Toe Raises – 3 sets of 20 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-066"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jump-protocol-phase-02",
+      "sourceTitle": "Phase 2 – Weeks 4 – 6",
+      "displayTitle": "Jump Protocol Phase 2",
+      "applicability": {
+        "weekIds": [
+          "week-04",
+          "week-05",
+          "week-06"
+        ],
+        "dayIds": [],
+        "placement": "sourceUnspecified"
+      },
+      "sections": [
+        {
+          "id": "jump-protocol-phase-02-main",
+          "nodeType": "section",
+          "sourceTitle": "Phase 2 – Weeks 4 – 6",
+          "displayTitle": "Phase 2",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Phase 2 – Weeks 4 – 6",
+          "children": [
+            {
+              "id": "jump-protocol-phase-02-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 2,
+                  "unit": "minutes"
+                },
+                "sourceText": "1. Jumping Rope – 2 minutes."
+              },
+              "notes": [],
+              "sourceText": "1. Jumping Rope – 2 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-069"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "stretching",
+              "title": "Stretching",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sourceText": "2. Stretching"
+              },
+              "notes": [],
+              "sourceText": "2. Stretching",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-070"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 3,
+                  "unit": "minutes"
+                },
+                "sourceText": "3. Jumping Rope – 3 minutes."
+              },
+              "notes": [],
+              "sourceText": "3. Jumping Rope – 3 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-071"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "slow-motion-squat",
+              "title": "Slow Motion Squats",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "4. Slow Motion Squats – 3 sets of 10 repetitions."
+              },
+              "notes": [],
+              "sourceText": "4. Slow Motion Squats – 3 sets of 10 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-072"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "four-corners",
+              "title": "4-Corners",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "5. 4-Corners – 3 sets of 12 repetitions."
+              },
+              "notes": [],
+              "sourceText": "5. 4-Corners – 3 sets of 12 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-073"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-06",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-lateral-jump",
+              "title": "Single-Leg Lateral Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "6. Single-Leg Lateral Jumps – 3 sets of 15 repetitions."
+              },
+              "notes": [],
+              "sourceText": "6. Single-Leg Lateral Jumps – 3 sets of 15 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-074"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "alternating-jump-lunge",
+              "title": "Alternating Jump Lunges",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "7. Alternating Jump Lunges – 3 sets of 15 repetitions."
+              },
+              "notes": [],
+              "sourceText": "7. Alternating Jump Lunges – 3 sets of 15 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-075"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-08",
+              "nodeType": "exercise",
+              "exerciseId": "high-reach-jump",
+              "title": "High Reach Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "8. High Reach Jumps – 3 sets of 8 repetitions."
+              },
+              "notes": [],
+              "sourceText": "8. High Reach Jumps – 3 sets of 8 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-076"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-02-exercise-09",
+              "nodeType": "exercise",
+              "exerciseId": "straight-leg-calf-jump",
+              "title": "Straight-Leg Calf Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 30
+                },
+                "sourceText": "9. Straight-Leg Calf Jumps – 3 sets of 30 repetitions."
+              },
+              "notes": [],
+              "sourceText": "9. Straight-Leg Calf Jumps – 3 sets of 30 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-077"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jump-protocol-phase-03",
+      "sourceTitle": "Phase 3 – Weeks 7 – 8",
+      "displayTitle": "Jump Protocol Phase 3",
+      "applicability": {
+        "weekIds": [
+          "week-07",
+          "week-08"
+        ],
+        "dayIds": [],
+        "placement": "sourceUnspecified"
+      },
+      "sections": [
+        {
+          "id": "jump-protocol-phase-03-main",
+          "nodeType": "section",
+          "sourceTitle": "Phase 3 – Weeks 7 – 8",
+          "displayTitle": "Phase 3",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Phase 3 – Weeks 7 – 8",
+          "children": [
+            {
+              "id": "jump-protocol-phase-03-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 2,
+                  "unit": "minutes"
+                },
+                "sourceText": "1. Jumping Rope – 2 minutes."
+              },
+              "notes": [],
+              "sourceText": "1. Jumping Rope – 2 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-086"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "stretching",
+              "title": "Stretching",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sourceText": "2. Stretching"
+              },
+              "notes": [],
+              "sourceText": "2. Stretching",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-087"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jumping Rope",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "duration": {
+                  "value": 4,
+                  "unit": "minutes"
+                },
+                "sourceText": "3. Jumping Rope – 4 minutes."
+              },
+              "notes": [],
+              "sourceText": "3. Jumping Rope – 4 minutes.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-088"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "eccentric-squat",
+              "title": "Eccentric Squats",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "4. Eccentric Squats – 3 sets of 10 repetitions."
+              },
+              "notes": [],
+              "sourceText": "4. Eccentric Squats – 3 sets of 10 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-089"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-four-corners",
+              "title": "Single-Leg 4-Corners",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "5. Single-Leg 4-Corners – 3 sets of 10 repetitions."
+              },
+              "notes": [],
+              "sourceText": "5. Single-Leg 4-Corners – 3 sets of 10 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-090"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-06",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-lateral-jump",
+              "title": "Single-Leg Lateral Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "sourceText": "6. Single-Leg Lateral Jumps – 3 sets of 20 repetitions."
+              },
+              "notes": [],
+              "sourceText": "6. Single-Leg Lateral Jumps – 3 sets of 20 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-091"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "alternating-jump-lunge",
+              "title": "Alternating Jump Lunges",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "sourceText": "7. Alternating Jump Lunges – 3 sets of 20 repetitions."
+              },
+              "notes": [],
+              "sourceText": "7. Alternating Jump Lunges – 3 sets of 20 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-092"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-08",
+              "nodeType": "exercise",
+              "exerciseId": "tuck-jump",
+              "title": "Tuck Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "8. Tuck Jumps – 3 sets of 8 repetitions."
+              },
+              "notes": [],
+              "sourceText": "8. Tuck Jumps – 3 sets of 8 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-093"
+              }
+            },
+            {
+              "id": "jump-protocol-phase-03-exercise-09",
+              "nodeType": "exercise",
+              "exerciseId": "straight-leg-calf-jump",
+              "title": "Straight-Leg Calf Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 40
+                },
+                "sourceText": "9. Straight-Leg Calf Jumps – 3 sets of 40 repetitions."
+              },
+              "notes": [],
+              "sourceText": "9. Straight-Leg Calf Jumps – 3 sets of 40 repetitions.",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-094"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workoutCatalog": [
+    {
+      "id": "weeks-01-04-day-01",
+      "sourceTitle": "Day 1",
+      "displayTitle": "Weeks 1–4 Day 1",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-plyometrics"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-01-04-day-01-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "children": [
+            {
+              "id": "weeks-01-04-day-01-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "clean-pull",
+              "title": "Clean Pulls",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 3,
+                  "maximum": 6
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": "Power Clean"
+                },
+                "sourceText": "Clean Pulls: 3x3-6@70% of Power Clean"
+              },
+              "notes": [],
+              "sourceText": "Clean Pulls: 3x3-6@70% of Power Clean",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-002"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-01-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "back-squat",
+              "title": "Back Squats",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "Back Squats: 3x8-12@70%"
+              },
+              "notes": [],
+              "sourceText": "Back Squats: 3x8-12@70%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-003"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-01-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "lunge",
+              "title": "Lunges",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "Lunges: 3x8-12 each leg"
+              },
+              "notes": [],
+              "sourceText": "Lunges: 3x8-12 each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-004"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-01-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "romanian-deadlift",
+              "title": "Romanian Deadlifts",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "sourceText": "Romanian Deadlifts: 3x8-12"
+              },
+              "notes": [],
+              "sourceText": "Romanian Deadlifts: 3x8-12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-005"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-01-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "reverse-hyperextension",
+              "title": "Reverse Hyperextensions",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "sourceText": "Reverse Hyperextensions: 3x8-12"
+              },
+              "notes": [],
+              "sourceText": "Reverse Hyperextensions: 3x8-12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-006"
+              }
+            }
+          ]
+        },
+        {
+          "id": "weeks-01-04-day-01-plyos",
+          "nodeType": "section",
+          "sourceTitle": "Plyos",
+          "displayTitle": "Plyometrics",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Plyos",
+          "children": [
+            {
+              "id": "weeks-01-04-day-01-exercise-06",
+              "nodeType": "exercise",
+              "exerciseId": "squat-jump",
+              "title": "Squat Jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "Squat Jumps: 10x"
+              },
+              "notes": [],
+              "sourceText": "Squat Jumps: 10x",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-008"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-01-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "ankle-hop",
+              "title": "Ankle Hops",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "distance": {
+                  "value": 10,
+                  "unit": "meters"
+                },
+                "sourceText": "Ankle Hops: 3x10 meters"
+              },
+              "notes": [],
+              "sourceText": "Ankle Hops: 3x10 meters",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-009"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-01-04-day-02",
+      "sourceTitle": "Day 2",
+      "displayTitle": "Weeks 1–4 Day 2",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-medicine-ball"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-01-04-day-02-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "children": [
+            {
+              "id": "weeks-01-04-day-02-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "bench-press",
+              "title": "Bench Press",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "Bench Press: 3x8-12x70%"
+              },
+              "notes": [],
+              "sourceText": "Bench Press: 3x8-12x70%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-012"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-02-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "bent-over-row",
+              "title": "Bent-Over Rows",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "sourceText": "Bent-Over Rows: 3x8-12"
+              },
+              "notes": [],
+              "sourceText": "Bent-Over Rows: 3x8-12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-013"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-02-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "standing-military-press",
+              "title": "Standing Military Press",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "sourceText": "Standing Military Press: 3x8-12"
+              },
+              "notes": [],
+              "sourceText": "Standing Military Press: 3x8-12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-014"
+              }
+            }
+          ]
+        },
+        {
+          "id": "weeks-01-04-day-02-medicine-ball",
+          "nodeType": "section",
+          "sourceTitle": "Medicine Ball Exercises",
+          "displayTitle": "Medicine Ball Exercises",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Medicine Ball Exercises",
+          "children": [
+            {
+              "id": "weeks-01-04-day-02-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "medicine-ball-backwards-toss",
+              "title": "Backwards toss",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "Backwards toss: 10x"
+              },
+              "notes": [],
+              "sourceText": "Backwards toss: 10x",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-016"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-02-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "medicine-ball-forward-toss",
+              "title": "Forwards toss",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "Forwards toss: 10x"
+              },
+              "notes": [],
+              "sourceText": "Forwards toss: 10x",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-017"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-01-04-day-04",
+      "sourceTitle": "Day 4",
+      "displayTitle": "Weeks 1–4 Day 4",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-plyometrics"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-01-04-day-04-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "children": [
+            {
+              "id": "weeks-01-04-day-04-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "snatch-pull",
+              "title": "Snatch Pulls",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 3,
+                  "maximum": 6
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "Snatch Pulls: 3x3-6@70%"
+              },
+              "notes": [],
+              "sourceText": "Snatch Pulls: 3x3-6@70%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-021"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-04-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "front-squat",
+              "title": "Front Squats",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "Front Squats: 3x8-12@70%"
+              },
+              "notes": [],
+              "sourceText": "Front Squats: 3x8-12@70%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-022"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-04-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "step-up",
+              "title": "Step-Ups",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 12,
+                  "maximum": 15
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "Step-Ups: 3x12-15 each leg"
+              },
+              "notes": [],
+              "sourceText": "Step-Ups: 3x12-15 each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-023"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-04-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "good-morning",
+              "title": "Good Mornings",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "sourceText": "Good Mornings: 3x8-12"
+              },
+              "notes": [],
+              "sourceText": "Good Mornings: 3x8-12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-024"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-04-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-rdl",
+              "title": "Single-Leg RDL",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "Single-Leg RDL: 3x8-12 each leg"
+              },
+              "notes": [],
+              "sourceText": "Single-Leg RDL: 3x8-12 each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-025"
+              }
+            }
+          ]
+        },
+        {
+          "id": "weeks-01-04-day-04-plyos",
+          "nodeType": "section",
+          "sourceTitle": "Plyos",
+          "displayTitle": "Plyometrics",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Plyos",
+          "children": [
+            {
+              "id": "weeks-01-04-day-04-exercise-06",
+              "nodeType": "exercise",
+              "exerciseId": "countermovement-jump",
+              "title": "Counter-movement jumps, stick landing",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "Counter-movement jumps, stick landing: 10x"
+              },
+              "notes": [],
+              "sourceText": "Counter-movement jumps, stick landing: 10x",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-027"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-04-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "split-cycle-jump",
+              "title": "Split cycle jumps",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "Split cycle jumps: 10x each leg"
+              },
+              "notes": [],
+              "sourceText": "Split cycle jumps: 10x each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-028"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-01-04-day-05",
+      "sourceTitle": "Day 5",
+      "displayTitle": "Weeks 1–4 Day 5",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-medicine-ball"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-01-04-day-05-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "children": [
+            {
+              "id": "weeks-01-04-day-05-exercise-01",
+              "nodeType": "exercise",
+              "exerciseId": "incline-press",
+              "title": "Incline Press",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "load": {
+                  "value": 70,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "Incline Press: 3x8-12@70%"
+              },
+              "notes": [],
+              "sourceText": "Incline Press: 3x8-12@70%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-031"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-05-exercise-02",
+              "nodeType": "exercise",
+              "exerciseId": "single-arm-dumbbell-row",
+              "title": "Single-Arm Dumbbell Rows",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "qualifiers": [
+                  "eachArm"
+                ],
+                "sourceText": "Single-Arm Dumbbell Rows: 3x8-12 each arm"
+              },
+              "notes": [],
+              "sourceText": "Single-Arm Dumbbell Rows: 3x8-12 each arm",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-032"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-05-exercise-03",
+              "nodeType": "exercise",
+              "exerciseId": "standing-kettlebell-press",
+              "title": "Standing Kettlebell Press",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 8,
+                  "maximum": 12
+                },
+                "qualifiers": [
+                  "eachArm"
+                ],
+                "sourceText": "Standing Kettlebell Press: 3x8-12 each arm"
+              },
+              "notes": [],
+              "sourceText": "Standing Kettlebell Press: 3x8-12 each arm",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-033"
+              }
+            }
+          ]
+        },
+        {
+          "id": "weeks-01-04-day-05-medicine-ball",
+          "nodeType": "section",
+          "sourceTitle": "Medicine Ball Exercises",
+          "displayTitle": "Medicine Ball Exercises",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Medicine Ball Exercises",
+          "children": [
+            {
+              "id": "weeks-01-04-day-05-exercise-04",
+              "nodeType": "exercise",
+              "exerciseId": "medicine-ball-chest-pass",
+              "title": "Chest pass",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "Chest pass: 10x"
+              },
+              "notes": [],
+              "sourceText": "Chest pass: 10x",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-035"
+              }
+            },
+            {
+              "id": "weeks-01-04-day-05-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "medicine-ball-side-toss",
+              "title": "Side toss",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "reps": {
+                  "value": 5
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "Side toss: 5x each side"
+              },
+              "notes": [],
+              "sourceText": "Side toss: 5x each side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-036"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-05-08-day-01",
+      "sourceTitle": "Day 1",
+      "displayTitle": "Weeks 5–8 Day 1",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-plyometrics"
+      ],
+      "format": "complex",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-05-08-day-01-main",
+          "nodeType": "section",
+          "sourceTitle": "Day 1",
+          "displayTitle": "Day 1",
+          "format": "complex",
+          "rounds": null,
+          "sourceText": null,
+          "children": [
+            {
+              "id": "weeks-05-08-day-01-complex-01",
+              "nodeType": "section",
+              "sourceTitle": "Deadlift + Clean Pull",
+              "displayTitle": "Deadlift + Clean Pull",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-01-exercise-01",
+                  "nodeType": "exercise",
+                  "exerciseId": "deadlift",
+                  "title": "Deadlift",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean"
+                  },
+                  "notes": [],
+                  "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-038"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-01-exercise-02",
+                  "nodeType": "exercise",
+                  "exerciseId": "clean-pull",
+                  "title": "Clean Pull",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 2,
+                      "maximum": 3
+                    },
+                    "load": {
+                      "value": 80,
+                      "unit": "percent",
+                      "reference": "Power Clean"
+                    },
+                    "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean"
+                  },
+                  "notes": [],
+                  "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-038"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-01-complex-02",
+              "nodeType": "section",
+              "sourceTitle": "Back Squats + Squat Jumps",
+              "displayTitle": "Back Squats + Squat Jumps",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-01-exercise-03",
+                  "nodeType": "exercise",
+                  "exerciseId": "back-squat",
+                  "title": "Back Squats",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "load": {
+                      "value": 80,
+                      "unit": "percent",
+                      "reference": null
+                    },
+                    "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps"
+                  },
+                  "notes": [],
+                  "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-039"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-01-exercise-04",
+                  "nodeType": "exercise",
+                  "exerciseId": "squat-jump",
+                  "title": "Squat Jumps",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps"
+                  },
+                  "notes": [],
+                  "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-039"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-01-complex-03",
+              "nodeType": "section",
+              "sourceTitle": "Lunges + Split cycle jumps",
+              "displayTitle": "Lunges + Split cycle jumps",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-01-exercise-05",
+                  "nodeType": "exercise",
+                  "exerciseId": "lunge",
+                  "title": "Lunges",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "qualifiers": [
+                      "eachLeg"
+                    ],
+                    "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg"
+                  },
+                  "notes": [],
+                  "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-040"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-01-exercise-06",
+                  "nodeType": "exercise",
+                  "exerciseId": "split-cycle-jump",
+                  "title": "Split cycle jumps",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 5
+                    },
+                    "qualifiers": [
+                      "eachLeg"
+                    ],
+                    "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg"
+                  },
+                  "notes": [],
+                  "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-040"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-01-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "romanian-deadlift",
+              "title": "Romanian Deadlifts",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 6,
+                  "maximum": 10
+                },
+                "sourceText": "Romanian Deadlifts: 3x6-10"
+              },
+              "notes": [],
+              "sourceText": "Romanian Deadlifts: 3x6-10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-041"
+              }
+            },
+            {
+              "id": "weeks-05-08-day-01-exercise-08",
+              "nodeType": "exercise",
+              "exerciseId": "reverse-hyperextension",
+              "title": "Reverse hyperextensions",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 6,
+                  "maximum": 10
+                },
+                "sourceText": "Reverse hyperextensions: 3x6-10"
+              },
+              "notes": [],
+              "sourceText": "Reverse hyperextensions: 3x6-10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-042"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-05-08-day-02",
+      "sourceTitle": "Day 2",
+      "displayTitle": "Weeks 5–8 Day 2",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-medicine-ball"
+      ],
+      "format": "complex",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-05-08-day-02-main",
+          "nodeType": "section",
+          "sourceTitle": "Day 2",
+          "displayTitle": "Day 2",
+          "format": "complex",
+          "rounds": null,
+          "sourceText": null,
+          "children": [
+            {
+              "id": "weeks-05-08-day-02-complex-01",
+              "nodeType": "section",
+              "sourceTitle": "Bench Press + Medicine Ball Chest Pass",
+              "displayTitle": "Bench Press + Medicine Ball Chest Pass",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-02-exercise-01",
+                  "nodeType": "exercise",
+                  "exerciseId": "bench-press",
+                  "title": "Bench Press",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "load": {
+                      "value": 80,
+                      "unit": "percent",
+                      "reference": null
+                    },
+                    "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-044"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-02-exercise-02",
+                  "nodeType": "exercise",
+                  "exerciseId": "medicine-ball-chest-pass",
+                  "title": "Medicine Ball Chest Pass",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "qualifiers": [
+                      "throws"
+                    ],
+                    "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-044"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-02-complex-02",
+              "nodeType": "section",
+              "sourceTitle": "Bent-Over Rows + Medicine Ball Backwards Toss",
+              "displayTitle": "Bent-Over Rows + Medicine Ball Backwards Toss",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-02-exercise-03",
+                  "nodeType": "exercise",
+                  "exerciseId": "bent-over-row",
+                  "title": "Bent-Over Rows",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-045"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-02-exercise-04",
+                  "nodeType": "exercise",
+                  "exerciseId": "medicine-ball-backwards-toss",
+                  "title": "Medicine Ball Backwards Toss",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "qualifiers": [
+                      "throws"
+                    ],
+                    "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-045"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-02-complex-03",
+              "nodeType": "section",
+              "sourceTitle": "Standing Military Press + Medicine Ball Front Toss",
+              "displayTitle": "Standing Military Press + Medicine Ball Front Toss",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-02-exercise-05",
+                  "nodeType": "exercise",
+                  "exerciseId": "standing-military-press",
+                  "title": "Standing Military Press",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-046"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-02-exercise-06",
+                  "nodeType": "exercise",
+                  "exerciseId": "medicine-ball-forward-toss",
+                  "title": "Medicine Ball Front Toss",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "qualifiers": [
+                      "throws"
+                    ],
+                    "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-046"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-05-08-day-04",
+      "sourceTitle": "Day 4",
+      "displayTitle": "Weeks 5–8 Day 4",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-plyometrics"
+      ],
+      "format": "complex",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-05-08-day-04-main",
+          "nodeType": "section",
+          "sourceTitle": "Day 4",
+          "displayTitle": "Day 4",
+          "format": "complex",
+          "rounds": null,
+          "sourceText": null,
+          "children": [
+            {
+              "id": "weeks-05-08-day-04-complex-01",
+              "nodeType": "section",
+              "sourceTitle": "Snatch-Grip Deadlifts + Snatch Pulls",
+              "displayTitle": "Snatch-Grip Deadlifts + Snatch Pulls",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-04-exercise-01",
+                  "nodeType": "exercise",
+                  "exerciseId": "snatch-grip-deadlift",
+                  "title": "Snatch-Grip Deadlifts",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch"
+                  },
+                  "notes": [],
+                  "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-049"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-04-exercise-02",
+                  "nodeType": "exercise",
+                  "exerciseId": "snatch-pull",
+                  "title": "Snatch Pulls",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 3,
+                      "maximum": 6
+                    },
+                    "load": {
+                      "value": 80,
+                      "unit": "percent",
+                      "reference": "Power Snatch"
+                    },
+                    "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch"
+                  },
+                  "notes": [],
+                  "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-049"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-04-complex-02",
+              "nodeType": "section",
+              "sourceTitle": "Split Squats + Split Jumps",
+              "displayTitle": "Split Squats + Split Jumps",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-04-exercise-03",
+                  "nodeType": "exercise",
+                  "exerciseId": "split-squat",
+                  "title": "Split Squats",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "load": {
+                      "value": 40,
+                      "unit": "percent",
+                      "reference": "Back Squat"
+                    },
+                    "qualifiers": [
+                      "eachLeg"
+                    ],
+                    "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg"
+                  },
+                  "notes": [],
+                  "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-050"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-04-exercise-04",
+                  "nodeType": "exercise",
+                  "exerciseId": "split-jump",
+                  "title": "Split Jumps",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 5
+                    },
+                    "qualifiers": [
+                      "eachLeg"
+                    ],
+                    "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg"
+                  },
+                  "notes": [],
+                  "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-050"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-04-complex-03",
+              "nodeType": "section",
+              "sourceTitle": "Step-Ups + Box Jumps (to a height)",
+              "displayTitle": "Step-Ups + Box Jumps (to a height)",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-04-exercise-05",
+                  "nodeType": "exercise",
+                  "exerciseId": "step-up",
+                  "title": "Step-Ups",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "qualifiers": [
+                      "eachLeg"
+                    ],
+                    "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps"
+                  },
+                  "notes": [],
+                  "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-051"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-04-exercise-06",
+                  "nodeType": "exercise",
+                  "exerciseId": "box-jump",
+                  "title": "Box Jumps (to a height)",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps"
+                  },
+                  "notes": [],
+                  "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-051"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-04-exercise-07",
+              "nodeType": "exercise",
+              "exerciseId": "good-morning",
+              "title": "Good Mornings",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 6,
+                  "maximum": 10
+                },
+                "sourceText": "Good Mornings: 3x6-10"
+              },
+              "notes": [],
+              "sourceText": "Good Mornings: 3x6-10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-052"
+              }
+            },
+            {
+              "id": "weeks-05-08-day-04-exercise-08",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-rdl",
+              "title": "Single-Leg RDL",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 6,
+                  "maximum": 10
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "Single-Leg RDL: 3x6-10 each leg"
+              },
+              "notes": [],
+              "sourceText": "Single-Leg RDL: 3x6-10 each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-053"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeks-05-08-day-05",
+      "sourceTitle": "Day 5",
+      "displayTitle": "Weeks 5–8 Day 5",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-medicine-ball"
+      ],
+      "format": "complex",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "weeks-05-08-day-05-main",
+          "nodeType": "section",
+          "sourceTitle": "Day 5",
+          "displayTitle": "Day 5",
+          "format": "complex",
+          "rounds": null,
+          "sourceText": null,
+          "children": [
+            {
+              "id": "weeks-05-08-day-05-complex-01",
+              "nodeType": "section",
+              "sourceTitle": "Incline Press + Lying Medicine Ball Chest Pass",
+              "displayTitle": "Incline Press + Lying Medicine Ball Chest Pass",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-05-exercise-01",
+                  "nodeType": "exercise",
+                  "exerciseId": "incline-press",
+                  "title": "Incline Press",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "load": {
+                      "value": 80,
+                      "unit": "percent",
+                      "reference": null
+                    },
+                    "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-055"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-05-exercise-02",
+                  "nodeType": "exercise",
+                  "exerciseId": "lying-medicine-ball-chest-pass",
+                  "title": "Lying Medicine Ball Chest Pass",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 10
+                    },
+                    "qualifiers": [
+                      "throws"
+                    ],
+                    "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+                  },
+                  "notes": [],
+                  "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": "paragraph-055"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-05-complex-02",
+              "nodeType": "section",
+              "sourceTitle": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss",
+              "displayTitle": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss",
+              "format": "complex",
+              "rounds": 3,
+              "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side",
+              "children": [
+                {
+                  "id": "weeks-05-08-day-05-exercise-03",
+                  "nodeType": "exercise",
+                  "exerciseId": "single-arm-dumbbell-row",
+                  "title": "Single-Arm Dumbbell Rows",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "minimum": 4,
+                      "maximum": 8
+                    },
+                    "qualifiers": [
+                      "eachArm"
+                    ],
+                    "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side"
+                  },
+                  "notes": [],
+                  "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": "paragraph-056"
+                  }
+                },
+                {
+                  "id": "weeks-05-08-day-05-exercise-04",
+                  "nodeType": "exercise",
+                  "exerciseId": "medicine-ball-side-toss",
+                  "title": "Medicine Ball Side Toss",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "reps": {
+                      "value": 5
+                    },
+                    "qualifiers": [
+                      "eachSide",
+                      "throws"
+                    ],
+                    "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side"
+                  },
+                  "notes": [],
+                  "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": "paragraph-056"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "weeks-05-08-day-05-exercise-05",
+              "nodeType": "exercise",
+              "exerciseId": "standing-kettlebell-press",
+              "title": "Standing Kettlebell Press",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 4,
+                  "maximum": 8
+                },
+                "qualifiers": [
+                  "eachArm"
+                ],
+                "sourceText": "Standing Kettlebell Press: 3x4-8 each arm"
+              },
+              "notes": [],
+              "sourceText": "Standing Kettlebell Press: 3x4-8 each arm",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-057"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exerciseCatalog": [
+    {
+      "id": "clean-pull",
+      "sourceTitle": "Clean Pull",
+      "displayTitle": "Clean Pull",
+      "description": null,
+      "tagIds": [
+        "strength",
+        "power"
+      ],
+      "aliases": [
+        "Clean Pulls"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "back-squat",
+      "sourceTitle": "Back Squat",
+      "displayTitle": "Back Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Back Squats"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "lunge",
+      "sourceTitle": "Lunge",
+      "displayTitle": "Lunge",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Lunges"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "romanian-deadlift",
+      "sourceTitle": "Romanian Deadlift",
+      "displayTitle": "Romanian Deadlift",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Romanian Deadlifts"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "reverse-hyperextension",
+      "sourceTitle": "Reverse Hyperextension",
+      "displayTitle": "Reverse Hyperextension",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Reverse Hyperextensions"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "squat-jump",
+      "sourceTitle": "Squat Jump",
+      "displayTitle": "Squat Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Squat Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "ankle-hop",
+      "sourceTitle": "Ankle Hop",
+      "displayTitle": "Ankle Hop",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Ankle Hops"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "bench-press",
+      "sourceTitle": "Bench Press",
+      "displayTitle": "Bench Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bent-over-row",
+      "sourceTitle": "Bent-Over Row",
+      "displayTitle": "Bent-Over Row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Bent-Over Rows"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "standing-military-press",
+      "sourceTitle": "Standing Military Press",
+      "displayTitle": "Standing Military Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "medicine-ball-backwards-toss",
+      "sourceTitle": "Medicine Ball Backwards Toss",
+      "displayTitle": "Medicine Ball Backwards Toss",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [
+        "Backwards toss"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "medicine-ball-forward-toss",
+      "sourceTitle": "Medicine Ball Forward Toss",
+      "displayTitle": "Medicine Ball Forward Toss",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [
+        "Forwards toss",
+        "Medicine Ball Front Toss"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "snatch-pull",
+      "sourceTitle": "Snatch Pull",
+      "displayTitle": "Snatch Pull",
+      "description": null,
+      "tagIds": [
+        "strength",
+        "power"
+      ],
+      "aliases": [
+        "Snatch Pulls"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "front-squat",
+      "sourceTitle": "Front Squat",
+      "displayTitle": "Front Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Front Squats"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "step-up",
+      "sourceTitle": "Step-Up",
+      "displayTitle": "Step-Up",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Step-Ups"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "good-morning",
+      "sourceTitle": "Good Morning",
+      "displayTitle": "Good Morning",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Good Mornings"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "single-leg-rdl",
+      "sourceTitle": "Single-Leg RDL",
+      "displayTitle": "Single-Leg RDL",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "countermovement-jump",
+      "sourceTitle": "Counter-movement jump, stick landing",
+      "displayTitle": "Countermovement Jump With Stick Landing",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Counter-movement jumps, stick landing"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "split-cycle-jump",
+      "sourceTitle": "Split cycle jump",
+      "displayTitle": "Split Cycle Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Split cycle jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "incline-press",
+      "sourceTitle": "Incline Press",
+      "displayTitle": "Incline Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "single-arm-dumbbell-row",
+      "sourceTitle": "Single-Arm Dumbbell Row",
+      "displayTitle": "Single-Arm Dumbbell Row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Single-Arm Dumbbell Rows"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "standing-kettlebell-press",
+      "sourceTitle": "Standing Kettlebell Press",
+      "displayTitle": "Standing Kettlebell Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "medicine-ball-chest-pass",
+      "sourceTitle": "Medicine Ball Chest Pass",
+      "displayTitle": "Medicine Ball Chest Pass",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [
+        "Chest pass"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "medicine-ball-side-toss",
+      "sourceTitle": "Medicine Ball Side Toss",
+      "displayTitle": "Medicine Ball Side Toss",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [
+        "Side toss"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "deadlift",
+      "sourceTitle": "Deadlift",
+      "displayTitle": "Deadlift",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "split-squat",
+      "sourceTitle": "Split Squat",
+      "displayTitle": "Split Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Split Squats"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "split-jump",
+      "sourceTitle": "Split Jump",
+      "displayTitle": "Split Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Split Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "snatch-grip-deadlift",
+      "sourceTitle": "Snatch-Grip Deadlift",
+      "displayTitle": "Snatch-Grip Deadlift",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Snatch-Grip Deadlifts"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "box-jump",
+      "sourceTitle": "Box Jump",
+      "displayTitle": "Box Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Box Jumps (to a height)"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "lying-medicine-ball-chest-pass",
+      "sourceTitle": "Lying Medicine Ball Chest Pass",
+      "displayTitle": "Lying Medicine Ball Chest Pass",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "jump-rope",
+      "sourceTitle": "Jumping Rope",
+      "displayTitle": "Jumping Rope",
+      "description": null,
+      "tagIds": [
+        "cardio"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "stretching",
+      "sourceTitle": "Stretching",
+      "displayTitle": "Stretching",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "slow-motion-squat",
+      "sourceTitle": "Slow Motion Squat",
+      "displayTitle": "Slow Motion Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Slow Motion Squats"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "lateral-jump",
+      "sourceTitle": "Lateral Jump",
+      "displayTitle": "Lateral Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Lateral Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "alternating-jump-lunge",
+      "sourceTitle": "Alternating Jump Lunge",
+      "displayTitle": "Alternating Jump Lunge",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Alternating Jump Lunges"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "tuck-jump",
+      "sourceTitle": "Tuck Jump",
+      "displayTitle": "Tuck Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Tuck Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "toe-raise",
+      "sourceTitle": "Toe Raise",
+      "displayTitle": "Toe Raise",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Toe Raises"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "four-corners",
+      "sourceTitle": "4-Corners",
+      "displayTitle": "4-Corners",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "single-leg-lateral-jump",
+      "sourceTitle": "Single-Leg Lateral Jump",
+      "displayTitle": "Single-Leg Lateral Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Single-Leg Lateral Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "high-reach-jump",
+      "sourceTitle": "High Reach Jump",
+      "displayTitle": "High Reach Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "High Reach Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "straight-leg-calf-jump",
+      "sourceTitle": "Straight-Leg Calf Jump",
+      "displayTitle": "Straight-Leg Calf Jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [
+        "Straight-Leg Calf Jumps"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "eccentric-squat",
+      "sourceTitle": "Eccentric Squat",
+      "displayTitle": "Eccentric Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [
+        "Eccentric Squats"
+      ],
+      "abbreviations": []
+    },
+    {
+      "id": "single-leg-four-corners",
+      "sourceTitle": "Single-Leg 4-Corners",
+      "displayTitle": "Single-Leg 4-Corners",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    }
+  ],
+  "editorialIssues": [
+    {
+      "id": "issue-01",
+      "entityId": "vertical-jump-base",
+      "code": "inferredRepetition",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source lists one five-day sequence under “Week 1 – 4.” The schedule expands that sequence across Weeks 1 through 4.",
+      "sourceText": "Week 1 – 4",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-000"
+      }
+    },
+    {
+      "id": "issue-02",
+      "entityId": "vertical-jump-base",
+      "code": "inferredRepetition",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source lists one five-day sequence under “Week 5 – 8.” The schedule expands that sequence across Weeks 5 through 8.",
+      "sourceText": "Week 5 – 8",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-037"
+      }
+    },
+    {
+      "id": "issue-03",
+      "entityId": "vertical-jump-base",
+      "code": "missingRest",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not specify rest intervals for the training workouts or supplemental jump protocols.",
+      "sourceText": "Week 1 – 4; Week 5 – 8; Phase 1 – Weeks 1 – 3; Phase 2 – Weeks 4 – 6; Phase 3 – Weeks 7 – 8",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-000"
+      }
+    },
+    {
+      "id": "issue-04",
+      "entityId": "stretching",
+      "code": "missingDuration",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source names stretching in all three jump phases but does not provide a duration or method.",
+      "sourceText": "Stretching",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": "paragraph-060"
+      }
+    },
+    {
+      "id": "issue-05",
+      "entityId": "weeks-01-04-day-01-exercise-02",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 70% load for Back Squats but does not identify what the percentage is relative to.",
+      "sourceText": "Back Squats: 3x8-12@70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-003"
+      }
+    },
+    {
+      "id": "issue-06",
+      "entityId": "weeks-01-04-day-02-exercise-01",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source uses “x70%” after the repetition range. It is represented as a 70% load, but the delimiter is ambiguous.",
+      "sourceText": "Bench Press: 3x8-12x70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-012"
+      }
+    },
+    {
+      "id": "issue-07",
+      "entityId": "weeks-01-04-day-02-exercise-01",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 70% load for Bench Press but does not identify what the percentage is relative to.",
+      "sourceText": "Bench Press: 3x8-12x70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-012"
+      }
+    },
+    {
+      "id": "issue-08",
+      "entityId": "weeks-01-04-day-04-exercise-01",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 70% load for Snatch Pulls but does not identify what the percentage is relative to.",
+      "sourceText": "Snatch Pulls: 3x3-6@70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-021"
+      }
+    },
+    {
+      "id": "issue-09",
+      "entityId": "weeks-01-04-day-04-exercise-02",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 70% load for Front Squats but does not identify what the percentage is relative to.",
+      "sourceText": "Front Squats: 3x8-12@70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-022"
+      }
+    },
+    {
+      "id": "issue-10",
+      "entityId": "weeks-01-04-day-05-exercise-01",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 70% load for Incline Press but does not identify what the percentage is relative to.",
+      "sourceText": "Incline Press: 3x8-12@70%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-031"
+      }
+    },
+    {
+      "id": "issue-11",
+      "entityId": "weeks-05-08-day-01-exercise-03",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives an 80% load for Back Squats but does not identify what the percentage is relative to.",
+      "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-039"
+      }
+    },
+    {
+      "id": "issue-12",
+      "entityId": "weeks-05-08-day-02-exercise-01",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives an 80% load for Bench Press but does not identify what the percentage is relative to.",
+      "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-044"
+      }
+    },
+    {
+      "id": "issue-13",
+      "entityId": "weeks-05-08-day-05-exercise-01",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives an 80% load for Incline Press but does not identify what the percentage is relative to.",
+      "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-055"
+      }
+    },
+    {
+      "id": "issue-14",
+      "entityId": "weeks-05-08-day-01-complex-01",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not explicitly state whether the 80% of Power Clean load applies only to Clean Pulls or to both movements. The structured load is attached to Clean Pulls while the full source text is retained.",
+      "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-038"
+      }
+    }
+  ],
+  "parseMetadata": {
+    "parserVersion": "1.0.0",
+    "parsedAt": "2026-09-18T00:00:00Z",
+    "reviewStatus": "needsReview",
+    "sourceHash": "cbf2ae8fe5a62de4687af9d14da53b0e9e00a3d22c638ff24c418a7d94240796"
+  }
+}

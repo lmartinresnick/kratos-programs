@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-19T00:00:00Z",
+  "programs": [
+    {
+      "id": "captain-america-workout",
+      "file": "captain-america-workout.json",
+      "sha256": "e3d2de80bb309be289dca01844fb7379c45a20f0e0a2363da14566506e5403db",
+      "byteCount": 129995,
+      "programSchemaVersion": "1.0.0",
+      "displayTitle": "Captain America Workout",
+      "summary": null,
+      "contentTypes": [
+        "schedule",
+        "workoutCollection"
+      ],
+      "dataVersion": 1,
+      "difficulty": null,
+      "duration": {
+        "weeks": 12,
+        "days": null
+      },
+      "goals": [],
+      "presentation": {
+        "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    },
+    {
+      "id": "chadwick-boseman-workout",
+      "file": "chadwick-boseman-workout.json",
+      "sha256": "68e37e465067c7346d6e872150f444768d017c059a244dc5d9009f8dc485c8f0",
+      "byteCount": 47151,
+      "programSchemaVersion": "1.0.0",
+      "displayTitle": "Chadwick Boseman Inspired Workout: Train Like Black Panther",
+      "summary": "Work out like Chadwick Boseman with this Black Panther Inspired Workout Program. This workout program combines strength, combat, and flexibility training.",
+      "contentTypes": [
+        "schedule",
+        "workoutCollection"
+      ],
+      "dataVersion": 1,
+      "difficulty": "intermediate",
+      "duration": {
+        "weeks": 8,
+        "days": null
+      },
+      "goals": [
+        "lose fat"
+      ],
+      "presentation": {
+        "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    },
+    {
+      "id": "luke-program",
+      "file": "luke-program.json",
+      "sha256": "689319fcf49f30fe3305865f34493f4587ea1bb672ede3801263e397aa40165a",
+      "byteCount": 82800,
+      "programSchemaVersion": "1.0.0",
+      "displayTitle": "Luke Program",
+      "summary": null,
+      "contentTypes": [
+        "schedule"
+      ],
+      "dataVersion": 2,
+      "difficulty": null,
+      "duration": {
+        "weeks": 6,
+        "days": null
+      },
+      "goals": [],
+      "presentation": {
+        "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    },
+    {
+      "id": "mobility",
+      "file": "mobility.json",
+      "sha256": "e62967da6a516759cef5c6cd3f3ec1549250989585317eb7ad0d0a82e059f1b1",
+      "byteCount": 54592,
+      "programSchemaVersion": "1.0.0",
+      "displayTitle": "Mobility",
+      "summary": null,
+      "contentTypes": [
+        "workoutCollection"
+      ],
+      "dataVersion": 1,
+      "difficulty": null,
+      "duration": {
+        "weeks": null,
+        "days": null
+      },
+      "goals": [],
+      "presentation": {
+        "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    },
+    {
+      "id": "vertical-jump-base",
+      "file": "vertical-jump-base.json",
+      "sha256": "3bce50ebb29a92725197cf0bac1887efea4e50e96f71a92d05377d83ef18e46d",
+      "byteCount": 147384,
+      "programSchemaVersion": "1.0.0",
+      "displayTitle": "Vertical Jump Base",
+      "summary": null,
+      "contentTypes": [
+        "schedule"
+      ],
+      "dataVersion": 1,
+      "difficulty": null,
+      "duration": {
+        "weeks": 8,
+        "days": null
+      },
+      "goals": [
+        "vertical jump"
+      ],
+      "presentation": {
+        "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    }
+  ]
+}

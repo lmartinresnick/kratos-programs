@@ -1,0 +1,2828 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": 2,
+  "program": {
+    "id": "luke-program",
+    "sourceTitle": "Luke Program",
+    "displayTitle": "Luke Program",
+    "summary": null,
+    "goals": [],
+    "difficulty": null,
+    "duration": {
+      "weeks": 6,
+      "days": null,
+      "sourceText": null
+    },
+    "daysPerWeek": {
+      "minimum": 4,
+      "maximum": 4,
+      "sourceText": null
+    },
+    "tags": []
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "kind": "pdf",
+      "fileName": "Luke Program .pdf",
+      "url": null,
+      "author": null,
+      "publisher": null
+    }
+  ],
+  "contentTypes": [
+    "schedule"
+  ],
+  "tagCatalog": [
+    {
+      "id": "strength",
+      "displayName": "Strength",
+      "aliases": []
+    },
+    {
+      "id": "power",
+      "displayName": "Power",
+      "aliases": []
+    },
+    {
+      "id": "plyometric",
+      "displayName": "Plyometrics",
+      "aliases": [
+        "plyo",
+        "plyos",
+        "plyo's"
+      ]
+    },
+    {
+      "id": "isometric",
+      "displayName": "Isometric",
+      "aliases": [
+        "ISO"
+      ]
+    },
+    {
+      "id": "cardio",
+      "displayName": "Cardio",
+      "aliases": []
+    },
+    {
+      "id": "conditioning",
+      "displayName": "Conditioning",
+      "aliases": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "strength-workouts",
+      "displayName": "Strength",
+      "recognizedKind": "strength"
+    },
+    {
+      "id": "conditioning-workouts",
+      "displayName": "Conditioning",
+      "recognizedKind": "conditioning"
+    }
+  ],
+  "groupings": [],
+  "schedule": {
+    "assignmentOrigin": "source",
+    "weeks": [
+      {
+        "id": "week-01",
+        "ordinal": 1,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-01-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-01-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-01-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-01-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-02",
+        "ordinal": 2,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-02-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-02-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-02-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-02-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-03",
+        "ordinal": 3,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-03-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-03-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-03-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-03-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-04",
+        "ordinal": 4,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-04-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-04-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-04-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-04-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-05",
+        "ordinal": 5,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-05-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-05-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-05-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-05-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-06",
+        "ordinal": 6,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-06-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+            "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-01",
+            "scheduledActivities": [],
+            "sourceText": "Day 1: Lower Body & low intense plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-06-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-02",
+            "scheduledActivities": [],
+            "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-06-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+            "dayType": "training",
+            "dayTemplateId": "day-template-03",
+            "scheduledActivities": [],
+            "sourceText": "Day 3: Lower Body & Low Intense Plyos",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          },
+          {
+            "id": "week-06-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+            "dayType": "training",
+            "dayTemplateId": "day-template-04",
+            "scheduledActivities": [],
+            "sourceText": "Day 4: Upper Body & moderate Plyo’s",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dayTemplates": [
+    {
+      "id": "day-template-01",
+      "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+      "displayTitle": "Day 1: Lower Body & low intense plyo’s",
+      "dayType": "training",
+      "scheduledActivities": [
+        {
+          "id": "day-01-strength-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-01-strength-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Strength:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": null
+          }
+        },
+        {
+          "id": "day-01-conditioning-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-01-conditioning-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Day 1 Conditioning:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-template-02",
+      "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+      "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
+      "dayType": "training",
+      "scheduledActivities": [
+        {
+          "id": "day-02-strength-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-02-strength-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Strength:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": null
+          }
+        },
+        {
+          "id": "day-02-conditioning-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-02-conditioning-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Day 2 Conditioning:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-template-03",
+      "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+      "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
+      "dayType": "training",
+      "scheduledActivities": [
+        {
+          "id": "day-03-strength-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-03-strength-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Strength:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": null
+          }
+        },
+        {
+          "id": "day-03-conditioning-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-03-conditioning-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Day 3 Conditioning:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-template-04",
+      "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+      "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
+      "dayType": "training",
+      "scheduledActivities": [
+        {
+          "id": "day-04-strength-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-04-strength-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Strength:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": null
+          }
+        },
+        {
+          "id": "day-04-conditioning-activity",
+          "activityType": "workoutReference",
+          "workoutId": "day-04-conditioning-workout",
+          "assignmentOrigin": "source",
+          "optional": false,
+          "sourceConstraints": null,
+          "substitutionPolicy": {
+            "mode": "notAllowed"
+          },
+          "sourceText": "Day 4 Conditioning:",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": null
+          }
+        }
+      ]
+    }
+  ],
+  "supplementalProtocols": [],
+  "workoutCatalog": [
+    {
+      "id": "day-01-strength-workout",
+      "sourceTitle": "Day 1: Lower Body & low intense plyo’s",
+      "displayTitle": "Day 1 Strength",
+      "description": null,
+      "categoryIds": [
+        "strength-workouts"
+      ],
+      "format": "pairedSet",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-01-pair-a",
+          "nodeType": "section",
+          "sourceTitle": "A1-A2",
+          "displayTitle": "Pair A",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "A1: Pogo Jumps (DL and SL) 3 x 10 yds each\nA2: Anterior Tibs 3 x 10",
+          "children": [
+            {
+              "id": "day-01-a1",
+              "nodeType": "exercise",
+              "exerciseId": "pogo-jumps-dl-sl",
+              "title": "Pogo Jumps (DL and SL)",
+              "description": null,
+              "contextTagIds": [
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "distance": {
+                  "value": 10,
+                  "unit": "yards"
+                },
+                "qualifiers": [
+                  "eachVariation"
+                ],
+                "sourceText": "3 x 10 yds each"
+              },
+              "notes": [],
+              "sourceText": "A1: Pogo Jumps (DL and SL) 3 x 10 yds each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-a2",
+              "nodeType": "exercise",
+              "exerciseId": "anterior-tibs",
+              "title": "Anterior Tibs",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "3 x 10"
+              },
+              "notes": [],
+              "sourceText": "A2: Anterior Tibs 3 x 10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-01-pair-b",
+          "nodeType": "section",
+          "sourceTitle": "B1-B2",
+          "displayTitle": "Pair B",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "B1: Heavy front squats 3 x 5 @ 85%\nB2: Box Jumps 3 x 5",
+          "children": [
+            {
+              "id": "day-01-b1",
+              "nodeType": "exercise",
+              "exerciseId": "heavy-front-squats",
+              "title": "Heavy front squats",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "load": {
+                  "value": 85,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "3 x 5 @ 85%"
+              },
+              "notes": [],
+              "sourceText": "B1: Heavy front squats 3 x 5 @ 85%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-b2",
+              "nodeType": "exercise",
+              "exerciseId": "box-jumps",
+              "title": "Box Jumps",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3 x 5"
+              },
+              "notes": [],
+              "sourceText": "B2: Box Jumps 3 x 5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-01-pair-c",
+          "nodeType": "section",
+          "sourceTitle": "C1-C2",
+          "displayTitle": "Pair C",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "C1: SL BB RDL 3 x 8 @ 95lbs\nC2: SA KB Farmers March 3 x 10 yds per side",
+          "children": [
+            {
+              "id": "day-01-c1",
+              "nodeType": "exercise",
+              "exerciseId": "sl-bb-rdl",
+              "title": "SL BB RDL",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "load": {
+                  "value": 95,
+                  "unit": "pounds"
+                },
+                "sourceText": "3 x 8 @ 95lbs"
+              },
+              "notes": [],
+              "sourceText": "C1: SL BB RDL 3 x 8 @ 95lbs",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-c2",
+              "nodeType": "exercise",
+              "exerciseId": "sa-kb-farmers-march",
+              "title": "SA KB Farmers March",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "distance": {
+                  "value": 10,
+                  "unit": "yards"
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 10 yds per side"
+              },
+              "notes": [],
+              "sourceText": "C2: SA KB Farmers March 3 x 10 yds per side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-01-pair-d",
+          "nodeType": "section",
+          "sourceTitle": "D1-D2",
+          "displayTitle": "Pair D",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "D1: Reverse lunges w/knee drive 3 x 8\nD2: ISO calf hold w/ db 3 x 20 seconds each side",
+          "children": [
+            {
+              "id": "day-01-d1",
+              "nodeType": "exercise",
+              "exerciseId": "reverse-lunges-knee-drive",
+              "title": "Reverse lunges w/knee drive",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "3 x 8"
+              },
+              "notes": [],
+              "sourceText": "D1: Reverse lunges w/knee drive 3 x 8",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-d2",
+              "nodeType": "exercise",
+              "exerciseId": "iso-calf-hold-db",
+              "title": "ISO calf hold w/ db",
+              "description": null,
+              "contextTagIds": [
+                "isometric",
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "duration": {
+                  "value": 20,
+                  "unit": "seconds"
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 20 seconds each side"
+              },
+              "notes": [],
+              "sourceText": "D2: ISO calf hold w/ db 3 x 20 seconds each side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-02-strength-workout",
+      "sourceTitle": "Day 2: Upper Body & Moderate Plyo’s",
+      "displayTitle": "Day 2 Strength",
+      "description": null,
+      "categoryIds": [
+        "strength-workouts"
+      ],
+      "format": "pairedSet",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-02-pair-a",
+          "nodeType": "section",
+          "sourceTitle": "A1-A2",
+          "displayTitle": "Pair A",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "A1: Depth Drops 3 x 6 @ 24 inches\nA2: DL double hop hurdles 3 x 6",
+          "children": [
+            {
+              "id": "day-02-a1",
+              "nodeType": "exercise",
+              "exerciseId": "depth-drops",
+              "title": "Depth Drops",
+              "description": null,
+              "contextTagIds": [
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 6
+                },
+                "targets": [
+                  {
+                    "metric": "height",
+                    "value": 24,
+                    "unit": "inches"
+                  }
+                ],
+                "sourceText": "3 x 6 @ 24 inches"
+              },
+              "notes": [],
+              "sourceText": "A1: Depth Drops 3 x 6 @ 24 inches",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-02-a2",
+              "nodeType": "exercise",
+              "exerciseId": "dl-double-hop-hurdles",
+              "title": "DL double hop hurdles",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 6
+                },
+                "sourceText": "3 x 6"
+              },
+              "notes": [
+                "If you don’t have hurdles just imagine 6in hurdles",
+                "Quick off the ground and as high as you can get every 2nd hop"
+              ],
+              "sourceText": "A2: DL double hop hurdles 3 x 6",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-02-pair-b",
+          "nodeType": "section",
+          "sourceTitle": "B1-B2",
+          "displayTitle": "Pair B",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "B1: Bench Press 4 x 5 @ 85%\nB2: Bent over medball pass 3 x 5",
+          "children": [
+            {
+              "id": "day-02-b1",
+              "nodeType": "exercise",
+              "exerciseId": "bench-press",
+              "title": "Bench Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 4
+                },
+                "reps": {
+                  "value": 5
+                },
+                "load": {
+                  "value": 85,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "4 x 5 @ 85%"
+              },
+              "notes": [],
+              "sourceText": "B1: Bench Press 4 x 5 @ 85%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-02-b2",
+              "nodeType": "exercise",
+              "exerciseId": "bent-over-medball-pass",
+              "title": "Bent over medball pass",
+              "description": null,
+              "contextTagIds": [
+                "power"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3 x 5"
+              },
+              "notes": [],
+              "sourceText": "B2: Bent over medball pass 3 x 5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-02-pair-c",
+          "nodeType": "section",
+          "sourceTitle": "C1-C2",
+          "displayTitle": "Pair C",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "C1: Pendlay Rows 3 x 8\nC2: KB pull through 3 x 12 total",
+          "children": [
+            {
+              "id": "day-02-c1",
+              "nodeType": "exercise",
+              "exerciseId": "pendlay-rows",
+              "title": "Pendlay Rows",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "3 x 8"
+              },
+              "notes": [],
+              "sourceText": "C1: Pendlay Rows 3 x 8",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-02-c2",
+              "nodeType": "exercise",
+              "exerciseId": "kb-pull-through",
+              "title": "KB pull through",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "qualifiers": [
+                  "total"
+                ],
+                "sourceText": "3 x 12 total"
+              },
+              "notes": [],
+              "sourceText": "C2: KB pull through 3 x 12 total",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-02-pair-d",
+          "nodeType": "section",
+          "sourceTitle": "D1-D2",
+          "displayTitle": "Pair D",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each\nD2: Banded face pulls 3 x 12",
+          "children": [
+            {
+              "id": "day-02-d1",
+              "nodeType": "exercise",
+              "exerciseId": "eccentric-pull-ups",
+              "title": "Eccentric Pull ups (5 sec count)",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "tempo": {
+                  "eccentricSeconds": 5,
+                  "sourceText": "5 sec count"
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "(5 sec count) 3 x 8 each"
+              },
+              "notes": [],
+              "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-02-d2",
+              "nodeType": "exercise",
+              "exerciseId": "banded-face-pulls",
+              "title": "Banded face pulls",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3 x 12"
+              },
+              "notes": [],
+              "sourceText": "D2: Banded face pulls 3 x 12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-03-strength-workout",
+      "sourceTitle": "Day 3: Lower Body & Low Intense Plyos",
+      "displayTitle": "Day 3 Strength",
+      "description": null,
+      "categoryIds": [
+        "strength-workouts"
+      ],
+      "format": "pairedSet",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-03-pair-a",
+          "nodeType": "section",
+          "sourceTitle": "A1-A2",
+          "displayTitle": "Pair A",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "A1: SL Lateral Pogos 3 x 20 seconds each leg\nA2: Skater hops with stick landing 3 x 6 each leg",
+          "children": [
+            {
+              "id": "day-03-a1",
+              "nodeType": "exercise",
+              "exerciseId": "sl-lateral-pogos",
+              "title": "SL Lateral Pogos",
+              "description": null,
+              "contextTagIds": [
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "duration": {
+                  "value": 20,
+                  "unit": "seconds"
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "3 x 20 seconds each leg"
+              },
+              "notes": [],
+              "sourceText": "A1: SL Lateral Pogos 3 x 20 seconds each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-03-a2",
+              "nodeType": "exercise",
+              "exerciseId": "skater-hops-stick-landing",
+              "title": "Skater hops with stick landing",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 6
+                },
+                "qualifiers": [
+                  "eachLeg"
+                ],
+                "sourceText": "3 x 6 each leg"
+              },
+              "notes": [],
+              "sourceText": "A2: Skater hops with stick landing 3 x 6 each leg",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-03-pair-b",
+          "nodeType": "section",
+          "sourceTitle": "B1-B2",
+          "displayTitle": "Pair B",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%\nB2: Double broad jump 3 x 5",
+          "children": [
+            {
+              "id": "day-03-b1",
+              "nodeType": "exercise",
+              "exerciseId": "heavy-trap-bar-dl",
+              "title": "Heavy Trap Bar DL",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "load": {
+                  "value": 85,
+                  "unit": "percent",
+                  "reference": null
+                },
+                "sourceText": "3 x 5 @ 85%"
+              },
+              "notes": [],
+              "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-03-b2",
+              "nodeType": "exercise",
+              "exerciseId": "double-broad-jump",
+              "title": "Double broad jump",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3 x 5"
+              },
+              "notes": [],
+              "sourceText": "B2: Double broad jump 3 x 5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-03-pair-c",
+          "nodeType": "section",
+          "sourceTitle": "C1-C2",
+          "displayTitle": "Pair C",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "C1: Goblet Hold lateral lunge 3 x 8 each side\nC2: Copenhagen 3 x 30 seconds each side",
+          "children": [
+            {
+              "id": "day-03-c1",
+              "nodeType": "exercise",
+              "exerciseId": "goblet-hold-lateral-lunge",
+              "title": "Goblet Hold lateral lunge",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 8 each side"
+              },
+              "notes": [],
+              "sourceText": "C1: Goblet Hold lateral lunge 3 x 8 each side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-03-c2",
+              "nodeType": "exercise",
+              "exerciseId": "copenhagen",
+              "title": "Copenhagen",
+              "description": null,
+              "contextTagIds": [
+                "isometric",
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 30 seconds each side"
+              },
+              "notes": [],
+              "sourceText": "C2: Copenhagen 3 x 30 seconds each side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-03-pair-d",
+          "nodeType": "section",
+          "sourceTitle": "D1-D2",
+          "displayTitle": "Pair D",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs\nD2: Swiss Ball hammy curls 3 x 8",
+          "children": [
+            {
+              "id": "day-03-d1",
+              "nodeType": "exercise",
+              "exerciseId": "heel-elevated-iso-split-squat",
+              "title": "Heel Elevated Iso split squat",
+              "description": null,
+              "contextTagIds": [
+                "isometric",
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "load": {
+                  "value": 20,
+                  "unit": "pounds",
+                  "reference": "DBs"
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 30 sec each side @ 20lb DBs"
+              },
+              "notes": [],
+              "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-03-d2",
+              "nodeType": "exercise",
+              "exerciseId": "swiss-ball-hammy-curls",
+              "title": "Swiss Ball hammy curls",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "3 x 8"
+              },
+              "notes": [],
+              "sourceText": "D2: Swiss Ball hammy curls 3 x 8",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-04-strength-workout",
+      "sourceTitle": "Day 4: Upper Body & moderate Plyo’s",
+      "displayTitle": "Day 4 Strength",
+      "description": null,
+      "categoryIds": [
+        "strength-workouts"
+      ],
+      "format": "pairedSet",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-04-pair-a",
+          "nodeType": "section",
+          "sourceTitle": "A1-A2",
+          "displayTitle": "Pair A",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "A1: Split Squat pulses 3 x 20 seconds each\nA2: approach tuck jumps 3 x 6",
+          "children": [
+            {
+              "id": "day-04-a1",
+              "nodeType": "exercise",
+              "exerciseId": "split-squat-pulses",
+              "title": "Split Squat pulses",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "duration": {
+                  "value": 20,
+                  "unit": "seconds"
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "3 x 20 seconds each"
+              },
+              "notes": [],
+              "sourceText": "A1: Split Squat pulses 3 x 20 seconds each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-04-a2",
+              "nodeType": "exercise",
+              "exerciseId": "approach-tuck-jumps",
+              "title": "approach tuck jumps",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 6
+                },
+                "sourceText": "3 x 6"
+              },
+              "notes": [],
+              "sourceText": "A2: approach tuck jumps 3 x 6",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-04-pair-b",
+          "nodeType": "section",
+          "sourceTitle": "B1-B2",
+          "displayTitle": "Pair B",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "B1: ISO push up 4 x 30 sec\nB2: plyo push up 4 x 5 each",
+          "children": [
+            {
+              "id": "day-04-b1",
+              "nodeType": "exercise",
+              "exerciseId": "iso-push-up",
+              "title": "ISO push up",
+              "description": null,
+              "contextTagIds": [
+                "isometric",
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 4
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "sourceText": "4 x 30 sec"
+              },
+              "notes": [],
+              "sourceText": "B1: ISO push up 4 x 30 sec",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-04-b2",
+              "nodeType": "exercise",
+              "exerciseId": "plyo-push-up",
+              "title": "plyo push up",
+              "description": null,
+              "contextTagIds": [
+                "power",
+                "plyometric"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 4
+                },
+                "reps": {
+                  "value": 5
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "4 x 5 each"
+              },
+              "notes": [],
+              "sourceText": "B2: plyo push up 4 x 5 each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-04-pair-c",
+          "nodeType": "section",
+          "sourceTitle": "C1-C2",
+          "displayTitle": "Pair C",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "C1: DB bent over row 3 x 12\nC2: Half kneeling SA military press 3 x 12",
+          "children": [
+            {
+              "id": "day-04-c1",
+              "nodeType": "exercise",
+              "exerciseId": "db-bent-over-row",
+              "title": "DB bent over row",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3 x 12"
+              },
+              "notes": [],
+              "sourceText": "C1: DB bent over row 3 x 12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-04-c2",
+              "nodeType": "exercise",
+              "exerciseId": "half-kneeling-sa-military-press",
+              "title": "Half kneeling SA military press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3 x 12"
+              },
+              "notes": [],
+              "sourceText": "C2: Half kneeling SA military press 3 x 12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "day-04-pair-d",
+          "nodeType": "section",
+          "sourceTitle": "D1-D2",
+          "displayTitle": "Pair D",
+          "format": "pairedSet",
+          "rounds": null,
+          "sourceText": "D1: Swimmers 3 x 12\nD2: KB Chop 3 x 12 each side",
+          "children": [
+            {
+              "id": "day-04-d1",
+              "nodeType": "exercise",
+              "exerciseId": "swimmers",
+              "title": "Swimmers",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3 x 12"
+              },
+              "notes": [],
+              "sourceText": "D1: Swimmers 3 x 12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-04-d2",
+              "nodeType": "exercise",
+              "exerciseId": "kb-chop",
+              "title": "KB Chop",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "qualifiers": [
+                  "eachSide"
+                ],
+                "sourceText": "3 x 12 each side"
+              },
+              "notes": [],
+              "sourceText": "D2: KB Chop 3 x 12 each side",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-01-conditioning-workout",
+      "sourceTitle": "Day 1 Conditioning",
+      "displayTitle": "Day 1 Conditioning",
+      "description": null,
+      "categoryIds": [
+        "conditioning-workouts"
+      ],
+      "format": "interval",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-01-conditioning-section",
+          "nodeType": "section",
+          "sourceTitle": "Day 1 Conditioning",
+          "displayTitle": "Intervals",
+          "format": "interval",
+          "rounds": null,
+          "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest\n4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest\n4 x 30sec intervals @ 12 speed w/ 30 sec rest",
+          "children": [
+            {
+              "id": "day-01-conditioning-interval-01",
+              "nodeType": "exercise",
+              "exerciseId": "speed-interval",
+              "title": "2:00 min intervals",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 4
+                },
+                "duration": {
+                  "value": 2,
+                  "unit": "minutes"
+                },
+                "rest": {
+                  "value": 1.5,
+                  "unit": "minutes"
+                },
+                "targets": [
+                  {
+                    "metric": "speed",
+                    "value": 9,
+                    "unit": "sourceScaleUnknown"
+                  }
+                ],
+                "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest"
+              },
+              "notes": [],
+              "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-conditioning-interval-02",
+              "nodeType": "exercise",
+              "exerciseId": "speed-interval",
+              "title": "1:00 min intervals",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 4
+                },
+                "duration": {
+                  "value": 1,
+                  "unit": "minutes"
+                },
+                "rest": {
+                  "value": 45,
+                  "unit": "seconds"
+                },
+                "targets": [
+                  {
+                    "metric": "speed",
+                    "value": 10.5,
+                    "unit": "sourceScaleUnknown"
+                  }
+                ],
+                "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest"
+              },
+              "notes": [],
+              "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            },
+            {
+              "id": "day-01-conditioning-interval-03",
+              "nodeType": "exercise",
+              "exerciseId": "speed-interval",
+              "title": "30sec intervals",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 4
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "rest": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "targets": [
+                  {
+                    "metric": "speed",
+                    "value": 12,
+                    "unit": "sourceScaleUnknown"
+                  }
+                ],
+                "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest"
+              },
+              "notes": [],
+              "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-02-conditioning-workout",
+      "sourceTitle": "Day 2 Conditioning",
+      "displayTitle": "Day 2 Conditioning",
+      "description": null,
+      "categoryIds": [
+        "conditioning-workouts"
+      ],
+      "format": "interval",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-02-conditioning-section",
+          "nodeType": "section",
+          "sourceTitle": "Day 2 Conditioning",
+          "displayTitle": "Row Intervals",
+          "format": "interval",
+          "rounds": null,
+          "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
+          "children": [
+            {
+              "id": "day-02-conditioning-row",
+              "nodeType": "exercise",
+              "exerciseId": "rowing-interval",
+              "title": "300m rows",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 12
+                },
+                "distance": {
+                  "value": 300,
+                  "unit": "meters"
+                },
+                "rest": {
+                  "value": 1,
+                  "unit": "minutes"
+                },
+                "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest"
+              },
+              "notes": [],
+              "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-03-conditioning-workout",
+      "sourceTitle": "Day 3 Conditioning",
+      "displayTitle": "Day 3 Conditioning",
+      "description": null,
+      "categoryIds": [
+        "conditioning-workouts"
+      ],
+      "format": "interval",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-03-conditioning-section",
+          "nodeType": "section",
+          "sourceTitle": "Day 3 Conditioning",
+          "displayTitle": "Assault Bike Intervals",
+          "format": "interval",
+          "rounds": null,
+          "sourceText": "10 x 30 sec assault bike @ 16 kcal 1 min 30 sec rest",
+          "children": [
+            {
+              "id": "day-03-conditioning-bike",
+              "nodeType": "exercise",
+              "exerciseId": "assault-bike-interval",
+              "title": "30 sec assault bike",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 10
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "rest": {
+                  "value": 90,
+                  "unit": "seconds"
+                },
+                "targets": [
+                  {
+                    "metric": "energy",
+                    "value": 16,
+                    "unit": "kilocalories"
+                  }
+                ],
+                "sourceText": "10 x 30 sec assault bike @ 16 kcal 1 min 30 sec rest"
+              },
+              "notes": [],
+              "sourceText": "10 x 30 sec assault bike @ 16 kcal 1 min 30 sec rest",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-04-conditioning-workout",
+      "sourceTitle": "Day 4 Conditioning",
+      "displayTitle": "Day 4 Conditioning",
+      "description": null,
+      "categoryIds": [
+        "conditioning-workouts"
+      ],
+      "format": "interval",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "day-04-conditioning-section",
+          "nodeType": "section",
+          "sourceTitle": "Day 4 Conditioning",
+          "displayTitle": "Run Intervals",
+          "format": "interval",
+          "rounds": null,
+          "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio",
+          "children": [
+            {
+              "id": "day-04-conditioning-run",
+              "nodeType": "exercise",
+              "exerciseId": "run-interval",
+              "title": "400m run",
+              "description": null,
+              "contextTagIds": [
+                "cardio",
+                "conditioning"
+              ],
+              "prescription": {
+                "rounds": {
+                  "value": 8
+                },
+                "distance": {
+                  "value": 400,
+                  "unit": "meters"
+                },
+                "workToRestRatio": {
+                  "work": 1,
+                  "rest": 1
+                },
+                "targets": [
+                  {
+                    "metric": "pace",
+                    "value": 90,
+                    "unit": "seconds"
+                  }
+                ],
+                "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio"
+              },
+              "notes": [],
+              "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exerciseCatalog": [
+    {
+      "id": "pogo-jumps-dl-sl",
+      "sourceTitle": "Pogo Jumps (DL and SL)",
+      "displayTitle": "Pogo Jumps (DL and SL)",
+      "description": null,
+      "tagIds": [
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "DL",
+        "SL"
+      ]
+    },
+    {
+      "id": "anterior-tibs",
+      "sourceTitle": "Anterior Tibs",
+      "displayTitle": "Anterior Tibs",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "heavy-front-squats",
+      "sourceTitle": "Heavy front squats",
+      "displayTitle": "Heavy front squats",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "box-jumps",
+      "sourceTitle": "Box Jumps",
+      "displayTitle": "Box Jumps",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "sl-bb-rdl",
+      "sourceTitle": "SL BB RDL",
+      "displayTitle": "SL BB RDL",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "SL",
+        "BB",
+        "RDL"
+      ]
+    },
+    {
+      "id": "sa-kb-farmers-march",
+      "sourceTitle": "SA KB Farmers March",
+      "displayTitle": "SA KB Farmers March",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "SA",
+        "KB"
+      ]
+    },
+    {
+      "id": "reverse-lunges-knee-drive",
+      "sourceTitle": "Reverse lunges w/knee drive",
+      "displayTitle": "Reverse lunges w/knee drive",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "iso-calf-hold-db",
+      "sourceTitle": "ISO calf hold w/ db",
+      "displayTitle": "ISO calf hold w/ db",
+      "description": null,
+      "tagIds": [
+        "isometric",
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "ISO",
+        "DB"
+      ]
+    },
+    {
+      "id": "depth-drops",
+      "sourceTitle": "Depth Drops",
+      "displayTitle": "Depth Drops",
+      "description": null,
+      "tagIds": [
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "dl-double-hop-hurdles",
+      "sourceTitle": "DL double hop hurdles",
+      "displayTitle": "DL double hop hurdles",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "DL"
+      ]
+    },
+    {
+      "id": "bench-press",
+      "sourceTitle": "Bench Press",
+      "displayTitle": "Bench Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bent-over-medball-pass",
+      "sourceTitle": "Bent over medball pass",
+      "displayTitle": "Bent over medball pass",
+      "description": null,
+      "tagIds": [
+        "power"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "pendlay-rows",
+      "sourceTitle": "Pendlay Rows",
+      "displayTitle": "Pendlay Rows",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "kb-pull-through",
+      "sourceTitle": "KB pull through",
+      "displayTitle": "KB pull through",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "KB"
+      ]
+    },
+    {
+      "id": "eccentric-pull-ups",
+      "sourceTitle": "Eccentric Pull ups (5 sec count)",
+      "displayTitle": "Eccentric Pull ups (5 sec count)",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "banded-face-pulls",
+      "sourceTitle": "Banded face pulls",
+      "displayTitle": "Banded face pulls",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "sl-lateral-pogos",
+      "sourceTitle": "SL Lateral Pogos",
+      "displayTitle": "SL Lateral Pogos",
+      "description": null,
+      "tagIds": [
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "SL"
+      ]
+    },
+    {
+      "id": "skater-hops-stick-landing",
+      "sourceTitle": "Skater hops with stick landing",
+      "displayTitle": "Skater hops with stick landing",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "heavy-trap-bar-dl",
+      "sourceTitle": "Heavy Trap Bar DL",
+      "displayTitle": "Heavy Trap Bar DL",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "DL"
+      ]
+    },
+    {
+      "id": "double-broad-jump",
+      "sourceTitle": "Double broad jump",
+      "displayTitle": "Double broad jump",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "goblet-hold-lateral-lunge",
+      "sourceTitle": "Goblet Hold lateral lunge",
+      "displayTitle": "Goblet Hold lateral lunge",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "copenhagen",
+      "sourceTitle": "Copenhagen",
+      "displayTitle": "Copenhagen",
+      "description": null,
+      "tagIds": [
+        "isometric",
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "heel-elevated-iso-split-squat",
+      "sourceTitle": "Heel Elevated Iso split squat",
+      "displayTitle": "Heel Elevated Iso split squat",
+      "description": null,
+      "tagIds": [
+        "isometric",
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "Iso"
+      ]
+    },
+    {
+      "id": "swiss-ball-hammy-curls",
+      "sourceTitle": "Swiss Ball hammy curls",
+      "displayTitle": "Swiss Ball hammy curls",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "split-squat-pulses",
+      "sourceTitle": "Split Squat pulses",
+      "displayTitle": "Split Squat pulses",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "approach-tuck-jumps",
+      "sourceTitle": "approach tuck jumps",
+      "displayTitle": "approach tuck jumps",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "iso-push-up",
+      "sourceTitle": "ISO push up",
+      "displayTitle": "ISO push up",
+      "description": null,
+      "tagIds": [
+        "isometric",
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "ISO"
+      ]
+    },
+    {
+      "id": "plyo-push-up",
+      "sourceTitle": "plyo push up",
+      "displayTitle": "plyo push up",
+      "description": null,
+      "tagIds": [
+        "power",
+        "plyometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "db-bent-over-row",
+      "sourceTitle": "DB bent over row",
+      "displayTitle": "DB bent over row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "DB"
+      ]
+    },
+    {
+      "id": "half-kneeling-sa-military-press",
+      "sourceTitle": "Half kneeling SA military press",
+      "displayTitle": "Half kneeling SA military press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "SA"
+      ]
+    },
+    {
+      "id": "swimmers",
+      "sourceTitle": "Swimmers",
+      "displayTitle": "Swimmers",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "kb-chop",
+      "sourceTitle": "KB Chop",
+      "displayTitle": "KB Chop",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "KB"
+      ]
+    },
+    {
+      "id": "speed-interval",
+      "sourceTitle": "intervals",
+      "displayTitle": "Intervals",
+      "description": null,
+      "tagIds": [
+        "cardio",
+        "conditioning"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "run-interval",
+      "sourceTitle": "400m run",
+      "displayTitle": "400m Run",
+      "description": null,
+      "tagIds": [
+        "cardio",
+        "conditioning"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "rowing-interval",
+      "sourceTitle": "rows",
+      "displayTitle": "Row Intervals",
+      "description": null,
+      "tagIds": [
+        "cardio",
+        "conditioning"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "assault-bike-interval",
+      "sourceTitle": "assault bike",
+      "displayTitle": "Assault Bike Intervals",
+      "description": null,
+      "tagIds": [
+        "cardio",
+        "conditioning"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    }
+  ],
+  "editorialIssues": [
+    {
+      "id": "issue-01",
+      "entityId": "day-01-b1",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not identify what the 85% load is relative to.",
+      "sourceText": "B1: Heavy front squats 3 x 5 @ 85%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-02",
+      "entityId": "day-02-b1",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not identify what the 85% load is relative to.",
+      "sourceText": "B1: Bench Press 4 x 5 @ 85%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-03",
+      "entityId": "day-03-b1",
+      "code": "missingLoadReference",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not identify what the 85% load is relative to.",
+      "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-04",
+      "entityId": "day-02-d1",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source says “each” but does not identify what the repetitions apply to individually.",
+      "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-05",
+      "entityId": "day-04-a1",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source says “each” but does not identify the side, leg, or other unit it modifies.",
+      "sourceText": "A1: Split Squat pulses 3 x 20 seconds each",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-06",
+      "entityId": "day-04-b2",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source says “each” but does not identify what the repetitions apply to individually.",
+      "sourceText": "B2: plyo push up 4 x 5 each",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-07",
+      "entityId": "day-02-conditioning-row",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not clarify whether “@ 1 min” is a completion-time target, pace, or interval duration.",
+      "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-08",
+      "entityId": "day-04-conditioning-run",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a 1:30 pace for a 400m run but does not state a conventional pace unit; it is represented as a 90-second pace target without assuming a distance-normalized pace unit.",
+      "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-09",
+      "entityId": "day-01-conditioning-interval-01",
+      "code": "missingUnit",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a speed value of 9 without identifying the speed scale or unit.",
+      "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-10",
+      "entityId": "day-01-conditioning-interval-02",
+      "code": "missingUnit",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a speed value of 10.5 without identifying the speed scale or unit.",
+      "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-11",
+      "entityId": "day-01-conditioning-interval-03",
+      "code": "missingUnit",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source gives a speed value of 12 without identifying the speed scale or unit.",
+      "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-12",
+      "entityId": "day-01-conditioning-section",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source prescribes speed-based intervals but does not identify the exercise modality or equipment.",
+      "sourceText": "Day 1 Conditioning:",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": null
+      }
+    }
+  ],
+  "parseMetadata": {
+    "parserVersion": "1.0.0",
+    "parsedAt": "2026-09-19T00:00:00Z",
+    "reviewStatus": "needsReview",
+    "sourceHash": "3cdd5ab5984aedbffbf3a632db18e6e52e3dd7e98805609423180b94156ddc08"
+  }
+}

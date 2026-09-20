@@ -1,0 +1,4320 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": 1,
+  "program": {
+    "id": "captain-america-workout",
+    "sourceTitle": "Captain America Workout (12 Weeks)",
+    "displayTitle": "Captain America Workout",
+    "summary": null,
+    "goals": [],
+    "difficulty": null,
+    "duration": {
+      "weeks": 12,
+      "days": null,
+      "sourceText": "Captain America Workout (12 Weeks)"
+    },
+    "daysPerWeek": {
+      "minimum": 5,
+      "maximum": 5,
+      "sourceText": "Day 1\nDay 2\nDay 3\nDay 4\nDay 5"
+    },
+    "tags": []
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "kind": "docx",
+      "fileName": "Captain America Workout Program.docx",
+      "url": null,
+      "author": "Luke Martin-Resnick",
+      "publisher": null
+    }
+  ],
+  "contentTypes": [
+    "schedule",
+    "workoutCollection"
+  ],
+  "tagCatalog": [
+    {
+      "id": "strength",
+      "displayName": "Strength",
+      "aliases": []
+    },
+    {
+      "id": "cardio",
+      "displayName": "Cardio",
+      "aliases": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "category-strength",
+      "displayName": "Strength",
+      "recognizedKind": "strength"
+    },
+    {
+      "id": "category-abs",
+      "displayName": "Abs",
+      "recognizedKind": "abs"
+    },
+    {
+      "id": "category-cardio",
+      "displayName": "Cardio",
+      "recognizedKind": "cardio"
+    }
+  ],
+  "groupings": [],
+  "schedule": {
+    "assignmentOrigin": "source",
+    "weeks": [
+      {
+        "id": "week-01",
+        "ordinal": 1,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-01-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-01-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-01-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-01-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-01-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-01-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-02",
+        "ordinal": 2,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-02-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-02-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-02-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-02-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-02-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-02-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-03",
+        "ordinal": 3,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-03-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-03-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-03-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-03-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-03-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-03-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-04",
+        "ordinal": 4,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-04-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-04-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-04-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-04-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-04-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-04-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-05",
+        "ordinal": 5,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-05-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-05-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-05-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-05-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-05-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-05-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-06",
+        "ordinal": 6,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-06-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-06-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-06-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-06-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-06-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-06-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-07",
+        "ordinal": 7,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-07-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-07-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-07-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-07-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-07-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-07-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-08",
+        "ordinal": 8,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-08-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-08-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-08-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-08-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-08-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-08-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-09",
+        "ordinal": 9,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-09-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-09-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-09-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-09-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-09-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-09-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-10",
+        "ordinal": 10,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-10-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-10-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-10-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-10-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-10-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-10-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-11",
+        "ordinal": 11,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-11-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-11-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-11-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-11-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-11-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-11-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      },
+      {
+        "id": "week-12",
+        "ordinal": 12,
+        "sourceLabel": null,
+        "groupIds": [],
+        "isSyntheticContainer": false,
+        "days": [
+          {
+            "id": "week-12-day-01",
+            "ordinal": 1,
+            "dayNumber": 1,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 1",
+            "displayTitle": "Day 1",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-01-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-01",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-3"
+                }
+              }
+            ],
+            "sourceText": "Day 1",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-3"
+            }
+          },
+          {
+            "id": "week-12-day-02",
+            "ordinal": 2,
+            "dayNumber": 2,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 2",
+            "displayTitle": "Day 2",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-02-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-02",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-19"
+                }
+              }
+            ],
+            "sourceText": "Day 2",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-19"
+            }
+          },
+          {
+            "id": "week-12-day-03",
+            "ordinal": 3,
+            "dayNumber": 3,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 3",
+            "displayTitle": "Day 3 - Off (Optional Arms)",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-03-rest",
+                "activityType": "rest",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "OFF",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              },
+              {
+                "id": "week-12-day-03-maybe-arms",
+                "activityType": "instruction",
+                "text": "Maybe Arms",
+                "assignmentOrigin": "source",
+                "optional": true,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Maybe Arms",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": "paragraph-37"
+                }
+              }
+            ],
+            "sourceText": "Day 3",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 1,
+              "blockId": "paragraph-36"
+            }
+          },
+          {
+            "id": "week-12-day-04",
+            "ordinal": 4,
+            "dayNumber": 4,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 4",
+            "displayTitle": "Day 4",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-04-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-04",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-39"
+                }
+              }
+            ],
+            "sourceText": "Day 4",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-39"
+            }
+          },
+          {
+            "id": "week-12-day-05",
+            "ordinal": 5,
+            "dayNumber": 5,
+            "weekdayLabel": null,
+            "sourceTitle": "Day 5",
+            "displayTitle": "Day 5",
+            "dayType": "training",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-05-workout",
+                "activityType": "workoutReference",
+                "workoutId": "workout-day-05",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 5",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": "paragraph-55"
+                }
+              }
+            ],
+            "sourceText": "Day 5",
+            "sourceRef": {
+              "sourceId": "source-1",
+              "page": 2,
+              "blockId": "paragraph-55"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dayTemplates": [],
+  "supplementalProtocols": [],
+  "workoutCatalog": [
+    {
+      "id": "workout-day-01",
+      "sourceTitle": "Day 1",
+      "displayTitle": "Day 1 Workout",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-abs",
+        "category-cardio"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "section-day-01-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-4"
+          },
+          "children": [
+            {
+              "id": "occ-day-01-back-squat",
+              "nodeType": "exercise",
+              "exerciseId": "back-squat",
+              "title": "Back Squat",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Back Squat: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-5"
+              }
+            },
+            {
+              "id": "occ-day-01-reverse-lunge",
+              "nodeType": "exercise",
+              "exerciseId": "reverse-lunge",
+              "title": "Reverse Lunges",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "3x8"
+              },
+              "notes": [],
+              "sourceText": "Reverse Lunges: 3x8",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-6"
+              }
+            },
+            {
+              "id": "occ-day-01-jump-squat",
+              "nodeType": "exercise",
+              "exerciseId": "jump-squat",
+              "title": "Jump Squats",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 2
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "2x12"
+              },
+              "notes": [],
+              "sourceText": "Jump Squats: 2x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-7"
+              }
+            },
+            {
+              "id": "occ-day-01-box-jump",
+              "nodeType": "exercise",
+              "exerciseId": "box-jump",
+              "title": "Box Jumps",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 2
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "2x10"
+              },
+              "notes": [],
+              "sourceText": "Box Jumps: 2x10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-8"
+              }
+            },
+            {
+              "id": "occ-day-01-romanian-deadlift",
+              "nodeType": "exercise",
+              "exerciseId": "romanian-deadlift",
+              "title": "Romanian Deadlift",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 10
+                },
+                "sourceText": "3x10"
+              },
+              "notes": [],
+              "sourceText": "Romanian Deadlift: 3x10",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-9"
+              }
+            },
+            {
+              "id": "occ-day-01-calf-raise",
+              "nodeType": "exercise",
+              "exerciseId": "calf-raise",
+              "title": "Calf Raises",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "3x15"
+              },
+              "notes": [],
+              "sourceText": "Calf Raises: 3x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-10"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-01-abs",
+          "nodeType": "section",
+          "sourceTitle": "Abs (Superset)",
+          "displayTitle": "Abs (Superset)",
+          "format": "superset",
+          "rounds": null,
+          "sourceText": "Abs (Superset)",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-11"
+          },
+          "children": [
+            {
+              "id": "occ-day-01-plank",
+              "nodeType": "exercise",
+              "exerciseId": "plank",
+              "title": "Plank",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "duration": {
+                  "value": 45,
+                  "unit": "seconds"
+                },
+                "sourceText": "1-3x45sec"
+              },
+              "notes": [],
+              "sourceText": "Plank: 1-3x45sec",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-12"
+              }
+            },
+            {
+              "id": "occ-day-01-sit-up",
+              "nodeType": "exercise",
+              "exerciseId": "sit-up",
+              "title": "Sit Up",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "1-3x12"
+              },
+              "notes": [],
+              "sourceText": "Sit Up: 1-3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-13"
+              }
+            },
+            {
+              "id": "occ-day-01-reverse-crunch",
+              "nodeType": "exercise",
+              "exerciseId": "reverse-crunch",
+              "title": "Reverse Crunch",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "1-3x12"
+              },
+              "notes": [],
+              "sourceText": "Reverse Crunch: 1-3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-14"
+              }
+            },
+            {
+              "id": "occ-day-01-oblique-crunch",
+              "nodeType": "exercise",
+              "exerciseId": "oblique-crunch",
+              "title": "Oblique Crunch",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "1-3x12"
+              },
+              "notes": [],
+              "sourceText": "Oblique Crunch: 1-3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-15"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-01-cardio",
+          "nodeType": "section",
+          "sourceTitle": "Cardio",
+          "displayTitle": "Cardio",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Cardio",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-16"
+          },
+          "children": [
+            {
+              "id": "occ-day-01-jump-rope",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jump Rope",
+              "description": null,
+              "contextTagIds": [
+                "cardio"
+              ],
+              "prescription": {
+                "sourceText": "Jump Rope"
+              },
+              "notes": [],
+              "sourceText": "Jump Rope",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-17"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workout-day-02",
+      "sourceTitle": "Day 2",
+      "displayTitle": "Day 2 Workout",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-abs",
+        "category-cardio"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "section-day-02-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-20"
+          },
+          "children": [
+            {
+              "id": "occ-day-02-incline-dumbbell-press",
+              "nodeType": "exercise",
+              "exerciseId": "incline-dumbbell-press",
+              "title": "Incline Dumbbell Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Incline Dumbbell Press: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-21"
+              }
+            },
+            {
+              "id": "occ-day-02-military-press",
+              "nodeType": "exercise",
+              "exerciseId": "military-press",
+              "title": "Military Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Military Press: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-22"
+              }
+            },
+            {
+              "id": "occ-day-02-pull-up",
+              "nodeType": "exercise",
+              "exerciseId": "pull-up",
+              "title": "Pull Up",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3x12"
+              },
+              "notes": [],
+              "sourceText": "Pull Up: 3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-23"
+              }
+            },
+            {
+              "id": "occ-day-02-arnold-press",
+              "nodeType": "exercise",
+              "exerciseId": "arnold-press",
+              "title": "Arnold Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 8
+                },
+                "sourceText": "3x8"
+              },
+              "notes": [],
+              "sourceText": "Arnold Press: 3x8",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-24"
+              }
+            },
+            {
+              "id": "occ-day-02-push-up",
+              "nodeType": "exercise",
+              "exerciseId": "push-up",
+              "title": "Push Up",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3x12"
+              },
+              "notes": [],
+              "sourceText": "Push Up: 3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-25"
+              }
+            },
+            {
+              "id": "occ-day-02-inverted-row",
+              "nodeType": "exercise",
+              "exerciseId": "inverted-row",
+              "title": "Inverted Row",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3x12"
+              },
+              "notes": [],
+              "sourceText": "Inverted Row: 3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-26"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-02-abs",
+          "nodeType": "section",
+          "sourceTitle": "Abs (Superset)",
+          "displayTitle": "Abs (Superset)",
+          "format": "superset",
+          "rounds": null,
+          "sourceText": "Abs (Superset)",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-28"
+          },
+          "children": [
+            {
+              "id": "occ-day-02-flutter-kick",
+              "nodeType": "exercise",
+              "exerciseId": "flutter-kick",
+              "title": "Flutter Kicks",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "1-3x20each"
+              },
+              "notes": [],
+              "sourceText": "Flutter Kicks: 1-3x20each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-29"
+              }
+            },
+            {
+              "id": "occ-day-02-scissor-kick",
+              "nodeType": "exercise",
+              "exerciseId": "scissor-kick",
+              "title": "Scissor Kicks",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "1-3x20each"
+              },
+              "notes": [],
+              "sourceText": "Scissor Kicks: 1-3x20each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-30"
+              }
+            },
+            {
+              "id": "occ-day-02-bicycle-crunch",
+              "nodeType": "exercise",
+              "exerciseId": "bicycle-crunch",
+              "title": "Bicycle Crunch",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "1-3x20each"
+              },
+              "notes": [],
+              "sourceText": "Bicycle Crunch: 1-3x20each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-31"
+              }
+            },
+            {
+              "id": "occ-day-02-penguin",
+              "nodeType": "exercise",
+              "exerciseId": "penguin",
+              "title": "Penguins",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "1-3x20each"
+              },
+              "notes": [],
+              "sourceText": "Penguins: 1-3x20each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-32"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-02-cardio",
+          "nodeType": "section",
+          "sourceTitle": "Cardio",
+          "displayTitle": "Cardio",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Cardio",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 1,
+            "blockId": "paragraph-33"
+          },
+          "children": [
+            {
+              "id": "occ-day-02-mile-jog",
+              "nodeType": "exercise",
+              "exerciseId": "mile-jog",
+              "title": "Mile Jog",
+              "description": null,
+              "contextTagIds": [
+                "cardio"
+              ],
+              "prescription": {
+                "distance": {
+                  "value": 1,
+                  "unit": "miles"
+                },
+                "sourceText": "Mile Jog"
+              },
+              "notes": [],
+              "sourceText": "Mile Jog",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 1,
+                "blockId": "paragraph-34"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workout-day-04",
+      "sourceTitle": "Day 4",
+      "displayTitle": "Day 4 Workout",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-abs",
+        "category-cardio"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "section-day-04-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": "paragraph-40"
+          },
+          "children": [
+            {
+              "id": "occ-day-04-trap-bar-deadlift",
+              "nodeType": "exercise",
+              "exerciseId": "trap-bar-deadlift",
+              "title": "Trap Bar Deadlift",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Trap Bar Deadlift: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-41"
+              }
+            },
+            {
+              "id": "occ-day-04-front-squat",
+              "nodeType": "exercise",
+              "exerciseId": "front-squat",
+              "title": "Front Squat",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Front Squat: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-42"
+              }
+            },
+            {
+              "id": "occ-day-04-leg-press",
+              "nodeType": "exercise",
+              "exerciseId": "leg-press",
+              "title": "Leg Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3x12"
+              },
+              "notes": [],
+              "sourceText": "Leg Press: 3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-43"
+              }
+            },
+            {
+              "id": "occ-day-04-single-leg-romanian-deadlift",
+              "nodeType": "exercise",
+              "exerciseId": "single-leg-romanian-deadlift",
+              "title": "Single Leg RDL",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "3x15"
+              },
+              "notes": [],
+              "sourceText": "Single Leg RDL: 3x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-44"
+              }
+            },
+            {
+              "id": "occ-day-04-jumping-lunge",
+              "nodeType": "exercise",
+              "exerciseId": "jumping-lunge",
+              "title": "Jumping Lunges",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 2
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "2x15"
+              },
+              "notes": [],
+              "sourceText": "Jumping Lunges: 2x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-45"
+              }
+            },
+            {
+              "id": "occ-day-04-calf-raise",
+              "nodeType": "exercise",
+              "exerciseId": "calf-raise",
+              "title": "Calf Raises",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "3x15"
+              },
+              "notes": [],
+              "sourceText": "Calf Raises: 3x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-46"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-04-abs",
+          "nodeType": "section",
+          "sourceTitle": "Abs (Superset)",
+          "displayTitle": "Abs (Superset)",
+          "format": "superset",
+          "rounds": null,
+          "sourceText": "Abs (Superset)",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": "paragraph-47"
+          },
+          "children": [
+            {
+              "id": "occ-day-04-crunch",
+              "nodeType": "exercise",
+              "exerciseId": "crunch",
+              "title": "Crunches",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "sourceText": "1-3x20"
+              },
+              "notes": [],
+              "sourceText": "Crunches: 1-3x20",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-48"
+              }
+            },
+            {
+              "id": "occ-day-04-russian-twist",
+              "nodeType": "exercise",
+              "exerciseId": "russian-twist",
+              "title": "Russian Twists",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "reps": {
+                  "value": 20
+                },
+                "qualifiers": [
+                  "each"
+                ],
+                "sourceText": "1-3x20each"
+              },
+              "notes": [],
+              "sourceText": "Russian Twists: 1-3x20each",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-49"
+              }
+            },
+            {
+              "id": "occ-day-04-leg-lift",
+              "nodeType": "exercise",
+              "exerciseId": "leg-lift",
+              "title": "Leg Lifts",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "sourceText": "1-3x30sec"
+              },
+              "notes": [],
+              "sourceText": "Leg Lifts: 1-3x30sec",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-50"
+              }
+            },
+            {
+              "id": "occ-day-04-side-plank",
+              "nodeType": "exercise",
+              "exerciseId": "side-plank",
+              "title": "Side Plank",
+              "description": null,
+              "contextTagIds": [],
+              "prescription": {
+                "sets": {
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "duration": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "sourceText": "1-3x30sec"
+              },
+              "notes": [],
+              "sourceText": "Side Plank: 1-3x30sec",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-51"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-04-cardio",
+          "nodeType": "section",
+          "sourceTitle": "Cardio",
+          "displayTitle": "Cardio",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Cardio",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": "paragraph-52"
+          },
+          "children": [
+            {
+              "id": "occ-day-04-jump-rope",
+              "nodeType": "exercise",
+              "exerciseId": "jump-rope",
+              "title": "Jump Rope",
+              "description": null,
+              "contextTagIds": [
+                "cardio"
+              ],
+              "prescription": {
+                "sourceText": "Jump Rope"
+              },
+              "notes": [],
+              "sourceText": "Jump Rope",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-53"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workout-day-05",
+      "sourceTitle": "Day 5",
+      "displayTitle": "Day 5 Workout",
+      "description": null,
+      "categoryIds": [
+        "category-strength",
+        "category-abs"
+      ],
+      "format": "standard",
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "section-day-05-strength",
+          "nodeType": "section",
+          "sourceTitle": "Strength",
+          "displayTitle": "Strength",
+          "format": "standard",
+          "rounds": null,
+          "sourceText": "Strength",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": "paragraph-56"
+          },
+          "children": [
+            {
+              "id": "occ-day-05-incline-bench-press",
+              "nodeType": "exercise",
+              "exerciseId": "incline-bench-press",
+              "title": "Incline Bench Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Incline Bench Press: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-57"
+              }
+            },
+            {
+              "id": "occ-day-05-bent-over-row",
+              "nodeType": "exercise",
+              "exerciseId": "bent-over-row",
+              "title": "Bent Over Row",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Bent Over Row: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-58"
+              }
+            },
+            {
+              "id": "occ-day-05-kneeling-shoulder-press",
+              "nodeType": "exercise",
+              "exerciseId": "kneeling-shoulder-press",
+              "title": "Kneeling Shoulder Press",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 5
+                },
+                "sourceText": "3x5"
+              },
+              "notes": [],
+              "sourceText": "Kneeling Shoulder Press: 3x5",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-59"
+              }
+            },
+            {
+              "id": "occ-day-05-single-arm-dumbbell-row",
+              "nodeType": "exercise",
+              "exerciseId": "single-arm-dumbbell-row",
+              "title": "Single Arm Dumbbell Row",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 12
+                },
+                "sourceText": "3x12"
+              },
+              "notes": [],
+              "sourceText": "Single Arm Dumbbell Row: 3x12",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-60"
+              }
+            },
+            {
+              "id": "occ-day-05-dip",
+              "nodeType": "exercise",
+              "exerciseId": "dip",
+              "title": "Dips",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "3x15"
+              },
+              "notes": [],
+              "sourceText": "Dips: 3x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-61"
+              }
+            },
+            {
+              "id": "occ-day-05-chin-up",
+              "nodeType": "exercise",
+              "exerciseId": "chin-up",
+              "title": "Chin Ups",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "value": 15
+                },
+                "sourceText": "3x15"
+              },
+              "notes": [],
+              "sourceText": "Chin Ups: 3x15",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-62"
+              }
+            }
+          ]
+        },
+        {
+          "id": "section-day-05-abs",
+          "nodeType": "section",
+          "sourceTitle": "Abs (Superset)",
+          "displayTitle": "Abs (Superset)",
+          "format": "superset",
+          "rounds": null,
+          "sourceText": "Abs (Superset)",
+          "sourceRef": {
+            "sourceId": "source-1",
+            "page": 2,
+            "blockId": "paragraph-63"
+          },
+          "children": [
+            {
+              "id": "section-day-05-three-minute-shredder",
+              "nodeType": "section",
+              "sourceTitle": "3 Minute Shredder",
+              "displayTitle": "3 Minute Shredder",
+              "format": "standard",
+              "rounds": null,
+              "sourceText": "3 Minute Shredder",
+              "sourceRef": {
+                "sourceId": "source-1",
+                "page": 2,
+                "blockId": "paragraph-64"
+              },
+              "children": [
+                {
+                  "id": "occ-day-05-forearm-plank",
+                  "nodeType": "exercise",
+                  "exerciseId": "forearm-plank",
+                  "title": "Forearm Plank",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "duration": {
+                      "value": 1,
+                      "unit": "minutes"
+                    },
+                    "sourceText": "1min Forearm Plank"
+                  },
+                  "notes": [],
+                  "sourceText": "1min Forearm Plank",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": "paragraph-65"
+                  }
+                },
+                {
+                  "id": "occ-day-05-push-up-plank",
+                  "nodeType": "exercise",
+                  "exerciseId": "push-up-plank",
+                  "title": "Push Up Plank",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "duration": {
+                      "value": 30,
+                      "unit": "seconds"
+                    },
+                    "sourceText": "30sec Push Up Plank"
+                  },
+                  "notes": [],
+                  "sourceText": "30sec Push Up Plank",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": "paragraph-66"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exerciseCatalog": [
+    {
+      "id": "back-squat",
+      "sourceTitle": "Back Squat",
+      "displayTitle": "Back Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "reverse-lunge",
+      "sourceTitle": "Reverse Lunges",
+      "displayTitle": "Reverse Lunges",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "jump-squat",
+      "sourceTitle": "Jump Squats",
+      "displayTitle": "Jump Squats",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "box-jump",
+      "sourceTitle": "Box Jumps",
+      "displayTitle": "Box Jumps",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "romanian-deadlift",
+      "sourceTitle": "Romanian Deadlift",
+      "displayTitle": "Romanian Deadlift",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "calf-raise",
+      "sourceTitle": "Calf Raises",
+      "displayTitle": "Calf Raises",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "plank",
+      "sourceTitle": "Plank",
+      "displayTitle": "Plank",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "sit-up",
+      "sourceTitle": "Sit Up",
+      "displayTitle": "Sit Up",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "reverse-crunch",
+      "sourceTitle": "Reverse Crunch",
+      "displayTitle": "Reverse Crunch",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "oblique-crunch",
+      "sourceTitle": "Oblique Crunch",
+      "displayTitle": "Oblique Crunch",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "jump-rope",
+      "sourceTitle": "Jump Rope",
+      "displayTitle": "Jump Rope",
+      "description": null,
+      "tagIds": [
+        "cardio"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "incline-dumbbell-press",
+      "sourceTitle": "Incline Dumbbell Press",
+      "displayTitle": "Incline Dumbbell Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "military-press",
+      "sourceTitle": "Military Press",
+      "displayTitle": "Military Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "pull-up",
+      "sourceTitle": "Pull Up",
+      "displayTitle": "Pull Up",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "arnold-press",
+      "sourceTitle": "Arnold Press",
+      "displayTitle": "Arnold Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "push-up",
+      "sourceTitle": "Push Up",
+      "displayTitle": "Push Up",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "inverted-row",
+      "sourceTitle": "Inverted Row",
+      "displayTitle": "Inverted Row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "flutter-kick",
+      "sourceTitle": "Flutter Kicks",
+      "displayTitle": "Flutter Kicks",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "scissor-kick",
+      "sourceTitle": "Scissor Kicks",
+      "displayTitle": "Scissor Kicks",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bicycle-crunch",
+      "sourceTitle": "Bicycle Crunch",
+      "displayTitle": "Bicycle Crunch",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "penguin",
+      "sourceTitle": "Penguins",
+      "displayTitle": "Penguins",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "mile-jog",
+      "sourceTitle": "Mile Jog",
+      "displayTitle": "Mile Jog",
+      "description": null,
+      "tagIds": [
+        "cardio"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "trap-bar-deadlift",
+      "sourceTitle": "Trap Bar Deadlift",
+      "displayTitle": "Trap Bar Deadlift",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "front-squat",
+      "sourceTitle": "Front Squat",
+      "displayTitle": "Front Squat",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "leg-press",
+      "sourceTitle": "Leg Press",
+      "displayTitle": "Leg Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "single-leg-romanian-deadlift",
+      "sourceTitle": "Single Leg RDL",
+      "displayTitle": "Single Leg RDL",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": [
+        "RDL"
+      ]
+    },
+    {
+      "id": "jumping-lunge",
+      "sourceTitle": "Jumping Lunges",
+      "displayTitle": "Jumping Lunges",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "crunch",
+      "sourceTitle": "Crunches",
+      "displayTitle": "Crunches",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "russian-twist",
+      "sourceTitle": "Russian Twists",
+      "displayTitle": "Russian Twists",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "leg-lift",
+      "sourceTitle": "Leg Lifts",
+      "displayTitle": "Leg Lifts",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "side-plank",
+      "sourceTitle": "Side Plank",
+      "displayTitle": "Side Plank",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "incline-bench-press",
+      "sourceTitle": "Incline Bench Press",
+      "displayTitle": "Incline Bench Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bent-over-row",
+      "sourceTitle": "Bent Over Row",
+      "displayTitle": "Bent Over Row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "kneeling-shoulder-press",
+      "sourceTitle": "Kneeling Shoulder Press",
+      "displayTitle": "Kneeling Shoulder Press",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "single-arm-dumbbell-row",
+      "sourceTitle": "Single Arm Dumbbell Row",
+      "displayTitle": "Single Arm Dumbbell Row",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "dip",
+      "sourceTitle": "Dips",
+      "displayTitle": "Dips",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "chin-up",
+      "sourceTitle": "Chin Ups",
+      "displayTitle": "Chin Ups",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "forearm-plank",
+      "sourceTitle": "Forearm Plank",
+      "displayTitle": "Forearm Plank",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "push-up-plank",
+      "sourceTitle": "Push Up Plank",
+      "displayTitle": "Push Up Plank",
+      "description": null,
+      "tagIds": [],
+      "aliases": [],
+      "abbreviations": []
+    }
+  ],
+  "editorialIssues": [
+    {
+      "id": "issue-01",
+      "entityId": "captain-america-workout",
+      "code": "inferredRepetition",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source states a 12-week duration but provides one five-day structure. The schedule repeats that same five-day structure for each of the 12 weeks.",
+      "sourceText": "Captain America Workout (12 Weeks)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-1"
+      }
+    },
+    {
+      "id": "issue-02",
+      "entityId": "section-day-05-three-minute-shredder",
+      "code": "unresolvedSourceConflict",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source names a 3 Minute Shredder but lists a 1-minute Forearm Plank and a 30-second Push Up Plank, totaling 90 seconds. No repeat count or remaining work is stated, so none was inferred.",
+      "sourceText": "3 Minute Shredder\n1min Forearm Plank\n30sec Push Up Plank",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": "paragraph-64"
+      }
+    },
+    {
+      "id": "issue-03",
+      "entityId": "occ-day-01-jump-rope",
+      "code": "missingDuration",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not specify a duration, repetition count, or distance for Jump Rope on Day 1.",
+      "sourceText": "Jump Rope",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-17"
+      }
+    },
+    {
+      "id": "issue-04",
+      "entityId": "occ-day-04-jump-rope",
+      "code": "missingDuration",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source does not specify a duration, repetition count, or distance for Jump Rope on Day 4.",
+      "sourceText": "Jump Rope",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": "paragraph-53"
+      }
+    },
+    {
+      "id": "issue-05",
+      "entityId": "week-01-day-03-maybe-arms",
+      "code": "missingApprovedAssignment",
+      "severity": "error",
+      "status": "unresolved",
+      "message": "The optional arms work is mentioned but no exact arms workout is supplied. It remains an optional instruction rather than a workout assignment, and the same limitation applies whenever Day 3 repeats.",
+      "sourceText": "OFF (Maybe Arms)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-37"
+      }
+    },
+    {
+      "id": "issue-06",
+      "entityId": "workout-day-01",
+      "code": "missingRest",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source does not specify rest intervals for the Day 1 strength or abdominal work.",
+      "sourceText": "Strength\nAbs (Superset)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-4"
+      }
+    },
+    {
+      "id": "issue-07",
+      "entityId": "workout-day-02",
+      "code": "missingRest",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source does not specify rest intervals for the Day 2 strength or abdominal work.",
+      "sourceText": "Strength\nAbs (Superset)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
+        "blockId": "paragraph-20"
+      }
+    },
+    {
+      "id": "issue-08",
+      "entityId": "workout-day-04",
+      "code": "missingRest",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source does not specify rest intervals for the Day 4 strength or abdominal work.",
+      "sourceText": "Strength\nAbs (Superset)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": "paragraph-40"
+      }
+    },
+    {
+      "id": "issue-09",
+      "entityId": "workout-day-05",
+      "code": "missingRest",
+      "severity": "info",
+      "status": "unresolved",
+      "message": "The source does not specify rest intervals for the Day 5 strength or abdominal work.",
+      "sourceText": "Strength\nAbs (Superset)",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 2,
+        "blockId": "paragraph-56"
+      }
+    }
+  ],
+  "parseMetadata": {
+    "parserVersion": "1.0.0",
+    "parsedAt": "2026-09-18T00:00:00Z",
+    "reviewStatus": "needsReview",
+    "sourceHash": "2a13850f7e67c7c9351ed42c8318cc146efca8ea0680516043de76fedd667016"
+  }
+}
