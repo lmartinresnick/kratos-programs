@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": 1,
+  "dataVersion": 2,
   "program": {
     "id": "vertical-jump-base",
     "sourceTitle": "Vertical Jump Base",
@@ -2269,6 +2269,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": "Power Clean"
                 },
                 "sourceText": "Clean Pulls: 3x3-6@70% of Power Clean"
@@ -2299,6 +2300,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": null
                 },
                 "sourceText": "Back Squats: 3x8-12@70%"
@@ -2490,6 +2492,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": null
                 },
                 "sourceText": "Bench Press: 3x8-12x70%"
@@ -2649,6 +2652,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": null
                 },
                 "sourceText": "Snatch Pulls: 3x3-6@70%"
@@ -2679,6 +2683,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": null
                 },
                 "sourceText": "Front Squats: 3x8-12@70%"
@@ -2872,6 +2877,7 @@
                 "load": {
                   "value": 70,
                   "unit": "percent",
+                  "kind": "percentage",
                   "reference": null
                 },
                 "sourceText": "Incline Press: 3x8-12@70%"
@@ -3068,6 +3074,7 @@
                     "load": {
                       "value": 80,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": "Power Clean"
                     },
                     "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean"
@@ -3106,6 +3113,7 @@
                     "load": {
                       "value": 80,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": null
                     },
                     "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps"
@@ -3301,6 +3309,7 @@
                     "load": {
                       "value": 80,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": null
                     },
                     "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
@@ -3525,6 +3534,7 @@
                     "load": {
                       "value": 80,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": "Power Snatch"
                     },
                     "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch"
@@ -3563,6 +3573,7 @@
                     "load": {
                       "value": 40,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": "Back Squat"
                     },
                     "qualifiers": [
@@ -3764,6 +3775,7 @@
                     "load": {
                       "value": 80,
                       "unit": "percent",
+                      "kind": "percentage",
                       "reference": null
                     },
                     "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": 2,
+  "dataVersion": 3,
   "program": {
     "id": "luke-program",
     "sourceTitle": "Luke Program",
@@ -103,7 +103,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-01-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -120,7 +155,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-01-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -137,7 +207,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-01-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -154,7 +259,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-01-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -180,7 +320,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-02-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -197,7 +372,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-02-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -214,7 +424,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-02-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -231,7 +476,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-02-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -257,7 +537,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-03-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -274,7 +589,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-03-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -291,7 +641,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-03-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -308,7 +693,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-03-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -334,7 +754,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-04-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -351,7 +806,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-04-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -368,7 +858,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-04-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -385,7 +910,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-04-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -411,7 +971,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-05-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -428,7 +1023,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-05-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -445,7 +1075,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-05-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -462,7 +1127,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-05-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -488,7 +1188,42 @@
             "displayTitle": "Day 1: Lower Body & low intense plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-01",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-01-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-06-day-01-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-01-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 1 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 1: Lower Body & low intense plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -505,7 +1240,42 @@
             "displayTitle": "Day 2: Upper Body & Moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-02",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-02-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-06-day-02-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-02-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 2 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 2: Upper Body & Moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -522,7 +1292,42 @@
             "displayTitle": "Day 3: Lower Body & Low Intense Plyos",
             "dayType": "training",
             "dayTemplateId": "day-template-03",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-03-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-06-day-03-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-03-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 3 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 3: Lower Body & Low Intense Plyos",
             "sourceRef": {
               "sourceId": "source-1",
@@ -539,7 +1344,42 @@
             "displayTitle": "Day 4: Upper Body & moderate Plyo’s",
             "dayType": "training",
             "dayTemplateId": "day-template-04",
-            "scheduledActivities": [],
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-04-strength-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-strength-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Strength:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 1,
+                  "blockId": null
+                }
+              },
+              {
+                "id": "week-06-day-04-conditioning-activity",
+                "activityType": "workoutReference",
+                "workoutId": "day-04-conditioning-workout",
+                "assignmentOrigin": "source",
+                "optional": false,
+                "sourceConstraints": null,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Day 4 Conditioning:",
+                "sourceRef": {
+                  "sourceId": "source-1",
+                  "page": 2,
+                  "blockId": null
+                }
+              }
+            ],
             "sourceText": "Day 4: Upper Body & moderate Plyo’s",
             "sourceRef": {
               "sourceId": "source-1",
@@ -828,7 +1668,8 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null
+                  "reference": null,
+                  "kind": "percentage"
                 },
                 "sourceText": "3 x 5 @ 85%"
               },
@@ -896,7 +1737,9 @@
                 },
                 "load": {
                   "value": 95,
-                  "unit": "pounds"
+                  "unit": "pounds",
+                  "kind": "absolute",
+                  "equipmentKind": "barbell"
                 },
                 "sourceText": "3 x 8 @ 95lbs"
               },
@@ -1084,8 +1927,28 @@
                 "sourceText": "3 x 6"
               },
               "notes": [
-                "If you don’t have hurdles just imagine 6in hurdles",
-                "Quick off the ground and as high as you can get every 2nd hop"
+                {
+                  "id": "day-02-a2-note-01",
+                  "kind": "instruction",
+                  "text": "If you don’t have hurdles just imagine 6in hurdles",
+                  "sourceText": "If you don’t have hurdles just imagine 6in hurdles",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                },
+                {
+                  "id": "day-02-a2-note-02",
+                  "kind": "instruction",
+                  "text": "Quick off the ground and as high as you can get every 2nd hop",
+                  "sourceText": "Quick off the ground and as high as you can get every 2nd hop",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "A2: DL double hop hurdles 3 x 6",
               "sourceRef": {
@@ -1124,7 +1987,8 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null
+                  "reference": null,
+                  "kind": "percentage"
                 },
                 "sourceText": "4 x 5 @ 85%"
               },
@@ -1413,7 +2277,8 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null
+                  "reference": null,
+                  "kind": "percentage"
                 },
                 "sourceText": "3 x 5 @ 85%"
               },
@@ -1555,7 +2420,8 @@
                 "load": {
                   "value": 20,
                   "unit": "pounds",
-                  "reference": "DBs"
+                  "kind": "absolute",
+                  "equipmentKind": "dumbbell"
                 },
                 "qualifiers": [
                   "eachSide"
@@ -2815,6 +3681,20 @@
       "sourceRef": {
         "sourceId": "source-1",
         "page": 2,
+        "blockId": null
+      }
+    },
+    {
+      "id": "issue-13",
+      "entityId": "day-03-d1",
+      "code": "ambiguousPrescription",
+      "severity": "warning",
+      "status": "unresolved",
+      "message": "The source specifies 20lb DBs but does not state whether 20 pounds applies to each dumbbell or to the pair in total.",
+      "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs",
+      "sourceRef": {
+        "sourceId": "source-1",
+        "page": 1,
         "blockId": null
       }
     }

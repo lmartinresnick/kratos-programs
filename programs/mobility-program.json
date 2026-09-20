@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": 1,
+  "dataVersion": 2,
   "program": {
-    "id": "mobility",
+    "id": "mobility-program",
     "sourceTitle": "Mobility",
     "displayTitle": "Mobility",
     "summary": null,
@@ -54,7 +54,7 @@
   ],
   "categories": [
     {
-      "id": "mobility",
+      "id": "mobility-workout",
       "displayName": "Mobility",
       "recognizedKind": "mobility"
     }
@@ -70,7 +70,7 @@
       "displayTitle": "Mobility",
       "description": null,
       "categoryIds": [
-        "mobility"
+        "mobility-workout"
       ],
       "format": "standard",
       "tags": [],
@@ -480,7 +480,17 @@
                 "sourceText": "2 x 30 sec each"
               },
               "notes": [
-                "can progress to eyes closed, catching tennis ball, RDLs"
+                {
+                  "id": "note-airex-pad-sl-balance-progression",
+                  "kind": "sourceNote",
+                  "text": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Airex Pad SL Balance 2 x 30 sec each Notes: can progress to eyes closed, catching tennis ball, RDLs",
               "sourceRef": {
@@ -533,7 +543,17 @@
                 "sourceText": "2 x 15"
               },
               "notes": [
-                "Full ROM on calf raise, all the way up on toe"
+                {
+                  "id": "note-ffe-split-squat-iso-calf-raise-rom",
+                  "kind": "sourceNote",
+                  "text": "Full ROM on calf raise, all the way up on toe",
+                  "sourceText": "Full ROM on calf raise, all the way up on toe",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "FFE Split Squat ISO w/ calf raise 2 x 15 Notes: Full ROM on calf raise, all the way up on toe",
               "sourceRef": {
@@ -571,7 +591,17 @@
                 "sourceText": "2 x 30 sec each"
               },
               "notes": [
-                "Straight, leg cross over, leg opened"
+                {
+                  "id": "note-banded-dynamic-hamstring-stretch-positions",
+                  "kind": "sourceNote",
+                  "text": "Straight, leg cross over, leg opened",
+                  "sourceText": "Straight, leg cross over, leg opened",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
               "sourceRef": {
@@ -627,7 +657,17 @@
                 "sourceText": "2 x 15 ea"
               },
               "notes": [
-                "use however many boxes that are comfortable"
+                {
+                  "id": "note-elephant-walks-box-height",
+                  "kind": "sourceNote",
+                  "text": "use however many boxes that are comfortable",
+                  "sourceText": "use however many boxes that are comfortable",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Elephant Walks 2 x 15 ea Notes: use however many boxes that are comfortable",
               "sourceRef": {
@@ -667,7 +707,17 @@
                 "sourceText": "2 x 8 ea"
               },
               "notes": [
-                "can progress to eyes closed, catching tennis ball, RDLs"
+                {
+                  "id": "note-sl-rdl-thoracic-extension-progression",
+                  "kind": "sourceNote",
+                  "text": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "SL RDL to thoracic Extension 2 x 8 ea Notes: can progress to eyes closed, catching tennis ball, RDLs",
               "sourceRef": {
@@ -720,7 +770,17 @@
                 "sourceText": "2 x 15"
               },
               "notes": [
-                "Challenge yourself with weight"
+                {
+                  "id": "note-free-motion-hip-flexion-weight",
+                  "kind": "sourceNote",
+                  "text": "Challenge yourself with weight",
+                  "sourceText": "Challenge yourself with weight",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Free Motion Hip Flexion 2 x 15 Notes: Challenge yourself with weight",
               "sourceRef": {
@@ -815,7 +875,17 @@
                 "sourceText": "2 x 15 ea"
               },
               "notes": [
-                "Rotating over front leg"
+                {
+                  "id": "note-rfe-med-ball-rotation-front-leg",
+                  "kind": "sourceNote",
+                  "text": "Rotating over front leg",
+                  "sourceText": "Rotating over front leg",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "RFE Med Ball Rotation 2 x 15 ea Notes: Rotating over front leg",
               "sourceRef": {
@@ -944,7 +1014,17 @@
                 "sourceText": "2 x 10 reps"
               },
               "notes": [
-                "Straight Arms, dropping chest to floor"
+                {
+                  "id": "note-bench-prayer-stretch-position",
+                  "kind": "sourceNote",
+                  "text": "Straight Arms, dropping chest to floor",
+                  "sourceText": "Straight Arms, dropping chest to floor",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Bench Prayer Stretch 2 x 10 reps Notes: Straight Arms, dropping chest to floor",
               "sourceRef": {
@@ -1000,7 +1080,17 @@
                 "sourceText": "2 x 5 ea"
               },
               "notes": [
-                "try to keep hip square in front of you"
+                {
+                  "id": "note-3d-strap-t-spine-rotations-hip-position",
+                  "kind": "sourceNote",
+                  "text": "try to keep hip square in front of you",
+                  "sourceText": "try to keep hip square in front of you",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "3D Strap T-Spine Rotations 2 x 5 ea Notes: try to keep hip square in front of you",
               "sourceRef": {
@@ -1061,7 +1151,8 @@
                 "load": {
                   "value": 8,
                   "unit": "pounds",
-                  "reference": "ball"
+                  "kind": "absolute",
+                  "equipmentKind": "other"
                 },
                 "qualifiers": [
                   "eachSide"
@@ -1069,7 +1160,17 @@
                 "sourceText": "2 x 5 each"
               },
               "notes": [
-                "8lb ball"
+                {
+                  "id": "note-mb-spinal-rotations-ball-load",
+                  "kind": "sourceNote",
+                  "text": "8lb ball",
+                  "sourceText": "8lb ball",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "MB Spinal Rotations 2 x 5 each Notes: 8lb ball",
               "sourceRef": {
@@ -1157,7 +1258,17 @@
                 "sourceText": "2 x 5 each"
               },
               "notes": [
-                "very slow tempo"
+                {
+                  "id": "note-quadruped-shoulder-car-tempo",
+                  "kind": "sourceNote",
+                  "text": "very slow tempo",
+                  "sourceText": "very slow tempo",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Quadruped Shoulder CAR 2 x 5 each Notes: very slow tempo",
               "sourceRef": {
@@ -1183,7 +1294,17 @@
                 "sourceText": "2 x 10"
               },
               "notes": [
-                "controlled reps, avoid arching back"
+                {
+                  "id": "note-banded-row-external-rotation-press-control",
+                  "kind": "sourceNote",
+                  "text": "controlled reps, avoid arching back",
+                  "sourceText": "controlled reps, avoid arching back",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Banded Row to External Rotation to Press 2 x 10 Notes: controlled reps, avoid arching back",
               "sourceRef": {
@@ -1223,7 +1344,17 @@
                 "sourceText": "2 x 5 each side"
               },
               "notes": [
-                "Shoulder, QL, T-Spine, Core"
+                {
+                  "id": "note-windmill-source-regions",
+                  "kind": "sourceNote",
+                  "text": "Shoulder, QL, T-Spine, Core",
+                  "sourceText": "Shoulder, QL, T-Spine, Core",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Windmill 2 x 5 each side Notes: Shoulder, QL, T-Spine, Core",
               "sourceRef": {
@@ -1253,7 +1384,17 @@
                 "sourceText": "2 x 10 w/ 3 sec ECC"
               },
               "notes": [
-                "Shoulders, Hip, Core"
+                {
+                  "id": "note-oh-deep-squat-source-regions",
+                  "kind": "sourceNote",
+                  "text": "Shoulders, Hip, Core",
+                  "sourceText": "Shoulders, Hip, Core",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "OH Deep Squat w/ BB or Dowel 2 x 10 w/ 3 sec ECC Notes: Shoulders, Hip, Core",
               "sourceRef": {
@@ -1279,7 +1420,17 @@
                 "sourceText": "2 x 6"
               },
               "notes": [
-                "Hamstring, Lumber, T-Spine"
+                {
+                  "id": "note-jefferson-curls-source-regions",
+                  "kind": "sourceNote",
+                  "text": "Hamstring, Lumber, T-Spine",
+                  "sourceText": "Hamstring, Lumber, T-Spine",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Jefferson Curls - slow tempo 2 x 6 Notes: Hamstring, Lumber, T-Spine",
               "sourceRef": {
@@ -1305,7 +1456,17 @@
                 "sourceText": "2 x 3 w/ slow tempo"
               },
               "notes": [
-                "everything"
+                {
+                  "id": "note-turkish-getup-source-scope",
+                  "kind": "sourceNote",
+                  "text": "everything",
+                  "sourceText": "everything",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
               ],
               "sourceText": "Turkish Getup 2 x 3 w/ slow tempo Notes: everything",
               "sourceRef": {

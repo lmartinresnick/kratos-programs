@@ -29,8 +29,8 @@
     {
       "id": "chadwick-boseman-workout",
       "file": "chadwick-boseman-workout.json",
-      "sha256": "68e37e465067c7346d6e872150f444768d017c059a244dc5d9009f8dc485c8f0",
-      "byteCount": 47151,
+      "sha256": "0c50545cf8f768adc0d66ea3c5a2675daba3b4c2d18fe1eaad8582479948ebec",
+      "byteCount": 96374,
       "programSchemaVersion": "1.0.0",
       "displayTitle": "Chadwick Boseman Inspired Workout: Train Like Black Panther",
       "summary": "Work out like Chadwick Boseman with this Black Panther Inspired Workout Program. This workout program combines strength, combat, and flexibility training.",
@@ -38,7 +38,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "dataVersion": 1,
+      "dataVersion": 2,
       "difficulty": "intermediate",
       "duration": {
         "weeks": 8,
@@ -55,15 +55,15 @@
     {
       "id": "luke-program",
       "file": "luke-program.json",
-      "sha256": "689319fcf49f30fe3305865f34493f4587ea1bb672ede3801263e397aa40165a",
-      "byteCount": 82800,
+      "sha256": "1d4666e8b0ce9e3d7c7f0db30e7795725da227890868e4db231d4c4b3e45fdb7",
+      "byteCount": 114710,
       "programSchemaVersion": "1.0.0",
       "displayTitle": "Luke Program",
       "summary": null,
       "contentTypes": [
         "schedule"
       ],
-      "dataVersion": 2,
+      "dataVersion": 3,
       "difficulty": null,
       "duration": {
         "weeks": 6,
@@ -76,17 +76,17 @@
       }
     },
     {
-      "id": "mobility",
-      "file": "mobility.json",
-      "sha256": "e62967da6a516759cef5c6cd3f3ec1549250989585317eb7ad0d0a82e059f1b1",
-      "byteCount": 54592,
+      "id": "mobility-program",
+      "file": "mobility-program.json",
+      "sha256": "a64611e651896fcd2773e107cf1c955c4ff5c2cabcef8e5d5f583377bf368c42",
+      "byteCount": 60788,
       "programSchemaVersion": "1.0.0",
       "displayTitle": "Mobility",
       "summary": null,
       "contentTypes": [
         "workoutCollection"
       ],
-      "dataVersion": 1,
+      "dataVersion": 2,
       "difficulty": null,
       "duration": {
         "weeks": null,
@@ -101,15 +101,15 @@
     {
       "id": "vertical-jump-base",
       "file": "vertical-jump-base.json",
-      "sha256": "3bce50ebb29a92725197cf0bac1887efea4e50e96f71a92d05377d83ef18e46d",
-      "byteCount": 147384,
+      "sha256": "5615a7ed7b3c6b203a0b641fcdeb24a1c7ce023630994dff2d32f3751d38892e",
+      "byteCount": 147888,
       "programSchemaVersion": "1.0.0",
       "displayTitle": "Vertical Jump Base",
       "summary": null,
       "contentTypes": [
         "schedule"
       ],
-      "dataVersion": 1,
+      "dataVersion": 2,
       "difficulty": null,
       "duration": {
         "weeks": 8,
