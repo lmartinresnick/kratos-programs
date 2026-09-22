@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "dataVersion": 2,
+  "schemaVersion": "1.1.0",
+  "dataVersion": 3,
   "program": {
     "id": "mobility-program",
     "sourceTitle": "Mobility",
@@ -72,7 +72,15 @@
       "categoryIds": [
         "mobility-workout"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Mobility"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -81,8 +89,15 @@
           "nodeType": "section",
           "sourceTitle": "Warmup",
           "displayTitle": "Warm-up",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Warmup:"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Warmup:",
           "children": [
             {
@@ -292,28 +307,51 @@
               }
             },
             {
-              "id": "occurrence-hk-three-position-hip-flexor-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "hk-three-position-hip-flexor-stretch",
-              "title": "HK 3 - position hip flexor stretch",
-              "description": null,
-              "contextTagIds": [],
-              "prescription": {
+              "id": "occurrence-hk-three-position-hip-flexor-stretch-block",
+              "nodeType": "section",
+              "sourceTitle": "HK 3 - position hip flexor stretch",
+              "displayTitle": "HK 3 - position hip flexor stretch",
+              "structure": "singleActivity",
+              "execution": {
+                "method": "fixedRounds",
                 "rounds": {
                   "value": 2
                 },
-                "qualifiers": [
-                  "eachSide"
-                ],
-                "sourceText": "2 rounds each side"
+                "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side"
               },
-              "notes": [],
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side",
               "sourceRef": {
                 "sourceId": "source-1",
                 "page": 1,
                 "blockId": null
-              }
+              },
+              "children": [
+                {
+                  "id": "occurrence-hk-three-position-hip-flexor-stretch",
+                  "nodeType": "exercise",
+                  "exerciseId": "hk-three-position-hip-flexor-stretch",
+                  "title": "HK 3 - position hip flexor stretch",
+                  "description": null,
+                  "contextTagIds": [],
+                  "prescription": {
+                    "qualifiers": [
+                      "eachSide"
+                    ],
+                    "sourceText": "2 rounds each side"
+                  },
+                  "notes": [],
+                  "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 1,
+                    "blockId": null
+                  }
+                }
+              ]
             },
             {
               "id": "occurrence-banded-butterfly",
@@ -455,8 +493,15 @@
           "nodeType": "section",
           "sourceTitle": "Ankle",
           "displayTitle": "Ankle",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Ankle:"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Ankle:",
           "children": [
             {
@@ -569,8 +614,15 @@
           "nodeType": "section",
           "sourceTitle": "Hamstring",
           "displayTitle": "Hamstring",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Hamstring:"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Hamstring:",
           "children": [
             {
@@ -683,8 +735,15 @@
           "nodeType": "section",
           "sourceTitle": "Hip Flexors",
           "displayTitle": "Hip Flexors",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Hip Flexors:"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Hip Flexors:",
           "children": [
             {
@@ -796,8 +855,15 @@
           "nodeType": "section",
           "sourceTitle": "Glutes / Abductors",
           "displayTitle": "Glutes / Abductors",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Glutes / Abductors"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Glutes / Abductors",
           "children": [
             {
@@ -901,8 +967,15 @@
           "nodeType": "section",
           "sourceTitle": "Adductors / Groin",
           "displayTitle": "Adductors / Groin",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Adductors / Groin"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Adductors / Groin",
           "children": [
             {
@@ -993,8 +1066,15 @@
           "nodeType": "section",
           "sourceTitle": "T-Spine",
           "displayTitle": "T-Spine",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "T-Spine"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "T-Spine",
           "children": [
             {
@@ -1106,8 +1186,15 @@
           "nodeType": "section",
           "sourceTitle": "Lumbar",
           "displayTitle": "Lumbar",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Lumbar"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Lumbar",
           "children": [
             {
@@ -1207,8 +1294,15 @@
           "nodeType": "section",
           "sourceTitle": "Shoulder / Scap",
           "displayTitle": "Shoulder / Scap",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Shoulder / Scap"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Shoulder / Scap",
           "children": [
             {
@@ -1320,8 +1414,15 @@
           "nodeType": "section",
           "sourceTitle": "Full Body Mobility Exercises",
           "displayTitle": "Full Body Mobility Exercises",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Full Body Mobility Exercises"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Full Body Mobility Exercises",
           "children": [
             {
@@ -1481,50 +1582,508 @@
     }
   ],
   "exerciseCatalog": [
-    { "id": "lacrosse-ball-to-feet", "sourceTitle": "Lacrosse Ball to Feet", "displayTitle": "Lacrosse Ball to Feet", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "heel-toe-walk", "sourceTitle": "Heel Toe Walk", "displayTitle": "Heel Toe Walk", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "spinal-progressions", "sourceTitle": "Spinal Progressions", "displayTitle": "Spinal Progressions", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "childs-pose-ql-reach", "sourceTitle": "Childs Pose w/ QL Reach", "displayTitle": "Childs Pose w/ QL Reach", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "cobra-pose", "sourceTitle": "Cobra Pose", "displayTitle": "Cobra Pose", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "cat-cow", "sourceTitle": "Cat Cow", "displayTitle": "Cat Cow", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "foam-roll-back", "sourceTitle": "Foam Roll Back", "displayTitle": "Foam Roll Back", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "dead-hang", "sourceTitle": "Dead Hang", "displayTitle": "Dead Hang", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "hk-ankle-mobility-to-hamstring-stretch", "sourceTitle": "HK Ankle Mobility to Hamstring stretch", "displayTitle": "HK Ankle Mobility to Hamstring stretch", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "hk-three-position-hip-flexor-stretch", "sourceTitle": "HK 3 - position hip flexor stretch", "displayTitle": "HK 3 - position hip flexor stretch", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "banded-butterfly", "sourceTitle": "Banded Butterfly", "displayTitle": "Banded Butterfly", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "worlds-greatest-stretch", "sourceTitle": "World’s Greatest Stretch", "displayTitle": "World’s Greatest Stretch", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "alternating-pike-sa-reach", "sourceTitle": "Alternating Pike w/ SA Reach", "displayTitle": "Alternating Pike w/ SA Reach", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "inchworms", "sourceTitle": "Inchworms", "displayTitle": "Inchworms", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "dowell-passthroughs", "sourceTitle": "Dowell Passthroughs", "displayTitle": "Dowell Passthroughs", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "standing-dowel-rotations-lateral-flexion", "sourceTitle": "Standing Dowel Rotations and Lateral Flexion", "displayTitle": "Standing Dowel Rotations and Lateral Flexion", "description": null, "tagIds": ["mobility", "warm-up"], "aliases": [], "abbreviations": [] },
-    { "id": "airex-pad-sl-balance", "sourceTitle": "Airex Pad SL Balance", "displayTitle": "Airex Pad SL Balance", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "banded-anterior-tibialis", "sourceTitle": "Banded Anterior Tibialis", "displayTitle": "Banded Anterior Tibialis", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "ffe-split-squat-iso-calf-raise", "sourceTitle": "FFE Split Squat ISO w/ calf raise", "displayTitle": "FFE Split Squat ISO w/ calf raise", "description": null, "tagIds": ["mobility", "isometric"], "aliases": [], "abbreviations": [] },
-    { "id": "banded-dynamic-hamstring-stretch", "sourceTitle": "Banded Dynamic Hamstring Stretch", "displayTitle": "Banded Dynamic Hamstring Stretch", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "assisted-sl-rdl-hip-flexor-lift", "sourceTitle": "Assisted SL RDL to hip flexor lift", "displayTitle": "Assisted SL RDL to hip flexor lift", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "elephant-walks", "sourceTitle": "Elephant Walks", "displayTitle": "Elephant Walks", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "sl-rdl-thoracic-extension", "sourceTitle": "SL RDL to thoracic Extension", "displayTitle": "SL RDL to thoracic Extension", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "sl-hf-su-or-tall-plank-hf-dip", "sourceTitle": "SL HF S/U or Tall Plank HF Dip", "displayTitle": "SL HF S/U or Tall Plank HF Dip", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "free-motion-hip-flexion", "sourceTitle": "Free Motion Hip Flexion", "displayTitle": "Free Motion Hip Flexion", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "bench-pigeon-stretch", "sourceTitle": "Bench Pigeon Stretch", "displayTitle": "Bench Pigeon Stretch", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "90-90-cable-row", "sourceTitle": "90/90 with cable row", "displayTitle": "90/90 with cable row", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "rfe-med-ball-rotation", "sourceTitle": "RFE Med Ball Rotation", "displayTitle": "RFE Med Ball Rotation", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "frog-stretch", "sourceTitle": "Frog Stretch", "displayTitle": "Frog Stretch", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "leg-elevated-cart-glide", "sourceTitle": "Leg Elevated Cart Glide", "displayTitle": "Leg Elevated Cart Glide", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "copen-hagen-plank", "sourceTitle": "Copen Hagen Plank", "displayTitle": "Copen Hagen Plank", "description": null, "tagIds": ["mobility", "isometric"], "aliases": [], "abbreviations": [] },
-    { "id": "bench-prayer-stretch", "sourceTitle": "Bench Prayer Stretch", "displayTitle": "Bench Prayer Stretch", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "rfe-dowel-rotations", "sourceTitle": "RFE Dowel Rotations", "displayTitle": "RFE Dowel Rotations", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "3d-strap-t-spine-rotations", "sourceTitle": "3D Strap T-Spine Rotations", "displayTitle": "3D Strap T-Spine Rotations", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "back-extensions", "sourceTitle": "Back Extensions (weight optional)", "displayTitle": "Back Extensions (weight optional)", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "mb-spinal-rotations", "sourceTitle": "MB Spinal Rotations", "displayTitle": "MB Spinal Rotations", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "seated-cable-or-incline-bench-good-morning", "sourceTitle": "Seated Cable or Incline Bench good morning", "displayTitle": "Seated Cable or Incline Bench good morning", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "scap-push-up-pull-up", "sourceTitle": "Scap Push up & Pull up", "displayTitle": "Scap Push up & Pull up", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "quadruped-shoulder-car", "sourceTitle": "Quadruped Shoulder CAR", "displayTitle": "Quadruped Shoulder CAR", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "banded-row-external-rotation-press", "sourceTitle": "Banded Row to External Rotation to Press", "displayTitle": "Banded Row to External Rotation to Press", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "windmill", "sourceTitle": "Windmill", "displayTitle": "Windmill", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "oh-deep-squat-bb-or-dowel", "sourceTitle": "OH Deep Squat w/ BB or Dowel", "displayTitle": "OH Deep Squat w/ BB or Dowel", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "jefferson-curls", "sourceTitle": "Jefferson Curls - slow tempo", "displayTitle": "Jefferson Curls - slow tempo", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] },
-    { "id": "turkish-getup", "sourceTitle": "Turkish Getup", "displayTitle": "Turkish Getup", "description": null, "tagIds": ["mobility"], "aliases": [], "abbreviations": [] }
+    {
+      "id": "lacrosse-ball-to-feet",
+      "sourceTitle": "Lacrosse Ball to Feet",
+      "displayTitle": "Lacrosse Ball to Feet",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "heel-toe-walk",
+      "sourceTitle": "Heel Toe Walk",
+      "displayTitle": "Heel Toe Walk",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "spinal-progressions",
+      "sourceTitle": "Spinal Progressions",
+      "displayTitle": "Spinal Progressions",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "childs-pose-ql-reach",
+      "sourceTitle": "Childs Pose w/ QL Reach",
+      "displayTitle": "Childs Pose w/ QL Reach",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "cobra-pose",
+      "sourceTitle": "Cobra Pose",
+      "displayTitle": "Cobra Pose",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "cat-cow",
+      "sourceTitle": "Cat Cow",
+      "displayTitle": "Cat Cow",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "foam-roll-back",
+      "sourceTitle": "Foam Roll Back",
+      "displayTitle": "Foam Roll Back",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "dead-hang",
+      "sourceTitle": "Dead Hang",
+      "displayTitle": "Dead Hang",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "hk-ankle-mobility-to-hamstring-stretch",
+      "sourceTitle": "HK Ankle Mobility to Hamstring stretch",
+      "displayTitle": "HK Ankle Mobility to Hamstring stretch",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "hk-three-position-hip-flexor-stretch",
+      "sourceTitle": "HK 3 - position hip flexor stretch",
+      "displayTitle": "HK 3 - position hip flexor stretch",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "banded-butterfly",
+      "sourceTitle": "Banded Butterfly",
+      "displayTitle": "Banded Butterfly",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "worlds-greatest-stretch",
+      "sourceTitle": "World’s Greatest Stretch",
+      "displayTitle": "World’s Greatest Stretch",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "alternating-pike-sa-reach",
+      "sourceTitle": "Alternating Pike w/ SA Reach",
+      "displayTitle": "Alternating Pike w/ SA Reach",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "inchworms",
+      "sourceTitle": "Inchworms",
+      "displayTitle": "Inchworms",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "dowell-passthroughs",
+      "sourceTitle": "Dowell Passthroughs",
+      "displayTitle": "Dowell Passthroughs",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "standing-dowel-rotations-lateral-flexion",
+      "sourceTitle": "Standing Dowel Rotations and Lateral Flexion",
+      "displayTitle": "Standing Dowel Rotations and Lateral Flexion",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "warm-up"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "airex-pad-sl-balance",
+      "sourceTitle": "Airex Pad SL Balance",
+      "displayTitle": "Airex Pad SL Balance",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "banded-anterior-tibialis",
+      "sourceTitle": "Banded Anterior Tibialis",
+      "displayTitle": "Banded Anterior Tibialis",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "ffe-split-squat-iso-calf-raise",
+      "sourceTitle": "FFE Split Squat ISO w/ calf raise",
+      "displayTitle": "FFE Split Squat ISO w/ calf raise",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "isometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "banded-dynamic-hamstring-stretch",
+      "sourceTitle": "Banded Dynamic Hamstring Stretch",
+      "displayTitle": "Banded Dynamic Hamstring Stretch",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "assisted-sl-rdl-hip-flexor-lift",
+      "sourceTitle": "Assisted SL RDL to hip flexor lift",
+      "displayTitle": "Assisted SL RDL to hip flexor lift",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "elephant-walks",
+      "sourceTitle": "Elephant Walks",
+      "displayTitle": "Elephant Walks",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "sl-rdl-thoracic-extension",
+      "sourceTitle": "SL RDL to thoracic Extension",
+      "displayTitle": "SL RDL to thoracic Extension",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "sl-hf-su-or-tall-plank-hf-dip",
+      "sourceTitle": "SL HF S/U or Tall Plank HF Dip",
+      "displayTitle": "SL HF S/U or Tall Plank HF Dip",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "free-motion-hip-flexion",
+      "sourceTitle": "Free Motion Hip Flexion",
+      "displayTitle": "Free Motion Hip Flexion",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bench-pigeon-stretch",
+      "sourceTitle": "Bench Pigeon Stretch",
+      "displayTitle": "Bench Pigeon Stretch",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "90-90-cable-row",
+      "sourceTitle": "90/90 with cable row",
+      "displayTitle": "90/90 with cable row",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "rfe-med-ball-rotation",
+      "sourceTitle": "RFE Med Ball Rotation",
+      "displayTitle": "RFE Med Ball Rotation",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "frog-stretch",
+      "sourceTitle": "Frog Stretch",
+      "displayTitle": "Frog Stretch",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "leg-elevated-cart-glide",
+      "sourceTitle": "Leg Elevated Cart Glide",
+      "displayTitle": "Leg Elevated Cart Glide",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "copen-hagen-plank",
+      "sourceTitle": "Copen Hagen Plank",
+      "displayTitle": "Copen Hagen Plank",
+      "description": null,
+      "tagIds": [
+        "mobility",
+        "isometric"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "bench-prayer-stretch",
+      "sourceTitle": "Bench Prayer Stretch",
+      "displayTitle": "Bench Prayer Stretch",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "rfe-dowel-rotations",
+      "sourceTitle": "RFE Dowel Rotations",
+      "displayTitle": "RFE Dowel Rotations",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "3d-strap-t-spine-rotations",
+      "sourceTitle": "3D Strap T-Spine Rotations",
+      "displayTitle": "3D Strap T-Spine Rotations",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "back-extensions",
+      "sourceTitle": "Back Extensions (weight optional)",
+      "displayTitle": "Back Extensions (weight optional)",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "mb-spinal-rotations",
+      "sourceTitle": "MB Spinal Rotations",
+      "displayTitle": "MB Spinal Rotations",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "seated-cable-or-incline-bench-good-morning",
+      "sourceTitle": "Seated Cable or Incline Bench good morning",
+      "displayTitle": "Seated Cable or Incline Bench good morning",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "scap-push-up-pull-up",
+      "sourceTitle": "Scap Push up & Pull up",
+      "displayTitle": "Scap Push up & Pull up",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "quadruped-shoulder-car",
+      "sourceTitle": "Quadruped Shoulder CAR",
+      "displayTitle": "Quadruped Shoulder CAR",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "banded-row-external-rotation-press",
+      "sourceTitle": "Banded Row to External Rotation to Press",
+      "displayTitle": "Banded Row to External Rotation to Press",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "windmill",
+      "sourceTitle": "Windmill",
+      "displayTitle": "Windmill",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "oh-deep-squat-bb-or-dowel",
+      "sourceTitle": "OH Deep Squat w/ BB or Dowel",
+      "displayTitle": "OH Deep Squat w/ BB or Dowel",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "jefferson-curls",
+      "sourceTitle": "Jefferson Curls - slow tempo",
+      "displayTitle": "Jefferson Curls - slow tempo",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "turkish-getup",
+      "sourceTitle": "Turkish Getup",
+      "displayTitle": "Turkish Getup",
+      "description": null,
+      "tagIds": [
+        "mobility"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    }
   ],
   "editorialIssues": [
     {
@@ -1613,8 +2172,8 @@
     }
   ],
   "parseMetadata": {
-    "parserVersion": "1.0.0",
-    "parsedAt": "2026-09-19T04:09:25Z",
+    "parserVersion": "1.1.0",
+    "parsedAt": "2026-09-22T00:00:00Z",
     "reviewStatus": "needsReview",
     "sourceHash": "7214d04e95eac169a44139e52dcf168f33300bf777885f688b0446318e1b8d07"
   }

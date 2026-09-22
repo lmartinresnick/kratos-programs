@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "dataVersion": 2,
+  "schemaVersion": "1.1.0",
+  "dataVersion": 3,
   "program": {
     "id": "vertical-jump-base",
     "sourceTitle": "Vertical Jump Base",
@@ -1572,8 +1572,15 @@
           "nodeType": "section",
           "sourceTitle": "Phase 1 – Weeks 1 – 3",
           "displayTitle": "Phase 1",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Phase 1 – Weeks 1 – 3"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Phase 1 – Weeks 1 – 3",
           "children": [
             {
@@ -1781,8 +1788,15 @@
           "nodeType": "section",
           "sourceTitle": "Phase 2 – Weeks 4 – 6",
           "displayTitle": "Phase 2",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Phase 2 – Weeks 4 – 6"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Phase 2 – Weeks 4 – 6",
           "children": [
             {
@@ -2013,8 +2027,15 @@
           "nodeType": "section",
           "sourceTitle": "Phase 3 – Weeks 7 – 8",
           "displayTitle": "Phase 3",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Phase 3 – Weeks 7 – 8"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Phase 3 – Weeks 7 – 8",
           "children": [
             {
@@ -2238,7 +2259,15 @@
         "category-strength",
         "category-plyometrics"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 1"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2247,8 +2276,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "children": [
             {
@@ -2398,8 +2434,15 @@
           "nodeType": "section",
           "sourceTitle": "Plyos",
           "displayTitle": "Plyometrics",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Plyos"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Plyos",
           "children": [
             {
@@ -2461,7 +2504,15 @@
         "category-strength",
         "category-medicine-ball"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 2"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2470,8 +2521,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "children": [
             {
@@ -2562,8 +2620,15 @@
           "nodeType": "section",
           "sourceTitle": "Medicine Ball Exercises",
           "displayTitle": "Medicine Ball Exercises",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Medicine Ball Exercises"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Medicine Ball Exercises",
           "children": [
             {
@@ -2621,7 +2686,15 @@
         "category-strength",
         "category-plyometrics"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 4"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2630,8 +2703,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "children": [
             {
@@ -2784,8 +2864,15 @@
           "nodeType": "section",
           "sourceTitle": "Plyos",
           "displayTitle": "Plyometrics",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Plyos"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Plyos",
           "children": [
             {
@@ -2846,7 +2933,15 @@
         "category-strength",
         "category-medicine-ball"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 5"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2855,8 +2950,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "children": [
             {
@@ -2953,8 +3055,15 @@
           "nodeType": "section",
           "sourceTitle": "Medicine Ball Exercises",
           "displayTitle": "Medicine Ball Exercises",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Medicine Ball Exercises"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Medicine Ball Exercises",
           "children": [
             {
@@ -3015,7 +3124,15 @@
         "category-strength",
         "category-plyometrics"
       ],
-      "format": "complex",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 1"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3024,8 +3141,15 @@
           "nodeType": "section",
           "sourceTitle": "Day 1",
           "displayTitle": "Day 1",
-          "format": "complex",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Day 1"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": null,
           "children": [
             {
@@ -3033,8 +3157,18 @@
               "nodeType": "section",
               "sourceTitle": "Deadlift + Clean Pull",
               "displayTitle": "Deadlift + Clean Pull",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
               "children": [
                 {
@@ -3094,8 +3228,18 @@
               "nodeType": "section",
               "sourceTitle": "Back Squats + Squat Jumps",
               "displayTitle": "Back Squats + Squat Jumps",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
               "children": [
                 {
@@ -3154,8 +3298,18 @@
               "nodeType": "section",
               "sourceTitle": "Lunges + Split cycle jumps",
               "displayTitle": "Lunges + Split cycle jumps",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Lunges + Split cycle jumps: 3x4-8+5 Jumps each leg",
               "children": [
                 {
@@ -3272,7 +3426,15 @@
         "category-strength",
         "category-medicine-ball"
       ],
-      "format": "complex",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 2"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3281,8 +3443,15 @@
           "nodeType": "section",
           "sourceTitle": "Day 2",
           "displayTitle": "Day 2",
-          "format": "complex",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Day 2"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": null,
           "children": [
             {
@@ -3290,8 +3459,18 @@
               "nodeType": "section",
               "sourceTitle": "Bench Press + Medicine Ball Chest Pass",
               "displayTitle": "Bench Press + Medicine Ball Chest Pass",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
               "children": [
                 {
@@ -3353,8 +3532,18 @@
               "nodeType": "section",
               "sourceTitle": "Bent-Over Rows + Medicine Ball Backwards Toss",
               "displayTitle": "Bent-Over Rows + Medicine Ball Backwards Toss",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Bent-Over Rows + Medicine Ball Backwards Toss: 3x4-8 + 10 throws",
               "children": [
                 {
@@ -3410,8 +3599,18 @@
               "nodeType": "section",
               "sourceTitle": "Standing Military Press + Medicine Ball Front Toss",
               "displayTitle": "Standing Military Press + Medicine Ball Front Toss",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Standing Military Press + Medicine Ball Front Toss: 3x4-8 + 10 throws",
               "children": [
                 {
@@ -3475,7 +3674,15 @@
         "category-strength",
         "category-plyometrics"
       ],
-      "format": "complex",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 4"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3484,8 +3691,15 @@
           "nodeType": "section",
           "sourceTitle": "Day 4",
           "displayTitle": "Day 4",
-          "format": "complex",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Day 4"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": null,
           "children": [
             {
@@ -3493,8 +3707,18 @@
               "nodeType": "section",
               "sourceTitle": "Snatch-Grip Deadlifts + Snatch Pulls",
               "displayTitle": "Snatch-Grip Deadlifts + Snatch Pulls",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Snatch-Grip Deadlifts + Snatch Pulls: 3x4-8 + 3-6@80% of Power Snatch",
               "children": [
                 {
@@ -3554,8 +3778,18 @@
               "nodeType": "section",
               "sourceTitle": "Split Squats + Split Jumps",
               "displayTitle": "Split Squats + Split Jumps",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Split Squats + Split Jumps: 3x4-8@40% of Back Squat + 5 Jumps, each leg",
               "children": [
                 {
@@ -3620,8 +3854,18 @@
               "nodeType": "section",
               "sourceTitle": "Step-Ups + Box Jumps (to a height)",
               "displayTitle": "Step-Ups + Box Jumps (to a height)",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Step-Ups + Box Jumps (to a height): 3x4-8 each leg + 10 Jumps",
               "children": [
                 {
@@ -3738,7 +3982,15 @@
         "category-strength",
         "category-medicine-ball"
       ],
-      "format": "complex",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 5"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3747,8 +3999,15 @@
           "nodeType": "section",
           "sourceTitle": "Day 5",
           "displayTitle": "Day 5",
-          "format": "complex",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Day 5"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": null,
           "children": [
             {
@@ -3756,8 +4015,18 @@
               "nodeType": "section",
               "sourceTitle": "Incline Press + Lying Medicine Ball Chest Pass",
               "displayTitle": "Incline Press + Lying Medicine Ball Chest Pass",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
               "children": [
                 {
@@ -3819,8 +4088,18 @@
               "nodeType": "section",
               "sourceTitle": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss",
               "displayTitle": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss",
-              "format": "complex",
-              "rounds": 3,
+              "structure": "complex",
+              "execution": {
+                "method": "fixedRounds",
+                "rounds": {
+                  "value": 3
+                },
+                "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "Single-Arm Dumbbell Rows + Medicine Ball Side Toss: 3x4-8 + 5 throws each arm/side",
               "children": [
                 {
@@ -4663,8 +4942,8 @@
     }
   ],
   "parseMetadata": {
-    "parserVersion": "1.0.0",
-    "parsedAt": "2026-09-18T00:00:00Z",
+    "parserVersion": "1.1.0",
+    "parsedAt": "2026-09-22T00:00:00Z",
     "reviewStatus": "needsReview",
     "sourceHash": "cbf2ae8fe5a62de4687af9d14da53b0e9e00a3d22c638ff24c418a7d94240796"
   }

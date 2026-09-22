@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "dataVersion": 3,
+  "schemaVersion": "1.1.0",
+  "dataVersion": 4,
   "program": {
     "id": "luke-program",
     "sourceTitle": "Luke Program",
@@ -1571,7 +1571,15 @@
       "categoryIds": [
         "strength-workouts"
       ],
-      "format": "pairedSet",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 1: Lower Body & low intense plyo’s"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -1580,8 +1588,18 @@
           "nodeType": "section",
           "sourceTitle": "A1-A2",
           "displayTitle": "Pair A",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "A1: Pogo Jumps (DL and SL) 3 x 10 yds each\nA2: Anterior Tibs 3 x 10"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "A1: Pogo Jumps (DL and SL) 3 x 10 yds each\nA2: Anterior Tibs 3 x 10",
           "children": [
             {
@@ -1594,9 +1612,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "distance": {
                   "value": 10,
                   "unit": "yards"
@@ -1622,9 +1637,6 @@
               "description": null,
               "contextTagIds": [],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 10
                 },
@@ -1645,8 +1657,18 @@
           "nodeType": "section",
           "sourceTitle": "B1-B2",
           "displayTitle": "Pair B",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "B1: Heavy front squats 3 x 5 @ 85%\nB2: Box Jumps 3 x 5"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "B1: Heavy front squats 3 x 5 @ 85%\nB2: Box Jumps 3 x 5",
           "children": [
             {
@@ -1659,9 +1681,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 5
                 },
@@ -1692,9 +1711,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 5
                 },
@@ -1715,8 +1731,18 @@
           "nodeType": "section",
           "sourceTitle": "C1-C2",
           "displayTitle": "Pair C",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "C1: SL BB RDL 3 x 8 @ 95lbs\nC2: SA KB Farmers March 3 x 10 yds per side"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "C1: SL BB RDL 3 x 8 @ 95lbs\nC2: SA KB Farmers March 3 x 10 yds per side",
           "children": [
             {
@@ -1729,9 +1755,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -1761,9 +1784,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "distance": {
                   "value": 10,
                   "unit": "yards"
@@ -1788,8 +1808,18 @@
           "nodeType": "section",
           "sourceTitle": "D1-D2",
           "displayTitle": "Pair D",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "D1: Reverse lunges w/knee drive 3 x 8\nD2: ISO calf hold w/ db 3 x 20 seconds each side"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "D1: Reverse lunges w/knee drive 3 x 8\nD2: ISO calf hold w/ db 3 x 20 seconds each side",
           "children": [
             {
@@ -1802,9 +1832,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -1829,9 +1856,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "duration": {
                   "value": 20,
                   "unit": "seconds"
@@ -1861,7 +1885,15 @@
       "categoryIds": [
         "strength-workouts"
       ],
-      "format": "pairedSet",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 2: Upper Body & Moderate Plyo’s"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -1870,8 +1902,18 @@
           "nodeType": "section",
           "sourceTitle": "A1-A2",
           "displayTitle": "Pair A",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "A1: Depth Drops 3 x 6 @ 24 inches\nA2: DL double hop hurdles 3 x 6"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "A1: Depth Drops 3 x 6 @ 24 inches\nA2: DL double hop hurdles 3 x 6",
           "children": [
             {
@@ -1884,9 +1926,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 6
                 },
@@ -1918,9 +1957,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 6
                 },
@@ -1964,8 +2000,15 @@
           "nodeType": "section",
           "sourceTitle": "B1-B2",
           "displayTitle": "Pair B",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "B1: Bench Press 4 x 5 @ 85%\nB2: Bent over medball pass 3 x 5"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "B1: Bench Press 4 x 5 @ 85%\nB2: Bent over medball pass 3 x 5",
           "children": [
             {
@@ -2033,8 +2076,18 @@
           "nodeType": "section",
           "sourceTitle": "C1-C2",
           "displayTitle": "Pair C",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "C1: Pendlay Rows 3 x 8\nC2: KB pull through 3 x 12 total"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "C1: Pendlay Rows 3 x 8\nC2: KB pull through 3 x 12 total",
           "children": [
             {
@@ -2047,9 +2100,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -2073,9 +2123,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2099,8 +2146,18 @@
           "nodeType": "section",
           "sourceTitle": "D1-D2",
           "displayTitle": "Pair D",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each\nD2: Banded face pulls 3 x 12"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each\nD2: Banded face pulls 3 x 12",
           "children": [
             {
@@ -2113,9 +2170,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -2146,9 +2200,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2174,7 +2225,15 @@
       "categoryIds": [
         "strength-workouts"
       ],
-      "format": "pairedSet",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 3: Lower Body & Low Intense Plyos"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2183,8 +2242,18 @@
           "nodeType": "section",
           "sourceTitle": "A1-A2",
           "displayTitle": "Pair A",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "A1: SL Lateral Pogos 3 x 20 seconds each leg\nA2: Skater hops with stick landing 3 x 6 each leg"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "A1: SL Lateral Pogos 3 x 20 seconds each leg\nA2: Skater hops with stick landing 3 x 6 each leg",
           "children": [
             {
@@ -2197,9 +2266,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "duration": {
                   "value": 20,
                   "unit": "seconds"
@@ -2228,9 +2294,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 6
                 },
@@ -2254,8 +2317,18 @@
           "nodeType": "section",
           "sourceTitle": "B1-B2",
           "displayTitle": "Pair B",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%\nB2: Double broad jump 3 x 5"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%\nB2: Double broad jump 3 x 5",
           "children": [
             {
@@ -2268,9 +2341,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 5
                 },
@@ -2301,9 +2371,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 5
                 },
@@ -2324,8 +2391,18 @@
           "nodeType": "section",
           "sourceTitle": "C1-C2",
           "displayTitle": "Pair C",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "C1: Goblet Hold lateral lunge 3 x 8 each side\nC2: Copenhagen 3 x 30 seconds each side"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "C1: Goblet Hold lateral lunge 3 x 8 each side\nC2: Copenhagen 3 x 30 seconds each side",
           "children": [
             {
@@ -2338,9 +2415,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -2368,9 +2442,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
@@ -2395,8 +2466,18 @@
           "nodeType": "section",
           "sourceTitle": "D1-D2",
           "displayTitle": "Pair D",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs\nD2: Swiss Ball hammy curls 3 x 8"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs\nD2: Swiss Ball hammy curls 3 x 8",
           "children": [
             {
@@ -2410,9 +2491,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
@@ -2446,9 +2524,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 8
                 },
@@ -2474,7 +2549,15 @@
       "categoryIds": [
         "strength-workouts"
       ],
-      "format": "pairedSet",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 4: Upper Body & moderate Plyo’s"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2483,8 +2566,18 @@
           "nodeType": "section",
           "sourceTitle": "A1-A2",
           "displayTitle": "Pair A",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "A1: Split Squat pulses 3 x 20 seconds each\nA2: approach tuck jumps 3 x 6"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "A1: Split Squat pulses 3 x 20 seconds each\nA2: approach tuck jumps 3 x 6",
           "children": [
             {
@@ -2497,9 +2590,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "duration": {
                   "value": 20,
                   "unit": "seconds"
@@ -2528,9 +2618,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 6
                 },
@@ -2551,8 +2638,18 @@
           "nodeType": "section",
           "sourceTitle": "B1-B2",
           "displayTitle": "Pair B",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 4
+            },
+            "sourceText": "B1: ISO push up 4 x 30 sec\nB2: plyo push up 4 x 5 each"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "B1: ISO push up 4 x 30 sec\nB2: plyo push up 4 x 5 each",
           "children": [
             {
@@ -2566,9 +2663,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 4
-                },
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
@@ -2594,9 +2688,6 @@
                 "plyometric"
               ],
               "prescription": {
-                "sets": {
-                  "value": 4
-                },
                 "reps": {
                   "value": 5
                 },
@@ -2620,8 +2711,18 @@
           "nodeType": "section",
           "sourceTitle": "C1-C2",
           "displayTitle": "Pair C",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "C1: DB bent over row 3 x 12\nC2: Half kneeling SA military press 3 x 12"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "C1: DB bent over row 3 x 12\nC2: Half kneeling SA military press 3 x 12",
           "children": [
             {
@@ -2634,9 +2735,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2660,9 +2758,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2683,8 +2778,18 @@
           "nodeType": "section",
           "sourceTitle": "D1-D2",
           "displayTitle": "Pair D",
-          "format": "pairedSet",
-          "rounds": null,
+          "structure": "pairedSet",
+          "execution": {
+            "method": "fixedSets",
+            "sets": {
+              "value": 3
+            },
+            "sourceText": "D1: Swimmers 3 x 12\nD2: KB Chop 3 x 12 each side"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "D1: Swimmers 3 x 12\nD2: KB Chop 3 x 12 each side",
           "children": [
             {
@@ -2697,9 +2802,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2723,9 +2825,6 @@
                 "strength"
               ],
               "prescription": {
-                "sets": {
-                  "value": 3
-                },
                 "reps": {
                   "value": 12
                 },
@@ -2754,7 +2853,15 @@
       "categoryIds": [
         "conditioning-workouts"
       ],
-      "format": "interval",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 1 Conditioning"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2763,126 +2870,202 @@
           "nodeType": "section",
           "sourceTitle": "Day 1 Conditioning",
           "displayTitle": "Intervals",
-          "format": "interval",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest\n4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest\n4 x 30sec intervals @ 12 speed w/ 30 sec rest"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest\n4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest\n4 x 30sec intervals @ 12 speed w/ 30 sec rest",
           "children": [
             {
-              "id": "day-01-conditioning-interval-01",
-              "nodeType": "exercise",
-              "exerciseId": "speed-interval",
-              "title": "2:00 min intervals",
-              "description": null,
-              "contextTagIds": [
-                "cardio",
-                "conditioning"
-              ],
-              "prescription": {
+              "id": "day-01-conditioning-interval-01-block",
+              "nodeType": "section",
+              "sourceTitle": "2:00 min intervals",
+              "displayTitle": "2:00 min intervals",
+              "structure": "singleActivity",
+              "execution": {
+                "method": "workRest",
                 "rounds": {
                   "value": 4
                 },
-                "duration": {
+                "workInterval": {
                   "value": 2,
                   "unit": "minutes"
                 },
-                "rest": {
+                "restInterval": {
                   "value": 1.5,
                   "unit": "minutes"
                 },
-                "targets": [
-                  {
-                    "metric": "speed",
-                    "value": 9,
-                    "unit": "sourceScaleUnknown"
-                  }
-                ],
                 "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest"
               },
-              "notes": [],
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest",
               "sourceRef": {
                 "sourceId": "source-1",
                 "page": 2,
                 "blockId": null
-              }
+              },
+              "children": [
+                {
+                  "id": "day-01-conditioning-interval-01",
+                  "nodeType": "exercise",
+                  "exerciseId": "speed-interval",
+                  "title": "2:00 min intervals",
+                  "description": null,
+                  "contextTagIds": [
+                    "cardio",
+                    "conditioning"
+                  ],
+                  "prescription": {
+                    "targets": [
+                      {
+                        "metric": "speed",
+                        "value": 9,
+                        "unit": "sourceScaleUnknown"
+                      }
+                    ],
+                    "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest"
+                  },
+                  "notes": [],
+                  "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
+              ]
             },
             {
-              "id": "day-01-conditioning-interval-02",
-              "nodeType": "exercise",
-              "exerciseId": "speed-interval",
-              "title": "1:00 min intervals",
-              "description": null,
-              "contextTagIds": [
-                "cardio",
-                "conditioning"
-              ],
-              "prescription": {
+              "id": "day-01-conditioning-interval-02-block",
+              "nodeType": "section",
+              "sourceTitle": "1:00 min intervals",
+              "displayTitle": "1:00 min intervals",
+              "structure": "singleActivity",
+              "execution": {
+                "method": "workRest",
                 "rounds": {
                   "value": 4
                 },
-                "duration": {
+                "workInterval": {
                   "value": 1,
                   "unit": "minutes"
                 },
-                "rest": {
+                "restInterval": {
                   "value": 45,
                   "unit": "seconds"
                 },
-                "targets": [
-                  {
-                    "metric": "speed",
-                    "value": 10.5,
-                    "unit": "sourceScaleUnknown"
-                  }
-                ],
                 "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest"
               },
-              "notes": [],
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest",
               "sourceRef": {
                 "sourceId": "source-1",
                 "page": 2,
                 "blockId": null
-              }
+              },
+              "children": [
+                {
+                  "id": "day-01-conditioning-interval-02",
+                  "nodeType": "exercise",
+                  "exerciseId": "speed-interval",
+                  "title": "1:00 min intervals",
+                  "description": null,
+                  "contextTagIds": [
+                    "cardio",
+                    "conditioning"
+                  ],
+                  "prescription": {
+                    "targets": [
+                      {
+                        "metric": "speed",
+                        "value": 10.5,
+                        "unit": "sourceScaleUnknown"
+                      }
+                    ],
+                    "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest"
+                  },
+                  "notes": [],
+                  "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
+              ]
             },
             {
-              "id": "day-01-conditioning-interval-03",
-              "nodeType": "exercise",
-              "exerciseId": "speed-interval",
-              "title": "30sec intervals",
-              "description": null,
-              "contextTagIds": [
-                "cardio",
-                "conditioning"
-              ],
-              "prescription": {
+              "id": "day-01-conditioning-interval-03-block",
+              "nodeType": "section",
+              "sourceTitle": "30sec intervals",
+              "displayTitle": "30sec intervals",
+              "structure": "singleActivity",
+              "execution": {
+                "method": "workRest",
                 "rounds": {
                   "value": 4
                 },
-                "duration": {
+                "workInterval": {
                   "value": 30,
                   "unit": "seconds"
                 },
-                "rest": {
+                "restInterval": {
                   "value": 30,
                   "unit": "seconds"
                 },
-                "targets": [
-                  {
-                    "metric": "speed",
-                    "value": 12,
-                    "unit": "sourceScaleUnknown"
-                  }
-                ],
                 "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest"
               },
-              "notes": [],
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest",
               "sourceRef": {
                 "sourceId": "source-1",
                 "page": 2,
                 "blockId": null
-              }
+              },
+              "children": [
+                {
+                  "id": "day-01-conditioning-interval-03",
+                  "nodeType": "exercise",
+                  "exerciseId": "speed-interval",
+                  "title": "30sec intervals",
+                  "description": null,
+                  "contextTagIds": [
+                    "cardio",
+                    "conditioning"
+                  ],
+                  "prescription": {
+                    "targets": [
+                      {
+                        "metric": "speed",
+                        "value": 12,
+                        "unit": "sourceScaleUnknown"
+                      }
+                    ],
+                    "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest"
+                  },
+                  "notes": [],
+                  "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest",
+                  "sourceRef": {
+                    "sourceId": "source-1",
+                    "page": 2,
+                    "blockId": null
+                  }
+                }
+              ]
             }
           ]
         }
@@ -2896,7 +3079,15 @@
       "categoryIds": [
         "conditioning-workouts"
       ],
-      "format": "interval",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 2 Conditioning"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2905,8 +3096,26 @@
           "nodeType": "section",
           "sourceTitle": "Day 2 Conditioning",
           "displayTitle": "Row Intervals",
-          "format": "interval",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "workRest",
+            "rounds": {
+              "value": 12
+            },
+            "workInterval": {
+              "value": 1,
+              "unit": "minutes"
+            },
+            "restInterval": {
+              "value": 1,
+              "unit": "minutes"
+            },
+            "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
           "children": [
             {
@@ -2920,16 +3129,9 @@
                 "conditioning"
               ],
               "prescription": {
-                "rounds": {
-                  "value": 12
-                },
                 "distance": {
                   "value": 300,
                   "unit": "meters"
-                },
-                "rest": {
-                  "value": 1,
-                  "unit": "minutes"
                 },
                 "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest"
               },
@@ -2953,7 +3155,15 @@
       "categoryIds": [
         "conditioning-workouts"
       ],
-      "format": "interval",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 3 Conditioning"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2962,8 +3172,26 @@
           "nodeType": "section",
           "sourceTitle": "Day 3 Conditioning",
           "displayTitle": "Assault Bike Intervals",
-          "format": "interval",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "workRest",
+            "rounds": {
+              "value": 10
+            },
+            "workInterval": {
+              "value": 30,
+              "unit": "seconds"
+            },
+            "restInterval": {
+              "value": 90,
+              "unit": "seconds"
+            },
+            "sourceText": "10 x 30 sec assault bike @ 16 kcal 1 min 30 sec rest"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "10 x 30 sec assault bike @ 16 kcal 1 min 30 sec rest",
           "children": [
             {
@@ -2977,17 +3205,6 @@
                 "conditioning"
               ],
               "prescription": {
-                "rounds": {
-                  "value": 10
-                },
-                "duration": {
-                  "value": 30,
-                  "unit": "seconds"
-                },
-                "rest": {
-                  "value": 90,
-                  "unit": "seconds"
-                },
                 "targets": [
                   {
                     "metric": "energy",
@@ -3017,7 +3234,15 @@
       "categoryIds": [
         "conditioning-workouts"
       ],
-      "format": "interval",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 4 Conditioning"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3026,8 +3251,18 @@
           "nodeType": "section",
           "sourceTitle": "Day 4 Conditioning",
           "displayTitle": "Run Intervals",
-          "format": "interval",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "workRest",
+            "rounds": {
+              "value": 8
+            },
+            "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio",
           "children": [
             {
@@ -3041,9 +3276,6 @@
                 "conditioning"
               ],
               "prescription": {
-                "rounds": {
-                  "value": 8
-                },
                 "distance": {
                   "value": 400,
                   "unit": "meters"
@@ -3700,8 +3932,8 @@
     }
   ],
   "parseMetadata": {
-    "parserVersion": "1.0.0",
-    "parsedAt": "2026-09-19T00:00:00Z",
+    "parserVersion": "1.1.0",
+    "parsedAt": "2026-09-22T00:00:00Z",
     "reviewStatus": "needsReview",
     "sourceHash": "3cdd5ab5984aedbffbf3a632db18e6e52e3dd7e98805609423180b94156ddc08"
   }

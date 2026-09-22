@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "dataVersion": 1,
+  "schemaVersion": "1.1.0",
+  "dataVersion": 2,
   "program": {
     "id": "captain-america-workout",
     "sourceTitle": "Captain America Workout (12 Weeks)",
@@ -2482,7 +2482,15 @@
         "category-abs",
         "category-cardio"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 1"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2491,8 +2499,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "sourceRef": {
             "sourceId": "source-1",
@@ -2663,8 +2678,15 @@
           "nodeType": "section",
           "sourceTitle": "Abs (Superset)",
           "displayTitle": "Abs (Superset)",
-          "format": "superset",
-          "rounds": null,
+          "structure": "giantSet",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Abs (Superset)"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Abs (Superset)",
           "sourceRef": {
             "sourceId": "source-1",
@@ -2780,8 +2802,15 @@
           "nodeType": "section",
           "sourceTitle": "Cardio",
           "displayTitle": "Cardio",
-          "format": "standard",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Cardio"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Cardio",
           "sourceRef": {
             "sourceId": "source-1",
@@ -2823,7 +2852,15 @@
         "category-abs",
         "category-cardio"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 2"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -2832,8 +2869,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3004,8 +3048,15 @@
           "nodeType": "section",
           "sourceTitle": "Abs (Superset)",
           "displayTitle": "Abs (Superset)",
-          "format": "superset",
-          "rounds": null,
+          "structure": "giantSet",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Abs (Superset)"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Abs (Superset)",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3132,8 +3183,15 @@
           "nodeType": "section",
           "sourceTitle": "Cardio",
           "displayTitle": "Cardio",
-          "format": "standard",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Cardio"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Cardio",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3179,7 +3237,15 @@
         "category-abs",
         "category-cardio"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 4"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3188,8 +3254,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3360,8 +3433,15 @@
           "nodeType": "section",
           "sourceTitle": "Abs (Superset)",
           "displayTitle": "Abs (Superset)",
-          "format": "superset",
-          "rounds": null,
+          "structure": "giantSet",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Abs (Superset)"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Abs (Superset)",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3481,8 +3561,15 @@
           "nodeType": "section",
           "sourceTitle": "Cardio",
           "displayTitle": "Cardio",
-          "format": "standard",
-          "rounds": null,
+          "structure": "singleActivity",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Cardio"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Cardio",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3523,7 +3610,15 @@
         "category-strength",
         "category-abs"
       ],
-      "format": "standard",
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Day 5"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
       "tags": [],
       "notes": [],
       "sections": [
@@ -3532,8 +3627,15 @@
           "nodeType": "section",
           "sourceTitle": "Strength",
           "displayTitle": "Strength",
-          "format": "standard",
-          "rounds": null,
+          "structure": "sequence",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Strength"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Strength",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3704,8 +3806,15 @@
           "nodeType": "section",
           "sourceTitle": "Abs (Superset)",
           "displayTitle": "Abs (Superset)",
-          "format": "superset",
-          "rounds": null,
+          "structure": "giantSet",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Abs (Superset)"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
           "sourceText": "Abs (Superset)",
           "sourceRef": {
             "sourceId": "source-1",
@@ -3718,8 +3827,15 @@
               "nodeType": "section",
               "sourceTitle": "3 Minute Shredder",
               "displayTitle": "3 Minute Shredder",
-              "format": "standard",
-              "rounds": null,
+              "structure": "sequence",
+              "execution": {
+                "method": "sourceDefined",
+                "sourceText": "3 Minute Shredder"
+              },
+              "scoring": {
+                "method": "none",
+                "sourceText": null
+              },
               "sourceText": "3 Minute Shredder",
               "sourceRef": {
                 "sourceId": "source-1",
@@ -4312,8 +4428,8 @@
     }
   ],
   "parseMetadata": {
-    "parserVersion": "1.0.0",
-    "parsedAt": "2026-09-18T00:00:00Z",
+    "parserVersion": "1.1.0",
+    "parsedAt": "2026-09-22T00:00:00Z",
     "reviewStatus": "needsReview",
     "sourceHash": "2a13850f7e67c7c9351ed42c8318cc146efca8ea0680516043de76fedd667016"
   }
