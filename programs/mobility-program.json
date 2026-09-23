@@ -1,22 +1,22 @@
 {
-  "schemaVersion": "1.1.0",
-  "dataVersion": 4,
+  "schema_version": "2.0.0",
+  "data_version": 5,
   "program": {
     "id": "mobility-program",
-    "sourceTitle": "Mobility",
-    "displayTitle": "Mobility",
+    "source_title": "Mobility",
+    "display_title": "Mobility",
     "summary": null,
     "goals": [],
     "difficulty": null,
     "duration": {
       "weeks": null,
       "days": null,
-      "sourceText": null
+      "source_text": null
     },
-    "daysPerWeek": {
+    "days_per_week": {
       "minimum": null,
       "maximum": null,
-      "sourceText": null
+      "source_text": null
     },
     "tags": []
   },
@@ -24,29 +24,29 @@
     {
       "id": "source-1",
       "kind": "pdf",
-      "fileName": "48abcf38-6e39-474f-889c-94dbe20e1c65.Mobility-.pdf",
+      "file_name": "48abcf38-6e39-474f-889c-94dbe20e1c65.Mobility-.pdf",
       "url": null,
       "author": null,
       "publisher": null
     }
   ],
-  "contentTypes": [
+  "content_types": [
     "workoutCollection"
   ],
-  "tagCatalog": [
+  "tag_catalog": [
     {
       "id": "mobility",
-      "displayName": "Mobility",
+      "display_name": "Mobility",
       "aliases": []
     },
     {
       "id": "isometric",
-      "displayName": "Isometric",
+      "display_name": "Isometric",
       "aliases": []
     },
     {
       "id": "warm-up",
-      "displayName": "Warm-up",
+      "display_name": "Warm-up",
       "aliases": [
         "warmup"
       ]
@@ -55,58 +55,58 @@
   "categories": [
     {
       "id": "mobility-workout",
-      "displayName": "Mobility",
-      "recognizedKind": "mobility"
+      "display_name": "Mobility",
+      "recognized_kind": "mobility"
     }
   ],
   "groupings": [],
   "schedule": null,
-  "dayTemplates": [],
-  "supplementalProtocols": [],
-  "workoutCatalog": [
+  "day_templates": [],
+  "supplemental_protocols": [],
+  "workout_catalog": [
     {
       "id": "mobility-collection",
-      "sourceTitle": "Mobility",
-      "displayTitle": "Mobility",
+      "source_title": "Mobility",
+      "display_title": "Mobility",
       "description": null,
-      "categoryIds": [
+      "category_ids": [
         "mobility-workout"
       ],
       "structure": "sequence",
       "execution": {
         "method": "sourceDefined",
-        "sourceText": "Mobility"
+        "source_text": "Mobility"
       },
       "scoring": {
         "method": "none",
-        "sourceText": null
+        "source_text": null
       },
       "tags": [],
       "notes": [],
       "sections": [
         {
           "id": "section-warmup",
-          "nodeType": "section",
-          "sourceTitle": "Warmup",
-          "displayTitle": "Warm-up",
+          "node_type": "section",
+          "source_title": "Warmup",
+          "display_title": "Warm-up",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Warmup:"
+            "source_text": "Warmup:"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Warmup:",
+          "source_text": "Warmup:",
           "children": [
             {
               "id": "occurrence-lacrosse-ball-to-feet",
-              "nodeType": "exercise",
-              "exerciseId": "lacrosse-ball-to-feet",
+              "node_type": "exercise",
+              "exercise_id": "lacrosse-ball-to-feet",
               "title": "Lacrosse Ball to Feet",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "duration": {
                   "value": 30,
@@ -115,45 +115,45 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "30 sec ea"
+                "source_text": "30 sec ea"
               },
               "notes": [],
-              "sourceText": "Lacrosse Ball to Feet: 30 sec ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Lacrosse Ball to Feet: 30 sec ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-heel-toe-walk",
-              "nodeType": "exercise",
-              "exerciseId": "heel-toe-walk",
+              "node_type": "exercise",
+              "exercise_id": "heel-toe-walk",
               "title": "Heel Toe Walk",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "distance": {
                   "value": 20,
                   "unit": "yards"
                 },
-                "sourceText": "20 yds"
+                "source_text": "20 yds"
               },
               "notes": [],
-              "sourceText": "Heel Toe Walk: 20 yds",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Heel Toe Walk: 20 yds",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-spinal-progressions",
-              "nodeType": "exercise",
-              "exerciseId": "spinal-progressions",
+              "node_type": "exercise",
+              "exercise_id": "spinal-progressions",
               "title": "Spinal Progressions",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 3
@@ -161,23 +161,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "3 each side"
+                "source_text": "3 each side"
               },
               "notes": [],
-              "sourceText": "Spinal Progressions: 3 each side",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Spinal Progressions: 3 each side",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-childs-pose-ql-reach",
-              "nodeType": "exercise",
-              "exerciseId": "childs-pose-ql-reach",
+              "node_type": "exercise",
+              "exercise_id": "childs-pose-ql-reach",
               "title": "Childs Pose w/ QL Reach",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "duration": {
                   "value": 20,
@@ -186,109 +186,109 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "20 sec each"
+                "source_text": "20 sec each"
               },
               "notes": [],
-              "sourceText": "Childs Pose w/ QL Reach: 20 sec each",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Childs Pose w/ QL Reach: 20 sec each",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-cobra-pose",
-              "nodeType": "exercise",
-              "exerciseId": "cobra-pose",
+              "node_type": "exercise",
+              "exercise_id": "cobra-pose",
               "title": "Cobra Pose",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 5
                 },
-                "sourceText": "5 reps"
+                "source_text": "5 reps"
               },
               "notes": [],
-              "sourceText": "Cobra Pose: 5 reps",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Cobra Pose: 5 reps",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-cat-cow",
-              "nodeType": "exercise",
-              "exerciseId": "cat-cow",
+              "node_type": "exercise",
+              "exercise_id": "cat-cow",
               "title": "Cat Cow",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 5
                 },
-                "sourceText": "5 reps"
+                "source_text": "5 reps"
               },
               "notes": [],
-              "sourceText": "Cat Cow: 5 reps",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Cat Cow: 5 reps",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-foam-roll-back",
-              "nodeType": "exercise",
-              "exerciseId": "foam-roll-back",
+              "node_type": "exercise",
+              "exercise_id": "foam-roll-back",
               "title": "Foam Roll Back",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "30 sec"
+                "source_text": "30 sec"
               },
               "notes": [],
-              "sourceText": "Foam Roll Back: 30 sec",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Foam Roll Back: 30 sec",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-dead-hang",
-              "nodeType": "exercise",
-              "exerciseId": "dead-hang",
+              "node_type": "exercise",
+              "exercise_id": "dead-hang",
               "title": "Dead Hang",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "30 sec"
+                "source_text": "30 sec"
               },
               "notes": [],
-              "sourceText": "Dead Hang: 30 sec",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Dead Hang: 30 sec",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-hk-ankle-mobility-to-hamstring-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "hk-ankle-mobility-to-hamstring-stretch",
+              "node_type": "exercise",
+              "exercise_id": "hk-ankle-mobility-to-hamstring-stretch",
               "title": "HK Ankle Mobility to Hamstring stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 3
@@ -296,92 +296,92 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "3 each side"
+                "source_text": "3 each side"
               },
               "notes": [],
-              "sourceText": "HK Ankle Mobility to Hamstring stretch: 3 each side",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "HK Ankle Mobility to Hamstring stretch: 3 each side",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-hk-three-position-hip-flexor-stretch-block",
-              "nodeType": "section",
-              "sourceTitle": "HK 3 - position hip flexor stretch",
-              "displayTitle": "HK 3 - position hip flexor stretch",
+              "node_type": "section",
+              "source_title": "HK 3 - position hip flexor stretch",
+              "display_title": "HK 3 - position hip flexor stretch",
               "structure": "singleActivity",
               "execution": {
                 "method": "fixedRounds",
                 "rounds": {
                   "value": 2
                 },
-                "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side"
+                "source_text": "HK 3 - position hip flexor stretch: 2 rounds each side"
               },
               "scoring": {
                 "method": "none",
-                "sourceText": null
+                "source_text": null
               },
-              "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "HK 3 - position hip flexor stretch: 2 rounds each side",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               },
               "children": [
                 {
                   "id": "occurrence-hk-three-position-hip-flexor-stretch",
-                  "nodeType": "exercise",
-                  "exerciseId": "hk-three-position-hip-flexor-stretch",
+                  "node_type": "exercise",
+                  "exercise_id": "hk-three-position-hip-flexor-stretch",
                   "title": "HK 3 - position hip flexor stretch",
                   "description": null,
-                  "contextTagIds": [],
+                  "context_tag_ids": [],
                   "prescription": {
                     "qualifiers": [
                       "eachSide"
                     ],
-                    "sourceText": "2 rounds each side"
+                    "source_text": "2 rounds each side"
                   },
                   "notes": [],
-                  "sourceText": "HK 3 - position hip flexor stretch: 2 rounds each side",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "HK 3 - position hip flexor stretch: 2 rounds each side",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ]
             },
             {
               "id": "occurrence-banded-butterfly",
-              "nodeType": "exercise",
-              "exerciseId": "banded-butterfly",
+              "node_type": "exercise",
+              "exercise_id": "banded-butterfly",
               "title": "Banded Butterfly",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "duration": {
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "30 seconds"
+                "source_text": "30 seconds"
               },
               "notes": [],
-              "sourceText": "Banded Butterfly: 30 seconds",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Banded Butterfly: 30 seconds",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-worlds-greatest-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "worlds-greatest-stretch",
+              "node_type": "exercise",
+              "exercise_id": "worlds-greatest-stretch",
               "title": "World’s Greatest Stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 5
@@ -389,23 +389,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "5 each"
+                "source_text": "5 each"
               },
               "notes": [],
-              "sourceText": "World’s Greatest Stretch: 5 each",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "World’s Greatest Stretch: 5 each",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-alternating-pike-sa-reach",
-              "nodeType": "exercise",
-              "exerciseId": "alternating-pike-sa-reach",
+              "node_type": "exercise",
+              "exercise_id": "alternating-pike-sa-reach",
               "title": "Alternating Pike w/ SA Reach",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 5
@@ -413,107 +413,107 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "5 each"
+                "source_text": "5 each"
               },
               "notes": [],
-              "sourceText": "Alternating Pike w/ SA Reach: 5 each",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Alternating Pike w/ SA Reach: 5 each",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-inchworms",
-              "nodeType": "exercise",
-              "exerciseId": "inchworms",
+              "node_type": "exercise",
+              "exercise_id": "inchworms",
               "title": "Inchworms",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "10 reps"
+                "source_text": "10 reps"
               },
               "notes": [],
-              "sourceText": "Inchworms: 10 reps",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Inchworms: 10 reps",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-dowell-passthroughs",
-              "nodeType": "exercise",
-              "exerciseId": "dowell-passthroughs",
+              "node_type": "exercise",
+              "exercise_id": "dowell-passthroughs",
               "title": "Dowell Passthroughs",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "10"
+                "source_text": "10"
               },
               "notes": [],
-              "sourceText": "Dowell Passthroughs: 10",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Dowell Passthroughs: 10",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-standing-dowel-rotations-lateral-flexion",
-              "nodeType": "exercise",
-              "exerciseId": "standing-dowel-rotations-lateral-flexion",
+              "node_type": "exercise",
+              "exercise_id": "standing-dowel-rotations-lateral-flexion",
               "title": "Standing Dowel Rotations and Lateral Flexion",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "10 each",
+                "source_text": "10 each",
                 "qualifiers": [
                   "eachSide"
                 ]
               },
               "notes": [],
-              "sourceText": "Standing Dowel Rotations and Lateral Flexion: 10 each",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Standing Dowel Rotations and Lateral Flexion: 10 each",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-ankle",
-          "nodeType": "section",
-          "sourceTitle": "Ankle",
-          "displayTitle": "Ankle",
+          "node_type": "section",
+          "source_title": "Ankle",
+          "display_title": "Ankle",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Ankle:"
+            "source_text": "Ankle:"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Ankle:",
+          "source_text": "Ankle:",
           "children": [
             {
               "id": "occurrence-airex-pad-sl-balance",
-              "nodeType": "exercise",
-              "exerciseId": "airex-pad-sl-balance",
+              "node_type": "exercise",
+              "exercise_id": "airex-pad-sl-balance",
               "title": "Airex Pad SL Balance",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -525,35 +525,35 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 30 sec each"
+                "source_text": "2 x 30 sec each"
               },
               "notes": [
                 {
                   "id": "note-airex-pad-sl-balance-progression",
                   "kind": "sourceNote",
                   "text": "can progress to eyes closed, catching tennis ball, RDLs",
-                  "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Airex Pad SL Balance 2 x 30 sec each Notes: can progress to eyes closed, catching tennis ball, RDLs",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Airex Pad SL Balance 2 x 30 sec each Notes: can progress to eyes closed, catching tennis ball, RDLs",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-banded-anterior-tibialis",
-              "nodeType": "exercise",
-              "exerciseId": "banded-anterior-tibialis",
+              "node_type": "exercise",
+              "exercise_id": "banded-anterior-tibialis",
               "title": "Banded Anterior Tibialis",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -564,23 +564,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 15 ea"
+                "source_text": "2 x 15 ea"
               },
               "notes": [],
-              "sourceText": "Banded Anterior Tibialis 2 x 15 ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Banded Anterior Tibialis 2 x 15 ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-ffe-split-squat-iso-calf-raise",
-              "nodeType": "exercise",
-              "exerciseId": "ffe-split-squat-iso-calf-raise",
+              "node_type": "exercise",
+              "exercise_id": "ffe-split-squat-iso-calf-raise",
               "title": "FFE Split Squat ISO w/ calf raise",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -588,53 +588,53 @@
                 "reps": {
                   "value": 15
                 },
-                "sourceText": "2 x 15"
+                "source_text": "2 x 15"
               },
               "notes": [
                 {
                   "id": "note-ffe-split-squat-iso-calf-raise-rom",
                   "kind": "sourceNote",
                   "text": "Full ROM on calf raise, all the way up on toe",
-                  "sourceText": "Full ROM on calf raise, all the way up on toe",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Full ROM on calf raise, all the way up on toe",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "FFE Split Squat ISO w/ calf raise 2 x 15 Notes: Full ROM on calf raise, all the way up on toe",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "FFE Split Squat ISO w/ calf raise 2 x 15 Notes: Full ROM on calf raise, all the way up on toe",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-hamstring",
-          "nodeType": "section",
-          "sourceTitle": "Hamstring",
-          "displayTitle": "Hamstring",
+          "node_type": "section",
+          "source_title": "Hamstring",
+          "display_title": "Hamstring",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Hamstring:"
+            "source_text": "Hamstring:"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Hamstring:",
+          "source_text": "Hamstring:",
           "children": [
             {
               "id": "occurrence-banded-dynamic-hamstring-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "banded-dynamic-hamstring-stretch",
+              "node_type": "exercise",
+              "exercise_id": "banded-dynamic-hamstring-stretch",
               "title": "Banded Dynamic Hamstring Stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -643,7 +643,7 @@
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "2 x 30 sec each",
+                "source_text": "2 x 30 sec each",
                 "qualifiers": [
                   "eachSide"
                 ]
@@ -653,28 +653,28 @@
                   "id": "note-banded-dynamic-hamstring-stretch-positions",
                   "kind": "sourceNote",
                   "text": "Straight, leg cross over, leg opened",
-                  "sourceText": "Straight, leg cross over, leg opened",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Straight, leg cross over, leg opened",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-assisted-sl-rdl-hip-flexor-lift",
-              "nodeType": "exercise",
-              "exerciseId": "assisted-sl-rdl-hip-flexor-lift",
+              "node_type": "exercise",
+              "exercise_id": "assisted-sl-rdl-hip-flexor-lift",
               "title": "Assisted SL RDL to hip flexor lift",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -685,23 +685,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 10 each"
+                "source_text": "2 x 10 each"
               },
               "notes": [],
-              "sourceText": "Assisted SL RDL to hip flexor lift 2 x 10 each",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Assisted SL RDL to hip flexor lift 2 x 10 each",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-elephant-walks",
-              "nodeType": "exercise",
-              "exerciseId": "elephant-walks",
+              "node_type": "exercise",
+              "exercise_id": "elephant-walks",
               "title": "Elephant Walks",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -712,53 +712,53 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 15 ea"
+                "source_text": "2 x 15 ea"
               },
               "notes": [
                 {
                   "id": "note-elephant-walks-box-height",
                   "kind": "sourceNote",
                   "text": "use however many boxes that are comfortable",
-                  "sourceText": "use however many boxes that are comfortable",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "use however many boxes that are comfortable",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Elephant Walks 2 x 15 ea Notes: use however many boxes that are comfortable",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Elephant Walks 2 x 15 ea Notes: use however many boxes that are comfortable",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-hip-flexors",
-          "nodeType": "section",
-          "sourceTitle": "Hip Flexors",
-          "displayTitle": "Hip Flexors",
+          "node_type": "section",
+          "source_title": "Hip Flexors",
+          "display_title": "Hip Flexors",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Hip Flexors:"
+            "source_text": "Hip Flexors:"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Hip Flexors:",
+          "source_text": "Hip Flexors:",
           "children": [
             {
               "id": "occurrence-sl-rdl-thoracic-extension",
-              "nodeType": "exercise",
-              "exerciseId": "sl-rdl-thoracic-extension",
+              "node_type": "exercise",
+              "exercise_id": "sl-rdl-thoracic-extension",
               "title": "SL RDL to thoracic Extension",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -769,35 +769,35 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 8 ea"
+                "source_text": "2 x 8 ea"
               },
               "notes": [
                 {
                   "id": "note-sl-rdl-thoracic-extension-progression",
                   "kind": "sourceNote",
                   "text": "can progress to eyes closed, catching tennis ball, RDLs",
-                  "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "can progress to eyes closed, catching tennis ball, RDLs",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "SL RDL to thoracic Extension 2 x 8 ea Notes: can progress to eyes closed, catching tennis ball, RDLs",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "SL RDL to thoracic Extension 2 x 8 ea Notes: can progress to eyes closed, catching tennis ball, RDLs",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-sl-hf-su-or-tall-plank-hf-dip",
-              "nodeType": "exercise",
-              "exerciseId": "sl-hf-su-or-tall-plank-hf-dip",
+              "node_type": "exercise",
+              "exercise_id": "sl-hf-su-or-tall-plank-hf-dip",
               "title": "SL HF S/U or Tall Plank HF Dip",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -808,23 +808,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 10 ea"
+                "source_text": "2 x 10 ea"
               },
               "notes": [],
-              "sourceText": "SL HF S/U or Tall Plank HF Dip 2 x 10 ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "SL HF S/U or Tall Plank HF Dip 2 x 10 ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-free-motion-hip-flexion",
-              "nodeType": "exercise",
-              "exerciseId": "free-motion-hip-flexion",
+              "node_type": "exercise",
+              "exercise_id": "free-motion-hip-flexion",
               "title": "Free Motion Hip Flexion",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -832,53 +832,53 @@
                 "reps": {
                   "value": 15
                 },
-                "sourceText": "2 x 15"
+                "source_text": "2 x 15"
               },
               "notes": [
                 {
                   "id": "note-free-motion-hip-flexion-weight",
                   "kind": "sourceNote",
                   "text": "Challenge yourself with weight",
-                  "sourceText": "Challenge yourself with weight",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Challenge yourself with weight",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 1,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Free Motion Hip Flexion 2 x 15 Notes: Challenge yourself with weight",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Free Motion Hip Flexion 2 x 15 Notes: Challenge yourself with weight",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-glutes-abductors",
-          "nodeType": "section",
-          "sourceTitle": "Glutes / Abductors",
-          "displayTitle": "Glutes / Abductors",
+          "node_type": "section",
+          "source_title": "Glutes / Abductors",
+          "display_title": "Glutes / Abductors",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Glutes / Abductors"
+            "source_text": "Glutes / Abductors"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Glutes / Abductors",
+          "source_text": "Glutes / Abductors",
           "children": [
             {
               "id": "occurrence-bench-pigeon-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "bench-pigeon-stretch",
+              "node_type": "exercise",
+              "exercise_id": "bench-pigeon-stretch",
               "title": "Bench Pigeon Stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -890,23 +890,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 30 sec each"
+                "source_text": "2 x 30 sec each"
               },
               "notes": [],
-              "sourceText": "Bench Pigeon Stretch 2 x 30 sec each Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Bench Pigeon Stretch 2 x 30 sec each Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-90-90-cable-row",
-              "nodeType": "exercise",
-              "exerciseId": "90-90-cable-row",
+              "node_type": "exercise",
+              "exercise_id": "90-90-cable-row",
               "title": "90/90 with cable row",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -917,23 +917,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 10 ea"
+                "source_text": "2 x 10 ea"
               },
               "notes": [],
-              "sourceText": "90/90 with cable row 2 x 10 ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "90/90 with cable row 2 x 10 ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 1,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-rfe-med-ball-rotation",
-              "nodeType": "exercise",
-              "exerciseId": "rfe-med-ball-rotation",
+              "node_type": "exercise",
+              "exercise_id": "rfe-med-ball-rotation",
               "title": "RFE Med Ball Rotation",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -944,53 +944,53 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 15 ea"
+                "source_text": "2 x 15 ea"
               },
               "notes": [
                 {
                   "id": "note-rfe-med-ball-rotation-front-leg",
                   "kind": "sourceNote",
                   "text": "Rotating over front leg",
-                  "sourceText": "Rotating over front leg",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Rotating over front leg",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "RFE Med Ball Rotation 2 x 15 ea Notes: Rotating over front leg",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "RFE Med Ball Rotation 2 x 15 ea Notes: Rotating over front leg",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-adductors-groin",
-          "nodeType": "section",
-          "sourceTitle": "Adductors / Groin",
-          "displayTitle": "Adductors / Groin",
+          "node_type": "section",
+          "source_title": "Adductors / Groin",
+          "display_title": "Adductors / Groin",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Adductors / Groin"
+            "source_text": "Adductors / Groin"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Adductors / Groin",
+          "source_text": "Adductors / Groin",
           "children": [
             {
               "id": "occurrence-frog-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "frog-stretch",
+              "node_type": "exercise",
+              "exercise_id": "frog-stretch",
               "title": "Frog Stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -999,23 +999,23 @@
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "2 x 30 sec"
+                "source_text": "2 x 30 sec"
               },
               "notes": [],
-              "sourceText": "Frog Stretch 2 x 30 sec Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Frog Stretch 2 x 30 sec Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-leg-elevated-cart-glide",
-              "nodeType": "exercise",
-              "exerciseId": "leg-elevated-cart-glide",
+              "node_type": "exercise",
+              "exercise_id": "leg-elevated-cart-glide",
               "title": "Leg Elevated Cart Glide",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1026,23 +1026,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 6 ea"
+                "source_text": "2 x 6 ea"
               },
               "notes": [],
-              "sourceText": "Leg Elevated Cart Glide 2 x 6 ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Leg Elevated Cart Glide 2 x 6 ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-copen-hagen-plank",
-              "nodeType": "exercise",
-              "exerciseId": "copen-hagen-plank",
+              "node_type": "exercise",
+              "exercise_id": "copen-hagen-plank",
               "title": "Copen Hagen Plank",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1055,41 +1055,41 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x :20 - :30 sec each"
+                "source_text": "2 x :20 - :30 sec each"
               },
               "notes": [],
-              "sourceText": "Copen Hagen Plank 2 x :20 - :30 sec each Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Copen Hagen Plank 2 x :20 - :30 sec each Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-t-spine",
-          "nodeType": "section",
-          "sourceTitle": "T-Spine",
-          "displayTitle": "T-Spine",
+          "node_type": "section",
+          "source_title": "T-Spine",
+          "display_title": "T-Spine",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "T-Spine"
+            "source_text": "T-Spine"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "T-Spine",
+          "source_text": "T-Spine",
           "children": [
             {
               "id": "occurrence-bench-prayer-stretch",
-              "nodeType": "exercise",
-              "exerciseId": "bench-prayer-stretch",
+              "node_type": "exercise",
+              "exercise_id": "bench-prayer-stretch",
               "title": "Bench Prayer Stretch",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1097,35 +1097,35 @@
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "2 x 10 reps"
+                "source_text": "2 x 10 reps"
               },
               "notes": [
                 {
                   "id": "note-bench-prayer-stretch-position",
                   "kind": "sourceNote",
                   "text": "Straight Arms, dropping chest to floor",
-                  "sourceText": "Straight Arms, dropping chest to floor",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Straight Arms, dropping chest to floor",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Bench Prayer Stretch 2 x 10 reps Notes: Straight Arms, dropping chest to floor",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Bench Prayer Stretch 2 x 10 reps Notes: Straight Arms, dropping chest to floor",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-rfe-dowel-rotations",
-              "nodeType": "exercise",
-              "exerciseId": "rfe-dowel-rotations",
+              "node_type": "exercise",
+              "exercise_id": "rfe-dowel-rotations",
               "title": "RFE Dowel Rotations",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1136,23 +1136,23 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 15 ea"
+                "source_text": "2 x 15 ea"
               },
               "notes": [],
-              "sourceText": "RFE Dowel Rotations 2 x 15 ea",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "RFE Dowel Rotations 2 x 15 ea",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-3d-strap-t-spine-rotations",
-              "nodeType": "exercise",
-              "exerciseId": "3d-strap-t-spine-rotations",
+              "node_type": "exercise",
+              "exercise_id": "3d-strap-t-spine-rotations",
               "title": "3D Strap T-Spine Rotations",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1163,53 +1163,53 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 5 ea"
+                "source_text": "2 x 5 ea"
               },
               "notes": [
                 {
                   "id": "note-3d-strap-t-spine-rotations-hip-position",
                   "kind": "sourceNote",
                   "text": "try to keep hip square in front of you",
-                  "sourceText": "try to keep hip square in front of you",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "try to keep hip square in front of you",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "3D Strap T-Spine Rotations 2 x 5 ea Notes: try to keep hip square in front of you",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "3D Strap T-Spine Rotations 2 x 5 ea Notes: try to keep hip square in front of you",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-lumbar",
-          "nodeType": "section",
-          "sourceTitle": "Lumbar",
-          "displayTitle": "Lumbar",
+          "node_type": "section",
+          "source_title": "Lumbar",
+          "display_title": "Lumbar",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Lumbar"
+            "source_text": "Lumbar"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Lumbar",
+          "source_text": "Lumbar",
           "children": [
             {
               "id": "occurrence-back-extensions",
-              "nodeType": "exercise",
-              "exerciseId": "back-extensions",
+              "node_type": "exercise",
+              "exercise_id": "back-extensions",
               "title": "Back Extensions (weight optional)",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1217,23 +1217,23 @@
                 "reps": {
                   "value": 15
                 },
-                "sourceText": "2 x 15"
+                "source_text": "2 x 15"
               },
               "notes": [],
-              "sourceText": "Back Extensions (weight optional) 2 x 15 Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Back Extensions (weight optional) 2 x 15 Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-mb-spinal-rotations",
-              "nodeType": "exercise",
-              "exerciseId": "mb-spinal-rotations",
+              "node_type": "exercise",
+              "exercise_id": "mb-spinal-rotations",
               "title": "MB Spinal Rotations",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1245,79 +1245,79 @@
                   "value": 8,
                   "unit": "pounds",
                   "kind": "absolute",
-                  "equipmentKind": "other"
+                  "equipment_kind": "other"
                 },
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 5 each"
+                "source_text": "2 x 5 each"
               },
               "notes": [
                 {
                   "id": "note-mb-spinal-rotations-ball-load",
                   "kind": "sourceNote",
                   "text": "8lb ball",
-                  "sourceText": "8lb ball",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "8lb ball",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "MB Spinal Rotations 2 x 5 each Notes: 8lb ball",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "MB Spinal Rotations 2 x 5 each Notes: 8lb ball",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-seated-cable-or-incline-bench-good-morning",
-              "nodeType": "exercise",
-              "exerciseId": "seated-cable-or-incline-bench-good-morning",
+              "node_type": "exercise",
+              "exercise_id": "seated-cable-or-incline-bench-good-morning",
               "title": "Seated Cable or Incline Bench good morning",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
                 },
-                "sourceText": "2 x 6 (seated cable) / 10 (incline bench)"
+                "source_text": "2 x 6 (seated cable) / 10 (incline bench)"
               },
               "notes": [],
-              "sourceText": "Seated Cable or Incline Bench good morning 2 x 6 (seated cable) / 10 (incline bench) Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Seated Cable or Incline Bench good morning 2 x 6 (seated cable) / 10 (incline bench) Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-shoulder-scap",
-          "nodeType": "section",
-          "sourceTitle": "Shoulder / Scap",
-          "displayTitle": "Shoulder / Scap",
+          "node_type": "section",
+          "source_title": "Shoulder / Scap",
+          "display_title": "Shoulder / Scap",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Shoulder / Scap"
+            "source_text": "Shoulder / Scap"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Shoulder / Scap",
+          "source_text": "Shoulder / Scap",
           "children": [
             {
               "id": "occurrence-scap-push-up-pull-up",
-              "nodeType": "exercise",
-              "exerciseId": "scap-push-up-pull-up",
+              "node_type": "exercise",
+              "exercise_id": "scap-push-up-pull-up",
               "title": "Scap Push up & Pull up",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1328,23 +1328,23 @@
                 "qualifiers": [
                   "eachExercise"
                 ],
-                "sourceText": "2 x 10 each"
+                "source_text": "2 x 10 each"
               },
               "notes": [],
-              "sourceText": "Scap Push up & Pull up 2 x 10 each Notes:",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Scap Push up & Pull up 2 x 10 each Notes:",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-quadruped-shoulder-car",
-              "nodeType": "exercise",
-              "exerciseId": "quadruped-shoulder-car",
+              "node_type": "exercise",
+              "exercise_id": "quadruped-shoulder-car",
               "title": "Quadruped Shoulder CAR",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1355,35 +1355,35 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 5 each"
+                "source_text": "2 x 5 each"
               },
               "notes": [
                 {
                   "id": "note-quadruped-shoulder-car-tempo",
                   "kind": "sourceNote",
                   "text": "very slow tempo",
-                  "sourceText": "very slow tempo",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "very slow tempo",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Quadruped Shoulder CAR 2 x 5 each Notes: very slow tempo",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Quadruped Shoulder CAR 2 x 5 each Notes: very slow tempo",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-banded-row-external-rotation-press",
-              "nodeType": "exercise",
-              "exerciseId": "banded-row-external-rotation-press",
+              "node_type": "exercise",
+              "exercise_id": "banded-row-external-rotation-press",
               "title": "Banded Row to External Rotation to Press",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1391,53 +1391,53 @@
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "2 x 10"
+                "source_text": "2 x 10"
               },
               "notes": [
                 {
                   "id": "note-banded-row-external-rotation-press-control",
                   "kind": "sourceNote",
                   "text": "controlled reps, avoid arching back",
-                  "sourceText": "controlled reps, avoid arching back",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "controlled reps, avoid arching back",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Banded Row to External Rotation to Press 2 x 10 Notes: controlled reps, avoid arching back",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Banded Row to External Rotation to Press 2 x 10 Notes: controlled reps, avoid arching back",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
         },
         {
           "id": "section-full-body-mobility-exercises",
-          "nodeType": "section",
-          "sourceTitle": "Full Body Mobility Exercises",
-          "displayTitle": "Full Body Mobility Exercises",
+          "node_type": "section",
+          "source_title": "Full Body Mobility Exercises",
+          "display_title": "Full Body Mobility Exercises",
           "structure": "sequence",
           "execution": {
             "method": "sourceDefined",
-            "sourceText": "Full Body Mobility Exercises"
+            "source_text": "Full Body Mobility Exercises"
           },
           "scoring": {
             "method": "none",
-            "sourceText": null
+            "source_text": null
           },
-          "sourceText": "Full Body Mobility Exercises",
+          "source_text": "Full Body Mobility Exercises",
           "children": [
             {
               "id": "occurrence-windmill",
-              "nodeType": "exercise",
-              "exerciseId": "windmill",
+              "node_type": "exercise",
+              "exercise_id": "windmill",
               "title": "Windmill",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1448,35 +1448,35 @@
                 "qualifiers": [
                   "eachSide"
                 ],
-                "sourceText": "2 x 5 each side"
+                "source_text": "2 x 5 each side"
               },
               "notes": [
                 {
                   "id": "note-windmill-source-regions",
                   "kind": "sourceNote",
                   "text": "Shoulder, QL, T-Spine, Core",
-                  "sourceText": "Shoulder, QL, T-Spine, Core",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Shoulder, QL, T-Spine, Core",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Windmill 2 x 5 each side Notes: Shoulder, QL, T-Spine, Core",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Windmill 2 x 5 each side Notes: Shoulder, QL, T-Spine, Core",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-oh-deep-squat-bb-or-dowel",
-              "nodeType": "exercise",
-              "exerciseId": "oh-deep-squat-bb-or-dowel",
+              "node_type": "exercise",
+              "exercise_id": "oh-deep-squat-bb-or-dowel",
               "title": "OH Deep Squat w/ BB or Dowel",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1485,38 +1485,38 @@
                   "value": 10
                 },
                 "tempo": {
-                  "eccentricSeconds": 3,
-                  "sourceText": "3 sec ECC"
+                  "eccentric_seconds": 3,
+                  "source_text": "3 sec ECC"
                 },
-                "sourceText": "2 x 10 w/ 3 sec ECC"
+                "source_text": "2 x 10 w/ 3 sec ECC"
               },
               "notes": [
                 {
                   "id": "note-oh-deep-squat-source-regions",
                   "kind": "sourceNote",
                   "text": "Shoulders, Hip, Core",
-                  "sourceText": "Shoulders, Hip, Core",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Shoulders, Hip, Core",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "OH Deep Squat w/ BB or Dowel 2 x 10 w/ 3 sec ECC Notes: Shoulders, Hip, Core",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "OH Deep Squat w/ BB or Dowel 2 x 10 w/ 3 sec ECC Notes: Shoulders, Hip, Core",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-jefferson-curls",
-              "nodeType": "exercise",
-              "exerciseId": "jefferson-curls",
+              "node_type": "exercise",
+              "exercise_id": "jefferson-curls",
               "title": "Jefferson Curls - slow tempo",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1524,35 +1524,35 @@
                 "reps": {
                   "value": 6
                 },
-                "sourceText": "2 x 6"
+                "source_text": "2 x 6"
               },
               "notes": [
                 {
                   "id": "note-jefferson-curls-source-regions",
                   "kind": "sourceNote",
                   "text": "Hamstring, Lumber, T-Spine",
-                  "sourceText": "Hamstring, Lumber, T-Spine",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "Hamstring, Lumber, T-Spine",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Jefferson Curls - slow tempo 2 x 6 Notes: Hamstring, Lumber, T-Spine",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Jefferson Curls - slow tempo 2 x 6 Notes: Hamstring, Lumber, T-Spine",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             },
             {
               "id": "occurrence-turkish-getup",
-              "nodeType": "exercise",
-              "exerciseId": "turkish-getup",
+              "node_type": "exercise",
+              "exercise_id": "turkish-getup",
               "title": "Turkish Getup",
               "description": null,
-              "contextTagIds": [],
+              "context_tag_ids": [],
               "prescription": {
                 "sets": {
                   "value": 2
@@ -1560,26 +1560,26 @@
                 "reps": {
                   "value": 3
                 },
-                "sourceText": "2 x 3 w/ slow tempo"
+                "source_text": "2 x 3 w/ slow tempo"
               },
               "notes": [
                 {
                   "id": "note-turkish-getup-source-scope",
                   "kind": "sourceNote",
                   "text": "everything",
-                  "sourceText": "everything",
-                  "sourceRef": {
-                    "sourceId": "source-1",
+                  "source_text": "everything",
+                  "source_ref": {
+                    "source_id": "source-1",
                     "page": 2,
-                    "blockId": null
+                    "block_id": null
                   }
                 }
               ],
-              "sourceText": "Turkish Getup 2 x 3 w/ slow tempo Notes: everything",
-              "sourceRef": {
-                "sourceId": "source-1",
+              "source_text": "Turkish Getup 2 x 3 w/ slow tempo Notes: everything",
+              "source_ref": {
+                "source_id": "source-1",
                 "page": 2,
-                "blockId": null
+                "block_id": null
               }
             }
           ]
@@ -1587,13 +1587,13 @@
       ]
     }
   ],
-  "exerciseCatalog": [
+  "exercise_catalog": [
     {
       "id": "lacrosse-ball-to-feet",
-      "sourceTitle": "Lacrosse Ball to Feet",
-      "displayTitle": "Lacrosse Ball to Feet",
+      "source_title": "Lacrosse Ball to Feet",
+      "display_title": "Lacrosse Ball to Feet",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1602,10 +1602,10 @@
     },
     {
       "id": "heel-toe-walk",
-      "sourceTitle": "Heel Toe Walk",
-      "displayTitle": "Heel Toe Walk",
+      "source_title": "Heel Toe Walk",
+      "display_title": "Heel Toe Walk",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1614,10 +1614,10 @@
     },
     {
       "id": "spinal-progressions",
-      "sourceTitle": "Spinal Progressions",
-      "displayTitle": "Spinal Progressions",
+      "source_title": "Spinal Progressions",
+      "display_title": "Spinal Progressions",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1626,10 +1626,10 @@
     },
     {
       "id": "childs-pose-ql-reach",
-      "sourceTitle": "Childs Pose w/ QL Reach",
-      "displayTitle": "Childs Pose w/ QL Reach",
+      "source_title": "Childs Pose w/ QL Reach",
+      "display_title": "Childs Pose w/ QL Reach",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1638,10 +1638,10 @@
     },
     {
       "id": "cobra-pose",
-      "sourceTitle": "Cobra Pose",
-      "displayTitle": "Cobra Pose",
+      "source_title": "Cobra Pose",
+      "display_title": "Cobra Pose",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1650,10 +1650,10 @@
     },
     {
       "id": "cat-cow",
-      "sourceTitle": "Cat Cow",
-      "displayTitle": "Cat Cow",
+      "source_title": "Cat Cow",
+      "display_title": "Cat Cow",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1662,10 +1662,10 @@
     },
     {
       "id": "foam-roll-back",
-      "sourceTitle": "Foam Roll Back",
-      "displayTitle": "Foam Roll Back",
+      "source_title": "Foam Roll Back",
+      "display_title": "Foam Roll Back",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1674,10 +1674,10 @@
     },
     {
       "id": "dead-hang",
-      "sourceTitle": "Dead Hang",
-      "displayTitle": "Dead Hang",
+      "source_title": "Dead Hang",
+      "display_title": "Dead Hang",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1686,10 +1686,10 @@
     },
     {
       "id": "hk-ankle-mobility-to-hamstring-stretch",
-      "sourceTitle": "HK Ankle Mobility to Hamstring stretch",
-      "displayTitle": "HK Ankle Mobility to Hamstring stretch",
+      "source_title": "HK Ankle Mobility to Hamstring stretch",
+      "display_title": "HK Ankle Mobility to Hamstring stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1698,10 +1698,10 @@
     },
     {
       "id": "hk-three-position-hip-flexor-stretch",
-      "sourceTitle": "HK 3 - position hip flexor stretch",
-      "displayTitle": "HK 3 - position hip flexor stretch",
+      "source_title": "HK 3 - position hip flexor stretch",
+      "display_title": "HK 3 - position hip flexor stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1710,10 +1710,10 @@
     },
     {
       "id": "banded-butterfly",
-      "sourceTitle": "Banded Butterfly",
-      "displayTitle": "Banded Butterfly",
+      "source_title": "Banded Butterfly",
+      "display_title": "Banded Butterfly",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1722,10 +1722,10 @@
     },
     {
       "id": "worlds-greatest-stretch",
-      "sourceTitle": "World’s Greatest Stretch",
-      "displayTitle": "World’s Greatest Stretch",
+      "source_title": "World’s Greatest Stretch",
+      "display_title": "World’s Greatest Stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1734,10 +1734,10 @@
     },
     {
       "id": "alternating-pike-sa-reach",
-      "sourceTitle": "Alternating Pike w/ SA Reach",
-      "displayTitle": "Alternating Pike w/ SA Reach",
+      "source_title": "Alternating Pike w/ SA Reach",
+      "display_title": "Alternating Pike w/ SA Reach",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1746,10 +1746,10 @@
     },
     {
       "id": "inchworms",
-      "sourceTitle": "Inchworms",
-      "displayTitle": "Inchworms",
+      "source_title": "Inchworms",
+      "display_title": "Inchworms",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1758,10 +1758,10 @@
     },
     {
       "id": "dowell-passthroughs",
-      "sourceTitle": "Dowell Passthroughs",
-      "displayTitle": "Dowell Passthroughs",
+      "source_title": "Dowell Passthroughs",
+      "display_title": "Dowell Passthroughs",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1770,10 +1770,10 @@
     },
     {
       "id": "standing-dowel-rotations-lateral-flexion",
-      "sourceTitle": "Standing Dowel Rotations and Lateral Flexion",
-      "displayTitle": "Standing Dowel Rotations and Lateral Flexion",
+      "source_title": "Standing Dowel Rotations and Lateral Flexion",
+      "display_title": "Standing Dowel Rotations and Lateral Flexion",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "warm-up"
       ],
@@ -1782,10 +1782,10 @@
     },
     {
       "id": "airex-pad-sl-balance",
-      "sourceTitle": "Airex Pad SL Balance",
-      "displayTitle": "Airex Pad SL Balance",
+      "source_title": "Airex Pad SL Balance",
+      "display_title": "Airex Pad SL Balance",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1793,10 +1793,10 @@
     },
     {
       "id": "banded-anterior-tibialis",
-      "sourceTitle": "Banded Anterior Tibialis",
-      "displayTitle": "Banded Anterior Tibialis",
+      "source_title": "Banded Anterior Tibialis",
+      "display_title": "Banded Anterior Tibialis",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1804,10 +1804,10 @@
     },
     {
       "id": "ffe-split-squat-iso-calf-raise",
-      "sourceTitle": "FFE Split Squat ISO w/ calf raise",
-      "displayTitle": "FFE Split Squat ISO w/ calf raise",
+      "source_title": "FFE Split Squat ISO w/ calf raise",
+      "display_title": "FFE Split Squat ISO w/ calf raise",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "isometric"
       ],
@@ -1816,10 +1816,10 @@
     },
     {
       "id": "banded-dynamic-hamstring-stretch",
-      "sourceTitle": "Banded Dynamic Hamstring Stretch",
-      "displayTitle": "Banded Dynamic Hamstring Stretch",
+      "source_title": "Banded Dynamic Hamstring Stretch",
+      "display_title": "Banded Dynamic Hamstring Stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1827,10 +1827,10 @@
     },
     {
       "id": "assisted-sl-rdl-hip-flexor-lift",
-      "sourceTitle": "Assisted SL RDL to hip flexor lift",
-      "displayTitle": "Assisted SL RDL to hip flexor lift",
+      "source_title": "Assisted SL RDL to hip flexor lift",
+      "display_title": "Assisted SL RDL to hip flexor lift",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1838,10 +1838,10 @@
     },
     {
       "id": "elephant-walks",
-      "sourceTitle": "Elephant Walks",
-      "displayTitle": "Elephant Walks",
+      "source_title": "Elephant Walks",
+      "display_title": "Elephant Walks",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1849,10 +1849,10 @@
     },
     {
       "id": "sl-rdl-thoracic-extension",
-      "sourceTitle": "SL RDL to thoracic Extension",
-      "displayTitle": "SL RDL to thoracic Extension",
+      "source_title": "SL RDL to thoracic Extension",
+      "display_title": "SL RDL to thoracic Extension",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1860,10 +1860,10 @@
     },
     {
       "id": "sl-hf-su-or-tall-plank-hf-dip",
-      "sourceTitle": "SL HF S/U or Tall Plank HF Dip",
-      "displayTitle": "SL HF S/U or Tall Plank HF Dip",
+      "source_title": "SL HF S/U or Tall Plank HF Dip",
+      "display_title": "SL HF S/U or Tall Plank HF Dip",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1871,10 +1871,10 @@
     },
     {
       "id": "free-motion-hip-flexion",
-      "sourceTitle": "Free Motion Hip Flexion",
-      "displayTitle": "Free Motion Hip Flexion",
+      "source_title": "Free Motion Hip Flexion",
+      "display_title": "Free Motion Hip Flexion",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1882,10 +1882,10 @@
     },
     {
       "id": "bench-pigeon-stretch",
-      "sourceTitle": "Bench Pigeon Stretch",
-      "displayTitle": "Bench Pigeon Stretch",
+      "source_title": "Bench Pigeon Stretch",
+      "display_title": "Bench Pigeon Stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1893,10 +1893,10 @@
     },
     {
       "id": "90-90-cable-row",
-      "sourceTitle": "90/90 with cable row",
-      "displayTitle": "90/90 with cable row",
+      "source_title": "90/90 with cable row",
+      "display_title": "90/90 with cable row",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1904,10 +1904,10 @@
     },
     {
       "id": "rfe-med-ball-rotation",
-      "sourceTitle": "RFE Med Ball Rotation",
-      "displayTitle": "RFE Med Ball Rotation",
+      "source_title": "RFE Med Ball Rotation",
+      "display_title": "RFE Med Ball Rotation",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1915,10 +1915,10 @@
     },
     {
       "id": "frog-stretch",
-      "sourceTitle": "Frog Stretch",
-      "displayTitle": "Frog Stretch",
+      "source_title": "Frog Stretch",
+      "display_title": "Frog Stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1926,10 +1926,10 @@
     },
     {
       "id": "leg-elevated-cart-glide",
-      "sourceTitle": "Leg Elevated Cart Glide",
-      "displayTitle": "Leg Elevated Cart Glide",
+      "source_title": "Leg Elevated Cart Glide",
+      "display_title": "Leg Elevated Cart Glide",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1937,10 +1937,10 @@
     },
     {
       "id": "copen-hagen-plank",
-      "sourceTitle": "Copen Hagen Plank",
-      "displayTitle": "Copen Hagen Plank",
+      "source_title": "Copen Hagen Plank",
+      "display_title": "Copen Hagen Plank",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility",
         "isometric"
       ],
@@ -1949,10 +1949,10 @@
     },
     {
       "id": "bench-prayer-stretch",
-      "sourceTitle": "Bench Prayer Stretch",
-      "displayTitle": "Bench Prayer Stretch",
+      "source_title": "Bench Prayer Stretch",
+      "display_title": "Bench Prayer Stretch",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1960,10 +1960,10 @@
     },
     {
       "id": "rfe-dowel-rotations",
-      "sourceTitle": "RFE Dowel Rotations",
-      "displayTitle": "RFE Dowel Rotations",
+      "source_title": "RFE Dowel Rotations",
+      "display_title": "RFE Dowel Rotations",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1971,10 +1971,10 @@
     },
     {
       "id": "3d-strap-t-spine-rotations",
-      "sourceTitle": "3D Strap T-Spine Rotations",
-      "displayTitle": "3D Strap T-Spine Rotations",
+      "source_title": "3D Strap T-Spine Rotations",
+      "display_title": "3D Strap T-Spine Rotations",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1982,10 +1982,10 @@
     },
     {
       "id": "back-extensions",
-      "sourceTitle": "Back Extensions (weight optional)",
-      "displayTitle": "Back Extensions (weight optional)",
+      "source_title": "Back Extensions (weight optional)",
+      "display_title": "Back Extensions (weight optional)",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -1993,10 +1993,10 @@
     },
     {
       "id": "mb-spinal-rotations",
-      "sourceTitle": "MB Spinal Rotations",
-      "displayTitle": "MB Spinal Rotations",
+      "source_title": "MB Spinal Rotations",
+      "display_title": "MB Spinal Rotations",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2004,10 +2004,10 @@
     },
     {
       "id": "seated-cable-or-incline-bench-good-morning",
-      "sourceTitle": "Seated Cable or Incline Bench good morning",
-      "displayTitle": "Seated Cable or Incline Bench good morning",
+      "source_title": "Seated Cable or Incline Bench good morning",
+      "display_title": "Seated Cable or Incline Bench good morning",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2015,10 +2015,10 @@
     },
     {
       "id": "scap-push-up-pull-up",
-      "sourceTitle": "Scap Push up & Pull up",
-      "displayTitle": "Scap Push up & Pull up",
+      "source_title": "Scap Push up & Pull up",
+      "display_title": "Scap Push up & Pull up",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2026,10 +2026,10 @@
     },
     {
       "id": "quadruped-shoulder-car",
-      "sourceTitle": "Quadruped Shoulder CAR",
-      "displayTitle": "Quadruped Shoulder CAR",
+      "source_title": "Quadruped Shoulder CAR",
+      "display_title": "Quadruped Shoulder CAR",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2037,10 +2037,10 @@
     },
     {
       "id": "banded-row-external-rotation-press",
-      "sourceTitle": "Banded Row to External Rotation to Press",
-      "displayTitle": "Banded Row to External Rotation to Press",
+      "source_title": "Banded Row to External Rotation to Press",
+      "display_title": "Banded Row to External Rotation to Press",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2048,10 +2048,10 @@
     },
     {
       "id": "windmill",
-      "sourceTitle": "Windmill",
-      "displayTitle": "Windmill",
+      "source_title": "Windmill",
+      "display_title": "Windmill",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2059,10 +2059,10 @@
     },
     {
       "id": "oh-deep-squat-bb-or-dowel",
-      "sourceTitle": "OH Deep Squat w/ BB or Dowel",
-      "displayTitle": "OH Deep Squat w/ BB or Dowel",
+      "source_title": "OH Deep Squat w/ BB or Dowel",
+      "display_title": "OH Deep Squat w/ BB or Dowel",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2070,10 +2070,10 @@
     },
     {
       "id": "jefferson-curls",
-      "sourceTitle": "Jefferson Curls - slow tempo",
-      "displayTitle": "Jefferson Curls - slow tempo",
+      "source_title": "Jefferson Curls - slow tempo",
+      "display_title": "Jefferson Curls - slow tempo",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
@@ -2081,106 +2081,106 @@
     },
     {
       "id": "turkish-getup",
-      "sourceTitle": "Turkish Getup",
-      "displayTitle": "Turkish Getup",
+      "source_title": "Turkish Getup",
+      "display_title": "Turkish Getup",
       "description": null,
-      "tagIds": [
+      "tag_ids": [
         "mobility"
       ],
       "aliases": [],
       "abbreviations": []
     }
   ],
-  "editorialIssues": [
+  "editorial_issues": [
     {
       "id": "issue-missing-rest-guidance",
-      "entityId": "mobility-collection",
+      "entity_id": "mobility-collection",
       "code": "missingRest",
       "severity": "info",
       "status": "resolved",
       "message": "Resolved: rest intervals are intentionally left unspecified as approved by the program owner.",
-      "sourceText": null,
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": null,
+      "source_ref": {
+        "source_id": "source-1",
         "page": 1,
-        "blockId": null
+        "block_id": null
       }
     },
     {
       "id": "issue-sl-hf-alternative",
-      "entityId": "occurrence-sl-hf-su-or-tall-plank-hf-dip",
+      "entity_id": "occurrence-sl-hf-su-or-tall-plank-hf-dip",
       "code": "ambiguousExerciseAlternative",
       "severity": "warning",
       "status": "resolved",
       "message": "Resolved: the alternative remains named exactly as an exercise from the source, without an invented selection rule.",
-      "sourceText": "SL HF S/U or Tall Plank HF Dip 2 x 10 ea",
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": "SL HF S/U or Tall Plank HF Dip 2 x 10 ea",
+      "source_ref": {
+        "source_id": "source-1",
         "page": 1,
-        "blockId": null
+        "block_id": null
       }
     },
     {
       "id": "issue-standing-dowel-each",
-      "entityId": "occurrence-standing-dowel-rotations-lateral-flexion",
+      "entity_id": "occurrence-standing-dowel-rotations-lateral-flexion",
       "code": "ambiguousPrescription",
       "severity": "warning",
       "status": "resolved",
       "message": "Resolved: the program owner confirmed 10 repetitions on each side.",
-      "sourceText": "Standing Dowel Rotations and Lateral Flexion: 10 each",
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": "Standing Dowel Rotations and Lateral Flexion: 10 each",
+      "source_ref": {
+        "source_id": "source-1",
         "page": 1,
-        "blockId": null
+        "block_id": null
       }
     },
     {
       "id": "issue-banded-hamstring-each",
-      "entityId": "occurrence-banded-dynamic-hamstring-stretch",
+      "entity_id": "occurrence-banded-dynamic-hamstring-stretch",
       "code": "ambiguousPrescription",
       "severity": "warning",
       "status": "resolved",
       "message": "Resolved: the program owner confirmed 30 seconds on each side.",
-      "sourceText": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
+      "source_ref": {
+        "source_id": "source-1",
         "page": 1,
-        "blockId": null
+        "block_id": null
       }
     },
     {
       "id": "issue-sl-rdl-note",
-      "entityId": "occurrence-sl-rdl-thoracic-extension",
+      "entity_id": "occurrence-sl-rdl-thoracic-extension",
       "code": "unresolvedSourceConflict",
       "severity": "warning",
       "status": "resolved",
       "message": "Resolved: the program owner confirmed the existing single-leg RDL interpretation.",
-      "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": "can progress to eyes closed, catching tennis ball, RDLs",
+      "source_ref": {
+        "source_id": "source-1",
         "page": 1,
-        "blockId": null
+        "block_id": null
       }
     },
     {
       "id": "issue-good-morning-alternatives",
-      "entityId": "occurrence-seated-cable-or-incline-bench-good-morning",
+      "entity_id": "occurrence-seated-cable-or-incline-bench-good-morning",
       "code": "ambiguousPrescription",
       "severity": "warning",
       "status": "resolved",
       "message": "Resolved: the program owner approved the existing structured representation of the listed alternatives.",
-      "sourceText": "2 x 6 (seated cable) / 10 (incline bench)",
-      "sourceRef": {
-        "sourceId": "source-1",
+      "source_text": "2 x 6 (seated cable) / 10 (incline bench)",
+      "source_ref": {
+        "source_id": "source-1",
         "page": 2,
-        "blockId": null
+        "block_id": null
       }
     }
   ],
-  "parseMetadata": {
-    "parserVersion": "1.1.0",
-    "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "approved",
-    "sourceHash": "7214d04e95eac169a44139e52dcf168f33300bf777885f688b0446318e1b8d07"
+  "parse_metadata": {
+    "parser_version": "2.0.0",
+    "parsed_at": "2026-09-22T00:00:00Z",
+    "review_status": "approved",
+    "source_hash": "7214d04e95eac169a44139e52dcf168f33300bf777885f688b0446318e1b8d07"
   }
 }
