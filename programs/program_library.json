@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-22T00:00:00Z",
+  "generatedAt": "2026-09-23T04:38:24Z",
   "programs": [
     {
       "id": "captain-america-workout",
@@ -49,6 +49,35 @@
       ],
       "presentation": {
         "accentColor": null,
+        "bundledCoverAssetName": null
+      }
+    },
+    {
+      "id": "horsemen",
+      "file": "horsemen.json",
+      "sha256": "0e8c6a723d6a62ec881b677a84bed98ba729adcbfd15327625ed710faeeffe22",
+      "byteCount": 1445273,
+      "programSchemaVersion": "1.1.0",
+      "displayTitle": "Horsemen",
+      "summary": "A four-month operator-fitness program combining strength, power endurance, job-specific conditioning, and maintenance.",
+      "contentTypes": [
+        "schedule",
+        "workoutCollection"
+      ],
+      "dataVersion": 16,
+      "difficulty": "advanced",
+      "duration": {
+        "weeks": 16,
+        "days": 112
+      },
+      "goals": [
+        "Strength",
+        "Power endurance",
+        "Job-specific conditioning",
+        "Cardiovascular endurance"
+      ],
+      "presentation": {
+        "accentColor": "#7C3AED",
         "bundledCoverAssetName": null
       }
     },
