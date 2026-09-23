@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-23T04:38:24Z",
+  "generatedAt": "2026-09-23T05:12:06Z",
   "programs": [
     {
       "id": "captain-america-workout",
       "file": "captain-america-workout.json",
-      "sha256": "339fb408098d4d0f6f5419971bfc5e7124e73df9f41099be8bc214651e094696",
-      "byteCount": 133040,
+      "sha256": "7e589812ec598db24f126fd1cba815facc24b4826b5bf9d7c2082d74b32c8c21",
+      "byteCount": 160625,
       "programSchemaVersion": "1.1.0",
       "displayTitle": "Captain America Workout",
       "summary": null,
@@ -14,23 +14,19 @@
         "schedule",
         "workoutCollection"
       ],
-      "dataVersion": 2,
+      "dataVersion": 3,
       "difficulty": null,
       "duration": {
         "weeks": 12,
         "days": null
       },
-      "goals": [],
-      "presentation": {
-        "accentColor": null,
-        "bundledCoverAssetName": null
-      }
+      "goals": []
     },
     {
       "id": "chadwick-boseman-workout",
       "file": "chadwick-boseman-workout.json",
-      "sha256": "f0c2025baa48577f2dbb960e08d149addd869a124b6f132baf8bece009f61260",
-      "byteCount": 146010,
+      "sha256": "d6d23275b703e0a7b6ad3d5c840a76f9f449df8c13f17622d9adaedc189ce9f0",
+      "byteCount": 141624,
       "programSchemaVersion": "1.1.0",
       "displayTitle": "Chadwick Boseman Inspired Workout: Train Like Black Panther",
       "summary": "Work out like Chadwick Boseman with this Black Panther Inspired Workout Program. This workout program combines strength, combat, and flexibility training.",
@@ -38,7 +34,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "dataVersion": 3,
+      "dataVersion": 4,
       "difficulty": "intermediate",
       "duration": {
         "weeks": 8,
@@ -46,11 +42,7 @@
       },
       "goals": [
         "lose fat"
-      ],
-      "presentation": {
-        "accentColor": null,
-        "bundledCoverAssetName": null
-      }
+      ]
     },
     {
       "id": "horsemen",
@@ -75,19 +67,53 @@
         "Power endurance",
         "Job-specific conditioning",
         "Cardiovascular endurance"
-      ],
-      "presentation": {
-        "accentColor": "#7C3AED",
-        "bundledCoverAssetName": null
-      }
+      ]
     },
     {
       "id": "luke-program",
       "file": "luke-program.json",
-      "sha256": "6a2eca4d7070dc25b2795c2688f627f0afb84ec1de5926cbbbeffebb7d8af7b2",
-      "byteCount": 122860,
+      "sha256": "b15df8a7b54143cb2782a8ef66d5cb47669b73dc6a9a3bca3d36645c2c3609d3",
+      "byteCount": 122898,
       "programSchemaVersion": "1.1.0",
       "displayTitle": "Luke Program",
+      "summary": null,
+      "contentTypes": [
+        "schedule"
+      ],
+      "dataVersion": 5,
+      "difficulty": null,
+      "duration": {
+        "weeks": 6,
+        "days": null
+      },
+      "goals": []
+    },
+    {
+      "id": "mobility-program",
+      "file": "mobility-program.json",
+      "sha256": "1665845e4395225ca03ec9784e3cf0a9eaf74928b8235937d2693d1848d7533e",
+      "byteCount": 66631,
+      "programSchemaVersion": "1.1.0",
+      "displayTitle": "Mobility",
+      "summary": null,
+      "contentTypes": [
+        "workoutCollection"
+      ],
+      "dataVersion": 4,
+      "difficulty": null,
+      "duration": {
+        "weeks": null,
+        "days": null
+      },
+      "goals": []
+    },
+    {
+      "id": "vertical-jump-base",
+      "file": "vertical-jump-base.json",
+      "sha256": "737ec26a1e7c6eeaf7a13f089cbf326514157ecf3f950dcebd5b17b559f55616",
+      "byteCount": 172121,
+      "programSchemaVersion": "1.1.0",
+      "displayTitle": "Vertical Jump Base",
       "summary": null,
       "contentTypes": [
         "schedule"
@@ -95,62 +121,12 @@
       "dataVersion": 4,
       "difficulty": null,
       "duration": {
-        "weeks": 6,
-        "days": null
-      },
-      "goals": [],
-      "presentation": {
-        "accentColor": null,
-        "bundledCoverAssetName": null
-      }
-    },
-    {
-      "id": "mobility-program",
-      "file": "mobility-program.json",
-      "sha256": "e56a35a66614d692f536fe254aff6c51e5d369c9fde4a74242951cbc3a71046b",
-      "byteCount": 66736,
-      "programSchemaVersion": "1.1.0",
-      "displayTitle": "Mobility",
-      "summary": null,
-      "contentTypes": [
-        "workoutCollection"
-      ],
-      "dataVersion": 3,
-      "difficulty": null,
-      "duration": {
-        "weeks": null,
-        "days": null
-      },
-      "goals": [],
-      "presentation": {
-        "accentColor": null,
-        "bundledCoverAssetName": null
-      }
-    },
-    {
-      "id": "vertical-jump-base",
-      "file": "vertical-jump-base.json",
-      "sha256": "c773878354c8fd883ac3d901f08894dce69687c20fdfe93afcc013bf1723974a",
-      "byteCount": 156038,
-      "programSchemaVersion": "1.1.0",
-      "displayTitle": "Vertical Jump Base",
-      "summary": null,
-      "contentTypes": [
-        "schedule"
-      ],
-      "dataVersion": 3,
-      "difficulty": null,
-      "duration": {
         "weeks": 8,
         "days": null
       },
       "goals": [
         "vertical jump"
-      ],
-      "presentation": {
-        "accentColor": null,
-        "bundledCoverAssetName": null
-      }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "dataVersion": 4,
+  "dataVersion": 5,
   "program": {
     "id": "luke-program",
     "sourceTitle": "Luke Program",
@@ -1687,7 +1687,7 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null,
+                  "reference": "oneRepMax",
                   "kind": "percentage"
                 },
                 "sourceText": "3 x 5 @ 85%"
@@ -2030,7 +2030,7 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null,
+                  "reference": "oneRepMax",
                   "kind": "percentage"
                 },
                 "sourceText": "4 x 5 @ 85%"
@@ -2177,9 +2177,7 @@
                   "eccentricSeconds": 5,
                   "sourceText": "5 sec count"
                 },
-                "qualifiers": [
-                  "each"
-                ],
+                "qualifiers": [],
                 "sourceText": "(5 sec count) 3 x 8 each"
               },
               "notes": [],
@@ -2347,7 +2345,7 @@
                 "load": {
                   "value": 85,
                   "unit": "percent",
-                  "reference": null,
+                  "reference": "oneRepMax",
                   "kind": "percentage"
                 },
                 "sourceText": "3 x 5 @ 85%"
@@ -2499,7 +2497,8 @@
                   "value": 20,
                   "unit": "pounds",
                   "kind": "absolute",
-                  "equipmentKind": "dumbbell"
+                  "equipmentKind": "dumbbell",
+                  "application": "each"
                 },
                 "qualifiers": [
                   "eachSide"
@@ -2595,7 +2594,7 @@
                   "unit": "seconds"
                 },
                 "qualifiers": [
-                  "each"
+                  "eachSide"
                 ],
                 "sourceText": "3 x 20 seconds each"
               },
@@ -2692,7 +2691,7 @@
                   "value": 5
                 },
                 "qualifiers": [
-                  "each"
+                  "eachArm"
                 ],
                 "sourceText": "4 x 5 each"
               },
@@ -2928,7 +2927,7 @@
                       {
                         "metric": "speed",
                         "value": 9,
-                        "unit": "sourceScaleUnknown"
+                        "unit": "milesPerHour"
                       }
                     ],
                     "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest"
@@ -2990,7 +2989,7 @@
                       {
                         "metric": "speed",
                         "value": 10.5,
-                        "unit": "sourceScaleUnknown"
+                        "unit": "milesPerHour"
                       }
                     ],
                     "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest"
@@ -3052,7 +3051,7 @@
                       {
                         "metric": "speed",
                         "value": 12,
-                        "unit": "sourceScaleUnknown"
+                        "unit": "milesPerHour"
                       }
                     ],
                     "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest"
@@ -3133,7 +3132,14 @@
                   "value": 300,
                   "unit": "meters"
                 },
-                "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest"
+                "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
+                "targets": [
+                  {
+                    "metric": "completionTime",
+                    "maximum": 1,
+                    "unit": "minutes"
+                  }
+                ]
               },
               "notes": [],
               "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
@@ -3286,7 +3292,7 @@
                 },
                 "targets": [
                   {
-                    "metric": "pace",
+                    "metric": "completionTime",
                     "value": 90,
                     "unit": "seconds"
                   }
@@ -3753,8 +3759,8 @@
       "entityId": "day-01-b1",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not identify what the 85% load is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 85% load is based on one-repetition maximum.",
       "sourceText": "B1: Heavy front squats 3 x 5 @ 85%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3767,8 +3773,8 @@
       "entityId": "day-02-b1",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not identify what the 85% load is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 85% load is based on one-repetition maximum.",
       "sourceText": "B1: Bench Press 4 x 5 @ 85%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3781,8 +3787,8 @@
       "entityId": "day-03-b1",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not identify what the 85% load is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 85% load is based on one-repetition maximum.",
       "sourceText": "B1: Heavy Trap Bar DL 3 x 5 @ 85%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3795,8 +3801,8 @@
       "entityId": "day-02-d1",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source says “each” but does not identify what the repetitions apply to individually.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed that “each” is a source-document error for eccentric pull-ups; it is omitted from the structured prescription.",
       "sourceText": "D1: Eccentric Pull ups (5 sec count) 3 x 8 each",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3809,8 +3815,8 @@
       "entityId": "day-04-a1",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source says “each” but does not identify the side, leg, or other unit it modifies.",
+      "status": "resolved",
+      "message": "Resolved: split-squat pulses are performed on each side.",
       "sourceText": "A1: Split Squat pulses 3 x 20 seconds each",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3823,8 +3829,8 @@
       "entityId": "day-04-b2",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source says “each” but does not identify what the repetitions apply to individually.",
+      "status": "resolved",
+      "message": "Resolved: plyometric push-up repetitions apply to each arm.",
       "sourceText": "B2: plyo push up 4 x 5 each",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3837,8 +3843,8 @@
       "entityId": "day-02-conditioning-row",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not clarify whether “@ 1 min” is a completion-time target, pace, or interval duration.",
+      "status": "resolved",
+      "message": "Resolved: perform 12 repetitions of a 300-meter row, finishing each repetition within 1 minute, with 1 minute of rest.",
       "sourceText": "12 x 300m rows @ 1 min w/ 1 min rest",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3851,8 +3857,8 @@
       "entityId": "day-04-conditioning-run",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 1:30 pace for a 400m run but does not state a conventional pace unit; it is represented as a 90-second pace target without assuming a distance-normalized pace unit.",
+      "status": "resolved",
+      "message": "Resolved: each 400-meter run has a 90-second completion-time target.",
       "sourceText": "8 x 400m run @ 1:30 pace w/ 1:1 work to rest ratio",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3865,8 +3871,8 @@
       "entityId": "day-01-conditioning-interval-01",
       "code": "missingUnit",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a speed value of 9 without identifying the speed scale or unit.",
+      "status": "resolved",
+      "message": "Resolved: the speed is 9 miles per hour.",
       "sourceText": "4 x 2:00 min intervals @ 9 speed w/ 1 ½ min rest",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3879,8 +3885,8 @@
       "entityId": "day-01-conditioning-interval-02",
       "code": "missingUnit",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a speed value of 10.5 without identifying the speed scale or unit.",
+      "status": "resolved",
+      "message": "Resolved: the speed is 10.5 miles per hour.",
       "sourceText": "4 x 1:00 min intervals @ 10.5 speed w/ 45 sec rest",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3893,8 +3899,8 @@
       "entityId": "day-01-conditioning-interval-03",
       "code": "missingUnit",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a speed value of 12 without identifying the speed scale or unit.",
+      "status": "resolved",
+      "message": "Resolved: the speed is 12 miles per hour.",
       "sourceText": "4 x 30sec intervals @ 12 speed w/ 30 sec rest",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3907,8 +3913,8 @@
       "entityId": "day-01-conditioning-section",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source prescribes speed-based intervals but does not identify the exercise modality or equipment.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the speed values; exercise modality remains intentionally unspecified in the source-derived exercise name.",
       "sourceText": "Day 1 Conditioning:",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3921,8 +3927,8 @@
       "entityId": "day-03-d1",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source specifies 20lb DBs but does not state whether 20 pounds applies to each dumbbell or to the pair in total.",
+      "status": "resolved",
+      "message": "Resolved: use 20-pound dumbbells, with 20 pounds applying to each hand.",
       "sourceText": "D1: Heel Elevated Iso split squat 3 x 30 sec each side @ 20lb DBs",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3934,7 +3940,7 @@
   "parseMetadata": {
     "parserVersion": "1.1.0",
     "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "needsReview",
+    "reviewStatus": "approved",
     "sourceHash": "3cdd5ab5984aedbffbf3a632db18e6e52e3dd7e98805609423180b94156ddc08"
   }
 }

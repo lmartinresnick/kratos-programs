@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "dataVersion": 2,
+  "dataVersion": 3,
   "program": {
     "id": "captain-america-workout",
     "sourceTitle": "Captain America Workout (12 Weeks)",
@@ -14,8 +14,8 @@
       "sourceText": "Captain America Workout (12 Weeks)"
     },
     "daysPerWeek": {
-      "minimum": 5,
-      "maximum": 5,
+      "minimum": 7,
+      "maximum": 7,
       "sourceText": "Day 1\nDay 2\nDay 3\nDay 4\nDay 5"
     },
     "tags": []
@@ -65,7 +65,7 @@
   ],
   "groupings": [],
   "schedule": {
-    "assignmentOrigin": "source",
+    "assignmentOrigin": "mixed",
     "weeks": [
       {
         "id": "week-01",
@@ -172,11 +172,17 @@
               },
               {
                 "id": "week-01-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -264,6 +270,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-01-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-01-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-01-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -372,11 +426,17 @@
               },
               {
                 "id": "week-02-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -464,6 +524,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-02-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-02-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-02-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -572,11 +680,17 @@
               },
               {
                 "id": "week-03-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -664,6 +778,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-03-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-03-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-03-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -772,11 +934,17 @@
               },
               {
                 "id": "week-04-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -864,6 +1032,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-04-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-04-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-04-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -972,11 +1188,17 @@
               },
               {
                 "id": "week-05-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -1064,6 +1286,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-05-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-05-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-05-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -1172,11 +1442,17 @@
               },
               {
                 "id": "week-06-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -1264,6 +1540,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-06-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-06-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-06-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -1372,11 +1696,17 @@
               },
               {
                 "id": "week-07-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -1464,6 +1794,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-07-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-07-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-07-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -1572,11 +1950,17 @@
               },
               {
                 "id": "week-08-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -1664,6 +2048,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-08-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-08-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-08-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -1772,11 +2204,17 @@
               },
               {
                 "id": "week-09-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -1864,6 +2302,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-09-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-09-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-09-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -1972,11 +2458,17 @@
               },
               {
                 "id": "week-10-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -2064,6 +2556,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-10-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-10-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-10-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -2172,11 +2712,17 @@
               },
               {
                 "id": "week-11-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -2264,6 +2810,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-11-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-11-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-11-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       },
@@ -2372,11 +2966,17 @@
               },
               {
                 "id": "week-12-day-03-maybe-arms",
-                "activityType": "instruction",
-                "text": "Maybe Arms",
-                "assignmentOrigin": "source",
+                "activityType": "workoutReference",
+                "workoutId": "optional-arms-workout",
+                "assignmentOrigin": "editorial",
                 "optional": true,
-                "sourceConstraints": null,
+                "sourceConstraints": {
+                  "categoryIds": [
+                    "category-strength"
+                  ],
+                  "requiredTags": [],
+                  "excludedTags": []
+                },
                 "substitutionPolicy": {
                   "mode": "notAllowed"
                 },
@@ -2464,6 +3064,54 @@
               "page": 2,
               "blockId": "paragraph-55"
             }
+          },
+          {
+            "id": "week-12-day-06",
+            "ordinal": 6,
+            "dayNumber": 6,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 6: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-06-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
+          },
+          {
+            "id": "week-12-day-07",
+            "ordinal": 7,
+            "dayNumber": 7,
+            "weekdayLabel": null,
+            "sourceTitle": null,
+            "displayTitle": "Day 7: Rest",
+            "dayType": "rest",
+            "dayTemplateId": null,
+            "scheduledActivities": [
+              {
+                "id": "week-12-day-07-rest",
+                "activityType": "rest",
+                "displayTitle": "Rest",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved rest day"
+              }
+            ],
+            "sourceText": "Program-owner approved rest day"
           }
         ]
       }
@@ -2828,7 +3476,11 @@
                 "cardio"
               ],
               "prescription": {
-                "sourceText": "Jump Rope"
+                "sourceText": "Jump Rope",
+                "duration": {
+                  "value": 5,
+                  "unit": "minutes"
+                }
               },
               "notes": [],
               "sourceText": "Jump Rope",
@@ -3587,7 +4239,11 @@
                 "cardio"
               ],
               "prescription": {
-                "sourceText": "Jump Rope"
+                "sourceText": "Jump Rope",
+                "duration": {
+                  "value": 5,
+                  "unit": "minutes"
+                }
               },
               "notes": [],
               "sourceText": "Jump Rope",
@@ -3888,6 +4544,152 @@
                   }
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optional-arms-workout",
+      "sourceTitle": null,
+      "displayTitle": "Optional Arms Workout",
+      "description": "A simple biceps and triceps session approved for Day 3.",
+      "categoryIds": [
+        "category-strength"
+      ],
+      "structure": "sequence",
+      "execution": {
+        "method": "sourceDefined",
+        "sourceText": "Program-owner approved editorial workout"
+      },
+      "scoring": {
+        "method": "none",
+        "sourceText": null
+      },
+      "tags": [],
+      "notes": [],
+      "sections": [
+        {
+          "id": "optional-arms-biceps",
+          "nodeType": "section",
+          "sourceTitle": null,
+          "displayTitle": "Biceps",
+          "structure": "superset",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Complete both exercises for 3 sets"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
+          "sourceText": "Program-owner approved editorial workout",
+          "children": [
+            {
+              "id": "optional-arms-dumbbell-curl",
+              "nodeType": "exercise",
+              "exerciseId": "dumbbell-biceps-curl",
+              "title": "Dumbbell Biceps Curl",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 10,
+                  "maximum": 12
+                },
+                "sourceText": "Program-owner approved editorial prescription"
+              },
+              "notes": [],
+              "sourceText": "Program-owner approved editorial prescription"
+            },
+            {
+              "id": "optional-arms-hammer-curl",
+              "nodeType": "exercise",
+              "exerciseId": "hammer-curl",
+              "title": "Hammer Curl",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 10,
+                  "maximum": 12
+                },
+                "sourceText": "Program-owner approved editorial prescription"
+              },
+              "notes": [],
+              "sourceText": "Program-owner approved editorial prescription"
+            }
+          ]
+        },
+        {
+          "id": "optional-arms-triceps",
+          "nodeType": "section",
+          "sourceTitle": null,
+          "displayTitle": "Triceps",
+          "structure": "superset",
+          "execution": {
+            "method": "sourceDefined",
+            "sourceText": "Complete both exercises for 3 sets"
+          },
+          "scoring": {
+            "method": "none",
+            "sourceText": null
+          },
+          "sourceText": "Program-owner approved editorial workout",
+          "children": [
+            {
+              "id": "optional-arms-close-grip-push-up",
+              "nodeType": "exercise",
+              "exerciseId": "close-grip-push-up",
+              "title": "Close-Grip Push-Up",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 10,
+                  "maximum": 15
+                },
+                "sourceText": "Program-owner approved editorial prescription"
+              },
+              "notes": [],
+              "sourceText": "Program-owner approved editorial prescription"
+            },
+            {
+              "id": "optional-arms-overhead-extension",
+              "nodeType": "exercise",
+              "exerciseId": "overhead-dumbbell-triceps-extension",
+              "title": "Overhead Dumbbell Triceps Extension",
+              "description": null,
+              "contextTagIds": [
+                "strength"
+              ],
+              "prescription": {
+                "sets": {
+                  "value": 3
+                },
+                "reps": {
+                  "minimum": 10,
+                  "maximum": 12
+                },
+                "sourceText": "Program-owner approved editorial prescription"
+              },
+              "notes": [],
+              "sourceText": "Program-owner approved editorial prescription"
             }
           ]
         }
@@ -4297,6 +5099,50 @@
       "tagIds": [],
       "aliases": [],
       "abbreviations": []
+    },
+    {
+      "id": "dumbbell-biceps-curl",
+      "sourceTitle": null,
+      "displayTitle": "Dumbbell Biceps Curl",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "hammer-curl",
+      "sourceTitle": null,
+      "displayTitle": "Hammer Curl",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "close-grip-push-up",
+      "sourceTitle": null,
+      "displayTitle": "Close-Grip Push-Up",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
+    },
+    {
+      "id": "overhead-dumbbell-triceps-extension",
+      "sourceTitle": null,
+      "displayTitle": "Overhead Dumbbell Triceps Extension",
+      "description": null,
+      "tagIds": [
+        "strength"
+      ],
+      "aliases": [],
+      "abbreviations": []
     }
   ],
   "editorialIssues": [
@@ -4305,8 +5151,8 @@
       "entityId": "captain-america-workout",
       "code": "inferredRepetition",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source states a 12-week duration but provides one five-day structure. The schedule repeats that same five-day structure for each of the 12 weeks.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed that the five source workouts repeat for all 12 weeks, with approved rest days added as Days 6 and 7.",
       "sourceText": "Captain America Workout (12 Weeks)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4319,8 +5165,8 @@
       "entityId": "section-day-05-three-minute-shredder",
       "code": "unresolvedSourceConflict",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source names a 3 Minute Shredder but lists a 1-minute Forearm Plank and a 30-second Push Up Plank, totaling 90 seconds. No repeat count or remaining work is stated, so none was inferred.",
+      "status": "resolved",
+      "message": "Resolved: the two listed plank exercises remain single exercise entries; no unprinted repeat count or additional movement is added.",
       "sourceText": "3 Minute Shredder\n1min Forearm Plank\n30sec Push Up Plank",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4333,8 +5179,8 @@
       "entityId": "occ-day-01-jump-rope",
       "code": "missingDuration",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not specify a duration, repetition count, or distance for Jump Rope on Day 1.",
+      "status": "resolved",
+      "message": "Resolved: the program owner prescribed 5 minutes of jump rope on Day 1.",
       "sourceText": "Jump Rope",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4347,8 +5193,8 @@
       "entityId": "occ-day-04-jump-rope",
       "code": "missingDuration",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not specify a duration, repetition count, or distance for Jump Rope on Day 4.",
+      "status": "resolved",
+      "message": "Resolved: the program owner prescribed 5 minutes of jump rope on Day 4.",
       "sourceText": "Jump Rope",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4361,8 +5207,8 @@
       "entityId": "week-01-day-03-maybe-arms",
       "code": "missingApprovedAssignment",
       "severity": "error",
-      "status": "unresolved",
-      "message": "The optional arms work is mentioned but no exact arms workout is supplied. It remains an optional instruction rather than a workout assignment, and the same limitation applies whenever Day 3 repeats.",
+      "status": "resolved",
+      "message": "Resolved: the program owner approved the exact optional biceps and triceps workout assigned on Day 3.",
       "sourceText": "OFF (Maybe Arms)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4375,8 +5221,8 @@
       "entityId": "workout-day-01",
       "code": "missingRest",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source does not specify rest intervals for the Day 1 strength or abdominal work.",
+      "status": "resolved",
+      "message": "Resolved: intra-workout rest remains intentionally unspecified; the approved Days 6 and 7 are calendar rest days.",
       "sourceText": "Strength\nAbs (Superset)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4389,8 +5235,8 @@
       "entityId": "workout-day-02",
       "code": "missingRest",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source does not specify rest intervals for the Day 2 strength or abdominal work.",
+      "status": "resolved",
+      "message": "Resolved: intra-workout rest remains intentionally unspecified; the approved Days 6 and 7 are calendar rest days.",
       "sourceText": "Strength\nAbs (Superset)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4403,8 +5249,8 @@
       "entityId": "workout-day-04",
       "code": "missingRest",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source does not specify rest intervals for the Day 4 strength or abdominal work.",
+      "status": "resolved",
+      "message": "Resolved: intra-workout rest remains intentionally unspecified; the approved Days 6 and 7 are calendar rest days.",
       "sourceText": "Strength\nAbs (Superset)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4417,8 +5263,8 @@
       "entityId": "workout-day-05",
       "code": "missingRest",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source does not specify rest intervals for the Day 5 strength or abdominal work.",
+      "status": "resolved",
+      "message": "Resolved: intra-workout rest remains intentionally unspecified; the approved Days 6 and 7 are calendar rest days.",
       "sourceText": "Strength\nAbs (Superset)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4430,7 +5276,7 @@
   "parseMetadata": {
     "parserVersion": "1.1.0",
     "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "needsReview",
+    "reviewStatus": "approved",
     "sourceHash": "2a13850f7e67c7c9351ed42c8318cc146efca8ea0680516043de76fedd667016"
   }
 }

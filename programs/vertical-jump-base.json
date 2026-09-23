@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "dataVersion": 3,
+  "dataVersion": 4,
   "program": {
     "id": "vertical-jump-base",
     "sourceTitle": "Vertical Jump Base",
@@ -83,7 +83,7 @@
   ],
   "groupings": [],
   "schedule": {
-    "assignmentOrigin": "source",
+    "assignmentOrigin": "mixed",
     "weeks": [
       {
         "id": "week-01",
@@ -118,6 +118,17 @@
                   "page": 1,
                   "blockId": "paragraph-000"
                 }
+              },
+              {
+                "id": "week-01-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -153,6 +164,17 @@
                   "page": 1,
                   "blockId": "paragraph-010"
                 }
+              },
+              {
+                "id": "week-01-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -222,6 +244,17 @@
                   "page": 1,
                   "blockId": "paragraph-019"
                 }
+              },
+              {
+                "id": "week-01-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -257,6 +290,17 @@
                   "page": 1,
                   "blockId": "paragraph-029"
                 }
+              },
+              {
+                "id": "week-01-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -301,6 +345,17 @@
                   "page": 1,
                   "blockId": "paragraph-000"
                 }
+              },
+              {
+                "id": "week-02-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -336,6 +391,17 @@
                   "page": 1,
                   "blockId": "paragraph-010"
                 }
+              },
+              {
+                "id": "week-02-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -405,6 +471,17 @@
                   "page": 1,
                   "blockId": "paragraph-019"
                 }
+              },
+              {
+                "id": "week-02-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -440,6 +517,17 @@
                   "page": 1,
                   "blockId": "paragraph-029"
                 }
+              },
+              {
+                "id": "week-02-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -484,6 +572,17 @@
                   "page": 1,
                   "blockId": "paragraph-000"
                 }
+              },
+              {
+                "id": "week-03-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -519,6 +618,17 @@
                   "page": 1,
                   "blockId": "paragraph-010"
                 }
+              },
+              {
+                "id": "week-03-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -588,6 +698,17 @@
                   "page": 1,
                   "blockId": "paragraph-019"
                 }
+              },
+              {
+                "id": "week-03-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -623,6 +744,17 @@
                   "page": 1,
                   "blockId": "paragraph-029"
                 }
+              },
+              {
+                "id": "week-03-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-01",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -667,6 +799,17 @@
                   "page": 1,
                   "blockId": "paragraph-000"
                 }
+              },
+              {
+                "id": "week-04-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -702,6 +845,17 @@
                   "page": 1,
                   "blockId": "paragraph-010"
                 }
+              },
+              {
+                "id": "week-04-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -771,6 +925,17 @@
                   "page": 1,
                   "blockId": "paragraph-019"
                 }
+              },
+              {
+                "id": "week-04-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -806,6 +971,17 @@
                   "page": 1,
                   "blockId": "paragraph-029"
                 }
+              },
+              {
+                "id": "week-04-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -850,6 +1026,17 @@
                   "page": 1,
                   "blockId": "paragraph-037"
                 }
+              },
+              {
+                "id": "week-05-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -885,6 +1072,17 @@
                   "page": 1,
                   "blockId": "paragraph-043"
                 }
+              },
+              {
+                "id": "week-05-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -954,6 +1152,17 @@
                   "page": 1,
                   "blockId": "paragraph-048"
                 }
+              },
+              {
+                "id": "week-05-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -989,6 +1198,17 @@
                   "page": 1,
                   "blockId": "paragraph-054"
                 }
+              },
+              {
+                "id": "week-05-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -1033,6 +1253,17 @@
                   "page": 1,
                   "blockId": "paragraph-037"
                 }
+              },
+              {
+                "id": "week-06-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -1068,6 +1299,17 @@
                   "page": 1,
                   "blockId": "paragraph-043"
                 }
+              },
+              {
+                "id": "week-06-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -1137,6 +1379,17 @@
                   "page": 1,
                   "blockId": "paragraph-048"
                 }
+              },
+              {
+                "id": "week-06-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -1172,6 +1425,17 @@
                   "page": 1,
                   "blockId": "paragraph-054"
                 }
+              },
+              {
+                "id": "week-06-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-02",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -1216,6 +1480,17 @@
                   "page": 1,
                   "blockId": "paragraph-037"
                 }
+              },
+              {
+                "id": "week-07-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -1251,6 +1526,17 @@
                   "page": 1,
                   "blockId": "paragraph-043"
                 }
+              },
+              {
+                "id": "week-07-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -1320,6 +1606,17 @@
                   "page": 1,
                   "blockId": "paragraph-048"
                 }
+              },
+              {
+                "id": "week-07-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -1355,6 +1652,17 @@
                   "page": 1,
                   "blockId": "paragraph-054"
                 }
+              },
+              {
+                "id": "week-07-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -1399,6 +1707,17 @@
                   "page": 1,
                   "blockId": "paragraph-037"
                 }
+              },
+              {
+                "id": "week-08-day-01-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 1",
@@ -1434,6 +1753,17 @@
                   "page": 1,
                   "blockId": "paragraph-043"
                 }
+              },
+              {
+                "id": "week-08-day-02-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 2",
@@ -1503,6 +1833,17 @@
                   "page": 1,
                   "blockId": "paragraph-048"
                 }
+              },
+              {
+                "id": "week-08-day-04-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 4",
@@ -1538,6 +1879,17 @@
                   "page": 1,
                   "blockId": "paragraph-054"
                 }
+              },
+              {
+                "id": "week-08-day-05-jump-protocol",
+                "activityType": "protocolReference",
+                "protocolId": "jump-protocol-phase-03",
+                "assignmentOrigin": "editorial",
+                "optional": false,
+                "substitutionPolicy": {
+                  "mode": "notAllowed"
+                },
+                "sourceText": "Program-owner approved: perform the applicable jump phase each training day"
               }
             ],
             "sourceText": "Day 5",
@@ -1563,8 +1915,21 @@
           "week-02",
           "week-03"
         ],
-        "dayIds": [],
-        "placement": "sourceUnspecified"
+        "dayIds": [
+          "week-01-day-01",
+          "week-01-day-02",
+          "week-01-day-04",
+          "week-01-day-05",
+          "week-02-day-01",
+          "week-02-day-02",
+          "week-02-day-04",
+          "week-02-day-05",
+          "week-03-day-01",
+          "week-03-day-02",
+          "week-03-day-04",
+          "week-03-day-05"
+        ],
+        "placement": "eachTrainingDay"
       },
       "sections": [
         {
@@ -1779,8 +2144,21 @@
           "week-05",
           "week-06"
         ],
-        "dayIds": [],
-        "placement": "sourceUnspecified"
+        "dayIds": [
+          "week-04-day-01",
+          "week-04-day-02",
+          "week-04-day-04",
+          "week-04-day-05",
+          "week-05-day-01",
+          "week-05-day-02",
+          "week-05-day-04",
+          "week-05-day-05",
+          "week-06-day-01",
+          "week-06-day-02",
+          "week-06-day-04",
+          "week-06-day-05"
+        ],
+        "placement": "eachTrainingDay"
       },
       "sections": [
         {
@@ -2018,8 +2396,17 @@
           "week-07",
           "week-08"
         ],
-        "dayIds": [],
-        "placement": "sourceUnspecified"
+        "dayIds": [
+          "week-07-day-01",
+          "week-07-day-02",
+          "week-07-day-04",
+          "week-07-day-05",
+          "week-08-day-01",
+          "week-08-day-02",
+          "week-08-day-04",
+          "week-08-day-05"
+        ],
+        "placement": "eachTrainingDay"
       },
       "sections": [
         {
@@ -2337,7 +2724,7 @@
                   "value": 70,
                   "unit": "percent",
                   "kind": "percentage",
-                  "reference": null
+                  "reference": "oneRepMax"
                 },
                 "sourceText": "Back Squats: 3x8-12@70%"
               },
@@ -2551,7 +2938,7 @@
                   "value": 70,
                   "unit": "percent",
                   "kind": "percentage",
-                  "reference": null
+                  "reference": "oneRepMax"
                 },
                 "sourceText": "Bench Press: 3x8-12x70%"
               },
@@ -2733,7 +3120,7 @@
                   "value": 70,
                   "unit": "percent",
                   "kind": "percentage",
-                  "reference": null
+                  "reference": "oneRepMax"
                 },
                 "sourceText": "Snatch Pulls: 3x3-6@70%"
               },
@@ -2764,7 +3151,7 @@
                   "value": 70,
                   "unit": "percent",
                   "kind": "percentage",
-                  "reference": null
+                  "reference": "oneRepMax"
                 },
                 "sourceText": "Front Squats: 3x8-12@70%"
               },
@@ -2980,7 +3367,7 @@
                   "value": 70,
                   "unit": "percent",
                   "kind": "percentage",
-                  "reference": null
+                  "reference": "oneRepMax"
                 },
                 "sourceText": "Incline Press: 3x8-12@70%"
               },
@@ -3258,7 +3645,7 @@
                       "value": 80,
                       "unit": "percent",
                       "kind": "percentage",
-                      "reference": null
+                      "reference": "oneRepMax"
                     },
                     "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps"
                   },
@@ -3489,7 +3876,7 @@
                       "value": 80,
                       "unit": "percent",
                       "kind": "percentage",
-                      "reference": null
+                      "reference": "oneRepMax"
                     },
                     "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
                   },
@@ -4045,7 +4432,7 @@
                       "value": 80,
                       "unit": "percent",
                       "kind": "percentage",
-                      "reference": null
+                      "reference": "oneRepMax"
                     },
                     "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws"
                   },
@@ -4749,8 +5136,8 @@
       "entityId": "vertical-jump-base",
       "code": "inferredRepetition",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source lists one five-day sequence under “Week 1 – 4.” The schedule expands that sequence across Weeks 1 through 4.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the Weeks 1–4 workout template repeats each week.",
       "sourceText": "Week 1 – 4",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4763,8 +5150,8 @@
       "entityId": "vertical-jump-base",
       "code": "inferredRepetition",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source lists one five-day sequence under “Week 5 – 8.” The schedule expands that sequence across Weeks 5 through 8.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the Weeks 5–8 workout template repeats each week.",
       "sourceText": "Week 5 – 8",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4777,8 +5164,8 @@
       "entityId": "vertical-jump-base",
       "code": "missingRest",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not specify rest intervals for the training workouts or supplemental jump protocols.",
+      "status": "resolved",
+      "message": "Resolved: rest intervals are intentionally left unspecified as approved by the program owner.",
       "sourceText": "Week 1 – 4; Week 5 – 8; Phase 1 – Weeks 1 – 3; Phase 2 – Weeks 4 – 6; Phase 3 – Weeks 7 – 8",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4791,8 +5178,8 @@
       "entityId": "stretching",
       "code": "missingDuration",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source names stretching in all three jump phases but does not provide a duration or method.",
+      "status": "resolved",
+      "message": "Resolved: stretching remains intentionally open-ended.",
       "sourceText": "Stretching",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4805,8 +5192,8 @@
       "entityId": "weeks-01-04-day-01-exercise-02",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 70% load for Back Squats but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 70% load is based on one-repetition maximum.",
       "sourceText": "Back Squats: 3x8-12@70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4819,8 +5206,8 @@
       "entityId": "weeks-01-04-day-02-exercise-01",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source uses “x70%” after the repetition range. It is represented as a 70% load, but the delimiter is ambiguous.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed “x70%” means a 70% prescribed load.",
       "sourceText": "Bench Press: 3x8-12x70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4833,8 +5220,8 @@
       "entityId": "weeks-01-04-day-02-exercise-01",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 70% load for Bench Press but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 70% load is based on one-repetition maximum.",
       "sourceText": "Bench Press: 3x8-12x70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4847,8 +5234,8 @@
       "entityId": "weeks-01-04-day-04-exercise-01",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 70% load for Snatch Pulls but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 70% load is based on one-repetition maximum.",
       "sourceText": "Snatch Pulls: 3x3-6@70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4861,8 +5248,8 @@
       "entityId": "weeks-01-04-day-04-exercise-02",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 70% load for Front Squats but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 70% load is based on one-repetition maximum.",
       "sourceText": "Front Squats: 3x8-12@70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4875,8 +5262,8 @@
       "entityId": "weeks-01-04-day-05-exercise-01",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives a 70% load for Incline Press but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 70% load is based on one-repetition maximum.",
       "sourceText": "Incline Press: 3x8-12@70%",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4889,8 +5276,8 @@
       "entityId": "weeks-05-08-day-01-exercise-03",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives an 80% load for Back Squats but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 80% load is based on one-repetition maximum.",
       "sourceText": "Back Squats + Squat Jumps: 3x4-8@80%+10 Jumps",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4903,8 +5290,8 @@
       "entityId": "weeks-05-08-day-02-exercise-01",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives an 80% load for Bench Press but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 80% load is based on one-repetition maximum.",
       "sourceText": "Bench Press + Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4917,8 +5304,8 @@
       "entityId": "weeks-05-08-day-05-exercise-01",
       "code": "missingLoadReference",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source gives an 80% load for Incline Press but does not identify what the percentage is relative to.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 80% load is based on one-repetition maximum.",
       "sourceText": "Incline Press + Lying Medicine Ball Chest Pass: 3x4-8@80% + 10 throws",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4931,8 +5318,8 @@
       "entityId": "weeks-05-08-day-01-complex-01",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source does not explicitly state whether the 80% of Power Clean load applies only to Clean Pulls or to both movements. The structured load is attached to Clean Pulls while the full source text is retained.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the 80% of Power Clean load applies to Clean Pull only.",
       "sourceText": "Deadlift + Clean Pull: 3x4-8+2-3@80% of Power Clean",
       "sourceRef": {
         "sourceId": "source-1",
@@ -4944,7 +5331,7 @@
   "parseMetadata": {
     "parserVersion": "1.1.0",
     "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "needsReview",
+    "reviewStatus": "approved",
     "sourceHash": "cbf2ae8fe5a62de4687af9d14da53b0e9e00a3d22c638ff24c418a7d94240796"
   }
 }

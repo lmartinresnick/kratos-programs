@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "dataVersion": 3,
+  "dataVersion": 4,
   "program": {
     "id": "mobility-program",
     "sourceTitle": "Mobility",
@@ -476,7 +476,10 @@
                 "reps": {
                   "value": 10
                 },
-                "sourceText": "10 each"
+                "sourceText": "10 each",
+                "qualifiers": [
+                  "eachSide"
+                ]
               },
               "notes": [],
               "sourceText": "Standing Dowel Rotations and Lateral Flexion: 10 each",
@@ -640,7 +643,10 @@
                   "value": 30,
                   "unit": "seconds"
                 },
-                "sourceText": "2 x 30 sec each"
+                "sourceText": "2 x 30 sec each",
+                "qualifiers": [
+                  "eachSide"
+                ]
               },
               "notes": [
                 {
@@ -2091,8 +2097,8 @@
       "entityId": "mobility-collection",
       "code": "missingRest",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source does not provide rest guidance between sets or exercises.",
+      "status": "resolved",
+      "message": "Resolved: rest intervals are intentionally left unspecified as approved by the program owner.",
       "sourceText": null,
       "sourceRef": {
         "sourceId": "source-1",
@@ -2105,8 +2111,8 @@
       "entityId": "occurrence-sl-hf-su-or-tall-plank-hf-dip",
       "code": "ambiguousExerciseAlternative",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source presents two exercises joined by 'or' but does not specify selection criteria.",
+      "status": "resolved",
+      "message": "Resolved: the alternative remains named exactly as an exercise from the source, without an invented selection rule.",
       "sourceText": "SL HF S/U or Tall Plank HF Dip 2 x 10 ea",
       "sourceRef": {
         "sourceId": "source-1",
@@ -2119,8 +2125,8 @@
       "entityId": "occurrence-standing-dowel-rotations-lateral-flexion",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source says '10 each' but does not state whether 'each' refers to each movement, each side, or both.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed 10 repetitions on each side.",
       "sourceText": "Standing Dowel Rotations and Lateral Flexion: 10 each",
       "sourceRef": {
         "sourceId": "source-1",
@@ -2133,8 +2139,8 @@
       "entityId": "occurrence-banded-dynamic-hamstring-stretch",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source says 'each' and lists three stretch positions, but does not state whether the duration applies to each side, each position, or both.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed 30 seconds on each side.",
       "sourceText": "Banded Dynamic Hamstring Stretch 2 x 30 sec each Notes: Straight, leg cross over, leg opened",
       "sourceRef": {
         "sourceId": "source-1",
@@ -2147,8 +2153,8 @@
       "entityId": "occurrence-sl-rdl-thoracic-extension",
       "code": "unresolvedSourceConflict",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The progression note ends with 'RDLs' even though the named exercise is already an SL RDL variation; the note is preserved exactly and may be duplicated or mismatched in the source.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the existing single-leg RDL interpretation.",
       "sourceText": "can progress to eyes closed, catching tennis ball, RDLs",
       "sourceRef": {
         "sourceId": "source-1",
@@ -2161,8 +2167,8 @@
       "entityId": "occurrence-seated-cable-or-incline-bench-good-morning",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source assigns different repetition counts to two exercise alternatives. The shared set count is structured, while the alternative-specific repetition wording remains in sourceText.",
+      "status": "resolved",
+      "message": "Resolved: the program owner approved the existing structured representation of the listed alternatives.",
       "sourceText": "2 x 6 (seated cable) / 10 (incline bench)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -2174,7 +2180,7 @@
   "parseMetadata": {
     "parserVersion": "1.1.0",
     "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "needsReview",
+    "reviewStatus": "approved",
     "sourceHash": "7214d04e95eac169a44139e52dcf168f33300bf777885f688b0446318e1b8d07"
   }
 }

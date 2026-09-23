@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "dataVersion": 3,
+  "dataVersion": 4,
   "program": {
     "id": "chadwick-boseman-workout",
     "sourceTitle": "CHADWICK BOSEMAN INSPIRED WORKOUT: TRAIN LIKE BLACK PANTHER",
@@ -337,7 +337,7 @@
               {
                 "id": "week-01-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -371,7 +371,7 @@
               {
                 "id": "week-01-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -635,7 +635,7 @@
               {
                 "id": "week-02-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -669,7 +669,7 @@
               {
                 "id": "week-02-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -933,7 +933,7 @@
               {
                 "id": "week-03-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -967,7 +967,7 @@
               {
                 "id": "week-03-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1231,7 +1231,7 @@
               {
                 "id": "week-04-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1265,7 +1265,7 @@
               {
                 "id": "week-04-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1529,7 +1529,7 @@
               {
                 "id": "week-05-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1563,7 +1563,7 @@
               {
                 "id": "week-05-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1827,7 +1827,7 @@
               {
                 "id": "week-06-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -1861,7 +1861,7 @@
               {
                 "id": "week-06-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -2125,7 +2125,7 @@
               {
                 "id": "week-07-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -2159,7 +2159,7 @@
               {
                 "id": "week-07-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -2423,7 +2423,7 @@
               {
                 "id": "week-08-day-06-cardio",
                 "activityType": "instruction",
-                "text": "Perform 30-45 minutes of steady state cardio aimed to improve the distance traveled during that time frame each week. Alternatively, you can perform 15 minutes of HIIT cardio if you’re an individual who is short on time. If you have the ability to, you could also perform combat training on this day instead of cardio. Active sparring would be the best approach on non-strength training days.",
+                "text": "Steady-state cardio for 45 minutes.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -2457,7 +2457,7 @@
               {
                 "id": "week-08-day-07-recovery",
                 "activityType": "instruction",
-                "text": "Be active by performing something you enjoy. Some excellent options are to play a sport, perform yoga and meditation, or even going on a lengthy walk. You could also perform speed and agility drills if you choose.",
+                "text": "Active recovery: walk or play a sport.",
                 "assignmentOrigin": "source",
                 "optional": false,
                 "substitutionPolicy": {
@@ -2826,13 +2826,17 @@
                   "description": null,
                   "contextTagIds": [],
                   "prescription": {
-                    "sourceText": "2b. Bodyweight Walking Lunge 3 - 5 Distance"
+                    "sourceText": "2b. Bodyweight Walking Lunge 3 - 5 Distance",
+                    "distance": {
+                      "value": 20,
+                      "unit": "yards"
+                    }
                   },
                   "notes": [
                     {
                       "id": "note-walking-lunge-distance",
                       "kind": "sourceNote",
-                      "text": "The source specifies distance but provides no value or unit.",
+                      "text": "The program owner confirmed a 20-yard distance.",
                       "sourceText": "2b. Bodyweight Walking Lunge 3 - 5 Distance",
                       "sourceRef": {
                         "sourceId": "source-1",
@@ -3348,7 +3352,7 @@
                 {
                   "id": "note-freestyle-selection",
                   "kind": "instruction",
-                  "text": "Perform exercises and hit what you need to. (your favorite exercises or needed target areas)",
+                  "text": "*Perform exercises and hit what you need to. (your favorite exercises or needed target areas)",
                   "sourceText": "*Perform exercises and hit what you need to. (your favorite exercises or needed target areas)",
                   "sourceRef": {
                     "sourceId": "source-1",
@@ -3565,8 +3569,8 @@
       "entityId": "workout-01-walking-lunge",
       "code": "ambiguousPrescription",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The source prescribes a distance for the bodyweight walking lunge but does not provide a distance value or unit.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed a 20-yard walking-lunge distance.",
       "sourceText": "2b. Bodyweight Walking Lunge 3 - 5 Distance",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3579,8 +3583,8 @@
       "entityId": "chadwick-boseman-workout",
       "code": "unresolvedSourceConflict",
       "severity": "warning",
-      "status": "unresolved",
-      "message": "The header says 5-7 days per week, while the schedule labels Days 1 through 7 and does not identify which days to omit in a five- or six-day week. All seven labeled days are preserved without marking any day optional.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed the full seven-day schedule, including 45 minutes of steady-state cardio on Day 6 and active recovery on Day 7.",
       "sourceText": "Days Per Week: 5-7 Days; Day 1 through Day 7",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3593,8 +3597,8 @@
       "entityId": "chadwick-boseman-workout",
       "code": "inferredRepetition",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The source gives an eight-week duration and one ordered Day 1-Day 7 sequence but does not print separate weekly schedules. The sequence is repeated in eight synthetic week containers.",
+      "status": "resolved",
+      "message": "Resolved: the program owner confirmed that the seven-day sequence repeats for all eight weeks.",
       "sourceText": "Program Duration: 8 Weeks; Day 1 through Day 7",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3607,8 +3611,8 @@
       "entityId": "workout-05-freestyle",
       "code": "ambiguousPrescription",
       "severity": "info",
-      "status": "unresolved",
-      "message": "The freestyle block gives a 10-15 minute duration but intentionally leaves the exercise selection to the user. No exact exercises were invented.",
+      "status": "resolved",
+      "message": "Resolved: exercise selection remains intentionally open and the program-owner-approved instruction is preserved verbatim.",
       "sourceText": "3. 10 - 15 min Freestyle*; *Perform exercises and hit what you need to. (your favorite exercises or needed target areas)",
       "sourceRef": {
         "sourceId": "source-1",
@@ -3620,7 +3624,7 @@
   "parseMetadata": {
     "parserVersion": "1.1.0",
     "parsedAt": "2026-09-22T00:00:00Z",
-    "reviewStatus": "needsReview",
+    "reviewStatus": "approved",
     "sourceHash": "aa05a37ea4bef9179b2acdba662858df5dba20de35c788cbea227039570e45bd"
   }
 }
