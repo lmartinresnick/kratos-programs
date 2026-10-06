@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 18,
+  "data_version": 25,
   "program": {
     "id": "horsemen",
     "source_title": "HORSEMEN TRAINING PROGRAM I",
@@ -294,7 +294,9 @@
                 "id": "week-01-day-01-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-03"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-03"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2095,7 +2097,9 @@
                 "id": "week-05-day-03-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-01"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-01"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2630,7 +2634,9 @@
                 "id": "week-06-day-05-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-05"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-05"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2882,7 +2888,9 @@
                 "id": "week-07-day-02-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-02"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-02"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -3383,7 +3391,9 @@
                 "id": "week-08-day-03-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-04"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-04"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -5445,7 +5455,9 @@
                 "id": "week-13-day-02-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
-                "selected_exercise_ids": ["workout-riley-black-movement-06"],
+                "selected_exercise_ids": [
+                  "workout-riley-black-movement-06"
+                ],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -7080,7 +7092,10 @@
                   "structure": "complex",
                   "execution": {
                     "method": "sourceDefined",
-                    "source_text": "2. 10x Fat bar DL @ 105# + 60m Crosswalk @ 26# KB (high) & 53# KB (low), 3x, rest as needed between carries\n2. 10x Fat bar DL @ 105# + 60m Crosswalk @ 26# KB (high) & 53# KB (low), 3x, rest as needed between carries"
+                    "source_text": "2. 10x Fat bar DL @ 105# + 60m Crosswalk @ 26# KB (high) & 53# KB (low), 3x, rest as needed between carries\n2. 10x Fat bar DL @ 105# + 60m Crosswalk @ 26# KB (high) & 53# KB (low), 3x, rest as needed between carries",
+                    "rounds": {
+                      "value": 3
+                    }
                   },
                   "scoring": {
                     "method": "none",
@@ -7227,7 +7242,14 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "KB Round the World (around the waist)"
+                    "source_text": "KB Round the World (around the waist)",
+                    "load": {
+                      "value": 53,
+                      "unit": "pounds",
+                      "kind": "absolute",
+                      "equipment_kind": "kettlebell",
+                      "application": "total"
+                    }
                   },
                   "notes": [],
                   "source_text": "1. KB Round the World (around the waist)",
@@ -7245,7 +7267,14 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "KB figure 8"
+                    "source_text": "KB figure 8",
+                    "load": {
+                      "value": 53,
+                      "unit": "pounds",
+                      "kind": "absolute",
+                      "equipment_kind": "kettlebell",
+                      "application": "total"
+                    }
                   },
                   "notes": [],
                   "source_text": "KB figure 8",
@@ -7263,7 +7292,14 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "KB Snatch"
+                    "source_text": "KB Snatch",
+                    "load": {
+                      "value": 53,
+                      "unit": "pounds",
+                      "kind": "absolute",
+                      "equipment_kind": "kettlebell",
+                      "application": "total"
+                    }
                   },
                   "notes": [],
                   "source_text": "KB Snatch",
@@ -7281,7 +7317,14 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "KB Step Up @ 10\" box"
+                    "source_text": "KB Step Up @ 10\" box",
+                    "load": {
+                      "value": 53,
+                      "unit": "pounds",
+                      "kind": "absolute",
+                      "equipment_kind": "kettlebell",
+                      "application": "total"
+                    }
                   },
                   "notes": [],
                   "source_text": "KB Step Up @ 10\" box",
@@ -7315,10 +7358,10 @@
                       "value": 10
                     },
                     "load": {
-                      "value": 105,
+                      "value": 53,
                       "unit": "pounds",
                       "kind": "absolute",
-                      "equipment_kind": "barbell",
+                      "equipment_kind": "kettlebell",
                       "application": "total"
                     }
                   },
@@ -7342,6 +7385,13 @@
                     "duration": {
                       "value": 30,
                       "unit": "seconds"
+                    },
+                    "load": {
+                      "value": 53,
+                      "unit": "pounds",
+                      "kind": "absolute",
+                      "equipment_kind": "kettlebell",
+                      "application": "total"
                     }
                   },
                   "notes": [],
@@ -7360,11 +7410,25 @@
                   "value": 12,
                   "unit": "minutes"
                 },
-                "source_text": "PATRON (SILVER)\n1. KB Round the World (around the waist)\nKB figure 8\nKB Snatch\nKB Step Up @ 10\" box\nOne minute of each, 3x (12 min total), use a 53# KB, KB may not be set down during session.\n2. 10x Fat Bar DL @ 105# (or more)\n30 sec Dead Hang from pull up bar or rings, 4x"
+                "source_text": "PATRON (SILVER)\n1. KB Round the World (around the waist)\nKB figure 8\nKB Snatch\nKB Step Up @ 10\" box\nOne minute of each, 3x (12 min total), use a 53# KB, KB may not be set down during session.\n2. 10x Fat Bar DL @ 105# (or more)\n30 sec Dead Hang from pull up bar or rings, 4x",
+                "rounds": {
+                  "value": 3
+                },
+                "work_interval": {
+                  "value": 1,
+                  "unit": "minutes"
+                }
               },
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "One minute of each, 3x (12 min total), use a 53# KB, KB may not be set down during session."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -7500,7 +7564,85 @@
                       "minimum": 1,
                       "maximum": 10
                     },
-                    "source_text": "Team Decline Push up Ladder 1-10-1 (feet higher than hands), 100 reps total"
+                    "source_text": "Team Decline Push up Ladder 1-10-1 (feet higher than hands), 100 reps total",
+                    "entries": [
+                      {
+                        "reps": 1,
+                        "source_text": "1"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      },
+                      {
+                        "reps": 3,
+                        "source_text": "3"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 5,
+                        "source_text": "5"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 7,
+                        "source_text": "7"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 9,
+                        "source_text": "9"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      },
+                      {
+                        "reps": 9,
+                        "source_text": "9"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 7,
+                        "source_text": "7"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 5,
+                        "source_text": "5"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 3,
+                        "source_text": "3"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      },
+                      {
+                        "reps": 1,
+                        "source_text": "1"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "Team Decline Push-Up Ladder 1-10-1, 100 reps total",
@@ -7535,6 +7677,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "30 min, and say goodbye to the shoulders for a few days"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -7656,6 +7805,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -7735,6 +7891,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "21-18-15-12-9-6-3"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -8183,8 +8346,11 @@
                   ],
                   "structure": "complex",
                   "execution": {
-                    "method": "sourceDefined",
-                    "source_text": "1. 5x Sprint Start (Forward) @ Green Band + 15x Parallette Push up, 3x\n1. 5x Sprint Start (Forward) @ Green Band + 15x Parallette Push up, 3x"
+                    "method": "fixedRounds",
+                    "source_text": "1. 5x Sprint Start (Forward) @ Green Band + 15x Parallette Push up, 3x\n1. 5x Sprint Start (Forward) @ Green Band + 15x Parallette Push up, 3x",
+                    "rounds": {
+                      "value": 3
+                    }
                   },
                   "scoring": {
                     "method": "none",
@@ -8250,8 +8416,11 @@
                   ],
                   "structure": "complex",
                   "execution": {
-                    "method": "sourceDefined",
-                    "source_text": "2. 5x Sprint Start (Backward) @ Green Band + 10x DL @ 135#, 3x\n2. 5x Sprint Start (Backward) @ Green Band + 10x DL @ 135#, 3x"
+                    "method": "fixedRounds",
+                    "source_text": "2. 5x Sprint Start (Backward) @ Green Band + 10x DL @ 135#, 3x\n2. 5x Sprint Start (Backward) @ Green Band + 10x DL @ 135#, 3x",
+                    "rounds": {
+                      "value": 3
+                    }
                   },
                   "scoring": {
                     "method": "none",
@@ -8310,8 +8479,11 @@
                   ],
                   "structure": "complex",
                   "execution": {
-                    "method": "sourceDefined",
-                    "source_text": "3. 20x Box Jump @ 24\" box + 7x Clapping Pull up, 3x\n3. 20x Box Jump @ 24\" box + 7x Clapping Pull up, 3x"
+                    "method": "fixedRounds",
+                    "source_text": "3. 20x Box Jump @ 24\" box + 7x Clapping Pull up, 3x\n3. 20x Box Jump @ 24\" box + 7x Clapping Pull up, 3x",
+                    "rounds": {
+                      "value": 3
+                    }
                   },
                   "scoring": {
                     "method": "none",
@@ -8409,7 +8581,7 @@
               "id": "workout-breathing-ladder-block-01",
               "node_type": "section",
               "source_title": "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an",
-              "display_title": "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an",
+              "display_title": "Breathing Ladder",
               "source_text": "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an\nEndurance under 90 minutes.\nRepetitions:\n1-20 (or more), add one rep at each successive rung of the ladder\n1-20-1, add one rep at each successive rung of the ladder up to 20 and then descend, this gets very scary around rung number ten on\nthe way down\n1-10 repeats add one rep at each successive rung of the ladder up to 10 and then repeat the ladder beginning with 1\nThe stopping point for a properly executed Breathing ladder occurs when the athlete can no longer perform the movement with the\nallotted number of breaths.\nBall Slams\nKB Swing\nKB Snatch\nKB Two hand Clean and Squat combo (KB must touch ground on each rep)\nThrusters",
               "children": [
                 {
@@ -8567,14 +8739,46 @@
                 },
                 {
                   "id": "workout-breathing-ladder-block-01-item-13",
-                  "node_type": "instruction",
+                  "node_type": "exercise",
                   "text": "KB Two hand Clean and Squat combo (KB must touch ground on each rep)",
                   "source_text": "KB Two hand Clean and Squat combo (KB must touch ground on each rep)",
                   "source_ref": {
                     "source_id": "source-1",
                     "page": 22,
                     "block_id": null
-                  }
+                  },
+                  "exercise_id": null,
+                  "title": "KB Two hand Clean and Squat combo",
+                  "context_tag_ids": [
+                    "conditioning"
+                  ],
+                  "notes": [],
+                  "prescription": {
+                    "source_text": "KB Two hand Clean and Squat combo (KB must touch ground on each rep)"
+                  },
+                  "movements": [
+                    {
+                      "id": "breathing-clean-squat-clean",
+                      "title": "KB Two hand Clean",
+                      "prescription": {
+                        "source_text": "KB Two hand Clean"
+                      }
+                    },
+                    {
+                      "id": "breathing-clean-squat-squat",
+                      "title": "Squat",
+                      "prescription": {
+                        "source_text": "Squat"
+                      }
+                    }
+                  ],
+                  "guidance": {
+                    "execution_rules": [
+                      "KB must touch ground on each rep"
+                    ],
+                    "additional_instructions": []
+                  },
+                  "tracks_load": true
                 },
                 {
                   "id": "workout-breathing-ladder-block-01-item-14",
@@ -8597,18 +8801,54 @@
               ],
               "structure": "circuit",
               "execution": {
-                "method": "ladder",
+                "method": "athletePaced",
                 "rep_scheme": {
-                  "type": "sourceDefined",
-                  "application": "sourceDefined",
-                  "source_text": "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an"
+                  "type": "ascending",
+                  "values": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "application": "eachMovement",
+                  "source_text": "1-20 (or more), add one rep at each successive rung of the ladder"
                 },
                 "source_text": "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an\nA Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an\nEndurance under 90 minutes.\nRepetitions:\n1-20 (or more), add one rep at each successive rung of the ladder\n1-20-1, add one rep at each successive rung of the ladder up to 20 and then descend, this gets very scary around rung number ten on\nthe way down\n1-10 repeats add one rep at each successive rung of the ladder up to 10 and then repeat the ladder beginning with 1\nThe stopping point for a properly executed Breathing ladder occurs when the athlete can no longer perform the movement with the\nallotted number of breaths.\nBall Slams\nKB Swing\nKB Snatch\nKB Two hand Clean and Squat combo (KB must touch ground on each rep)\nThrusters"
               },
               "scoring": {
                 "method": "none",
                 "source_text": null
-              }
+              },
+              "guidance": {
+                "prescription_summary": "App default: choose one movement, 1-20 ascending ladder.",
+                "execution_rules": [
+                  "The stopping point for a properly executed Breathing ladder occurs when the athlete can no longer perform the movement with the allotted number of breaths."
+                ],
+                "additional_instructions": [
+                  "A Breathing ladder under 30 min can be considered a Power Endurance while a breathing ladder over 30 min can be considered an Endurance under 90 minutes.",
+                  "1-20 (or more), add one rep at each successive rung of the ladder",
+                  "1-20-1, add one rep at each successive rung of the ladder up to 20 and then descend, this gets very scary around rung number ten on the way down",
+                  "1-10 repeats add one rep at each successive rung of the ladder up to 10 and then repeat the ladder beginning with 1",
+                  "The app defaults to the first ascending variant and one movement; other variants remain in the original source. Stop at the source stopping point, rather than forcing completion of every target."
+                ]
+              },
+              "minimum_completed_children": 1
             }
           ],
           "structure": "sequence",
@@ -8734,6 +8974,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -8815,6 +9062,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -8910,6 +9164,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -9052,6 +9313,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -9211,6 +9479,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "8 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -9339,6 +9614,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "30-20-10"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -10214,7 +10496,33 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Squat 80 64 48 32 24 12"
+                    "source_text": "Squat 80 64 48 32 24 12",
+                    "entries": [
+                      {
+                        "reps": 80,
+                        "source_text": "80"
+                      },
+                      {
+                        "reps": 64,
+                        "source_text": "64"
+                      },
+                      {
+                        "reps": 48,
+                        "source_text": "48"
+                      },
+                      {
+                        "reps": 32,
+                        "source_text": "32"
+                      },
+                      {
+                        "reps": 24,
+                        "source_text": "24"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "1. Squat 80 64 48 32 24 12",
@@ -10232,7 +10540,33 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "KB Swing 40 32 24 16 12 6"
+                    "source_text": "KB Swing 40 32 24 16 12 6",
+                    "entries": [
+                      {
+                        "reps": 40,
+                        "source_text": "40"
+                      },
+                      {
+                        "reps": 32,
+                        "source_text": "32"
+                      },
+                      {
+                        "reps": 24,
+                        "source_text": "24"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "2. KB Swing 40 32 24 16 12 6",
@@ -10250,7 +10584,33 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Pull up 20 16 12 8 6 3"
+                    "source_text": "Pull up 20 16 12 8 6 3",
+                    "entries": [
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 3,
+                        "source_text": "3"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "3. Pull up 20 16 12 8 6 3",
@@ -10491,12 +10851,31 @@
               ],
               "structure": "sequence",
               "execution": {
-                "method": "sourceDefined",
-                "source_text": "STAIRWAY TO HEAVEN - (50-40-30-20-10)\nKB Step up @ 2x 35# KB @ 18\" box\nKTE"
+                "method": "ladder",
+                "source_text": "STAIRWAY TO HEAVEN - (50-40-30-20-10)\nKB Step up @ 2x 35# KB @ 18\" box\nKTE",
+                "rep_scheme": {
+                  "type": "descending",
+                  "values": [
+                    50,
+                    40,
+                    30,
+                    20,
+                    10
+                  ],
+                  "application": "eachMovement",
+                  "source_text": "50-40-30-20-10"
+                }
               },
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "KB Step up @ 2x 35# KB @ 18\" box"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -10773,6 +11152,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -11008,6 +11394,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "(30 seconds of each followed by 30 seconds of rest during which 5 perfect pushups must be done = one round)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -11143,6 +11536,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "30-20-10"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -11272,6 +11672,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -11747,6 +12154,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "50-40-30-20-10"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -11906,6 +12320,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -12029,6 +12450,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10/1-9/2-8/3-7/4-6/5-5/6-4/7-3/8-2/9-1/10"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -12181,6 +12609,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -12452,6 +12887,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -12611,6 +13053,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "20-15-10-5"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -12706,6 +13155,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -12801,8 +13257,20 @@
               ],
               "structure": "sequence",
               "execution": {
-                "method": "sourceDefined",
-                "source_text": "ANNIE (50-40-30-20-10)\n1. Double unders\n2. Sit ups"
+                "method": "ladder",
+                "source_text": "ANNIE (50-40-30-20-10)\n1. Double unders\n2. Sit ups",
+                "rep_scheme": {
+                  "type": "descending",
+                  "values": [
+                    50,
+                    40,
+                    30,
+                    20,
+                    10
+                  ],
+                  "application": "eachMovement",
+                  "source_text": "50-40-30-20-10"
+                }
               },
               "scoring": {
                 "method": "none",
@@ -12908,7 +13376,9 @@
                 },
                 {
                   "id": "workout-bad-bush-block-01-compound-03",
-                  "selected_child_ids": ["workout-bad-bush-block-01-compound-03-item-02"],
+                  "selected_child_ids": [
+                    "workout-bad-bush-block-01-compound-03-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "3. 1x Rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -13228,8 +13698,18 @@
               ],
               "structure": "sequence",
               "execution": {
-                "method": "sourceDefined",
-                "source_text": "ELIZABETH (21-15-9)\n1. Clean @ 135#\n2. Ring Dips"
+                "method": "ladder",
+                "source_text": "ELIZABETH (21-15-9)\n1. Clean @ 135#\n2. Ring Dips",
+                "rep_scheme": {
+                  "type": "descending",
+                  "values": [
+                    21,
+                    15,
+                    9
+                  ],
+                  "application": "eachMovement",
+                  "source_text": "21-15-9"
+                }
               },
               "scoring": {
                 "method": "none",
@@ -13336,8 +13816,18 @@
               ],
               "structure": "sequence",
               "execution": {
-                "method": "sourceDefined",
-                "source_text": "FRAN (21-15-9)\n1. Thrusters @ 95#\n2. Pull ups"
+                "method": "ladder",
+                "source_text": "FRAN (21-15-9)\n1. Thrusters @ 95#\n2. Pull ups",
+                "rep_scheme": {
+                  "type": "descending",
+                  "values": [
+                    21,
+                    15,
+                    9
+                  ],
+                  "application": "eachMovement",
+                  "source_text": "21-15-9"
+                }
               },
               "scoring": {
                 "method": "none",
@@ -14525,6 +15015,16 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3. 5 min rest",
+                  "30-20-10",
+                  "5 rounds",
+                  "2. 30 sec rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -14637,6 +15137,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "Rest 3 min"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -14745,6 +15253,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "2. 30 seconds rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -15001,6 +15516,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "2. 30 sec Rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -15177,6 +15699,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Every 3 minutes for 6 rounds ...."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -15324,6 +15853,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5x 1 min intervals with 30s rest for each. Break 1 min between exercises."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -15567,7 +16103,15 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
-              }
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "ANY CARDIOVASCULAR ACTIVITY PERFORMED FOR 30-90 MINUTES"
+                ],
+                "additional_instructions": []
+              },
+              "minimum_completed_children": 1
             }
           ],
           "structure": "sequence",
@@ -15733,6 +16277,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "SPORT SPECIFIC"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -15940,6 +16491,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -16060,6 +16618,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "1 Min rest"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -16134,6 +16700,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -16354,6 +16927,13 @@
               "scoring": {
                 "method": "roundsAndRepetitions",
                 "source_text": "MAX ROUNDS IN 60 MIN:\nMAX ROUNDS IN 60 MIN:\n1. 10x DL @ 135#\n2. 10x Sit ups @ 45#\n3. 10x Push Press @ 75#\n4. 10x KB Swings @ 53#\n5. 6x Get ups @ 45#"
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "MAX ROUNDS IN 60 MIN:"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -16430,6 +17010,17 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Choose a workout on the freedom enhancer"
+                ],
+                "additional_instructions": []
+              },
+              "completion": {
+                "count": 1,
+                "entry_label": "Workout"
               }
             },
             {
@@ -16570,6 +17161,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -16759,6 +17357,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds with Ruck of:"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -16936,6 +17541,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds",
+                  "10 sec rest"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -17069,6 +17682,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds",
+                  "10 sec rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -17145,6 +17766,17 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Choose any two long sport-specific workouts."
+                ],
+                "additional_instructions": []
+              },
+              "completion": {
+                "count": 2,
+                "entry_label": "Workout"
               }
             }
           ],
@@ -18067,6 +18699,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Move all KB's in gym across room and back (lunging)"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -18241,6 +18880,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -18715,6 +19361,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3x1 @ 90% of 1RM DL"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -18879,6 +19532,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -18960,6 +19620,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -19081,6 +19748,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -19487,6 +20161,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "(Take a 3 min rest between each exercise, i.e. 15x tire flips for 5 min, then 3 min rest, then sprints, etc.)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -19608,6 +20289,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -19685,6 +20373,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -19798,6 +20493,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -20496,6 +21198,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -20598,6 +21307,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -20673,7 +21389,13 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Clean"
+                    "source_text": "Clean",
+                    "sets": {
+                      "value": 1
+                    },
+                    "reps": {
+                      "value": 1
+                    }
                   },
                   "notes": [],
                   "source_text": "Clean",
@@ -20691,7 +21413,13 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Push press"
+                    "source_text": "Push press",
+                    "sets": {
+                      "value": 1
+                    },
+                    "reps": {
+                      "value": 1
+                    }
                   },
                   "notes": [],
                   "source_text": "Push press",
@@ -20709,7 +21437,13 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Jerk"
+                    "source_text": "Jerk",
+                    "sets": {
+                      "value": 1
+                    },
+                    "reps": {
+                      "value": 1
+                    }
                   },
                   "notes": [],
                   "source_text": "Jerk",
@@ -20727,7 +21461,13 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Clean & Jerk"
+                    "source_text": "Clean & Jerk",
+                    "sets": {
+                      "value": 1
+                    },
+                    "reps": {
+                      "value": 1
+                    }
                   },
                   "notes": [],
                   "source_text": "Clean & Jerk",
@@ -20745,7 +21485,13 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Snatch"
+                    "source_text": "Snatch",
+                    "sets": {
+                      "value": 1
+                    },
+                    "reps": {
+                      "value": 1
+                    }
                   },
                   "notes": [],
                   "source_text": "Snatch",
@@ -20762,9 +21508,17 @@
                 "source_text": "EXPLOSIVE POWER\n1RM in one of the following movements:\nClean\nPush press\nJerk\nClean & Jerk\nSnatch"
               },
               "scoring": {
-                "method": "maximumLoad",
+                "method": "none",
                 "source_text": "EXPLOSIVE POWER\n1RM in one of the following movements:\nClean\nPush press\nJerk\nClean & Jerk\nSnatch"
-              }
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "1RM in one of the following movements:"
+                ],
+                "additional_instructions": []
+              },
+              "minimum_completed_children": 1
             }
           ],
           "structure": "sequence",
@@ -20903,6 +21657,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "(5 min rest between sets)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -21293,6 +22055,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "(5 min rest between sets)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -21686,7 +22456,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Push up x2 (20, 18...)"
+                    "source_text": "Push up x2 (20, 18...)",
+                    "entries": [
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 18,
+                        "source_text": "18"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 14,
+                        "source_text": "14"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "4. Push up x2 (20, 18...)",
@@ -21704,7 +22516,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Sit up x3 (30, 27....)"
+                    "source_text": "Sit up x3 (30, 27....)",
+                    "entries": [
+                      {
+                        "reps": 30,
+                        "source_text": "30"
+                      },
+                      {
+                        "reps": 27,
+                        "source_text": "27"
+                      },
+                      {
+                        "reps": 24,
+                        "source_text": "24"
+                      },
+                      {
+                        "reps": 21,
+                        "source_text": "21"
+                      },
+                      {
+                        "reps": 18,
+                        "source_text": "18"
+                      },
+                      {
+                        "reps": 15,
+                        "source_text": "15"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 9,
+                        "source_text": "9"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 3,
+                        "source_text": "3"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "5. Sit up x3 (30, 27....)",
@@ -21970,6 +22824,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "While holding a 45# bar, 2x 25# DB or similar load, do 5x lunges followed by 5x Push Press, continue doing this until you have",
+                  "traveled 400m (this is typically 1 lap around a track) - 20-30 min"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -22100,6 +22962,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -22196,6 +23065,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -22315,7 +23191,25 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Box Jumps x2 (40x, 30x...)"
+                    "source_text": "Box Jumps x2 (40x, 30x...)",
+                    "entries": [
+                      {
+                        "reps": 40,
+                        "source_text": "40"
+                      },
+                      {
+                        "reps": 30,
+                        "source_text": "30"
+                      },
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "3. Box Jumps x2 (40x, 30x...)",
@@ -22370,6 +23264,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "20-15-10-5"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -22511,6 +23412,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -22614,6 +23522,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -22771,6 +23686,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -23000,6 +23922,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1",
+                  "Row 100m (First round is 1000m, second is 900m, etc.)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -23123,6 +24053,13 @@
               "scoring": {
                 "method": "completionTime",
                 "source_text": "Block 1\n3 Rounds for time\nRun 400m plus hill with sandbag\n15x Burpees"
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 Rounds for time"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -23158,7 +24095,49 @@
                       "kind": "absolute",
                       "equipment_kind": "kettlebell",
                       "application": "total"
-                    }
+                    },
+                    "entries": [
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 18,
+                        "source_text": "18"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 14,
+                        "source_text": "14"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "KB Swings x2 (20X, 18X...) @ 53#",
@@ -23194,7 +24173,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Sit-up x2"
+                    "source_text": "Sit-up x2",
+                    "entries": [
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 18,
+                        "source_text": "18"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 14,
+                        "source_text": "14"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "Sit-up x2",
@@ -23249,6 +24270,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1 (Grind)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -23442,6 +24470,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -23596,6 +24631,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "1 min Rest"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -23702,6 +24745,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "1 min rest"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -23808,6 +24859,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "1 min rest"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -23906,6 +24965,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -24270,6 +25336,13 @@
               "scoring": {
                 "method": "completionTime",
                 "source_text": "Block 1\nFor Time:\nRun 400m\n10x Turkish Get up @ 35# (each hand)\n40x Jumping Lunges (20x each leg)\nRun 400m\n7x Turkish Get up (each hand)\n30x Jumping Lunges (15x each leg)\nRun 400m\n5x Turkish Get up (each hand)\n20x Jumping Lunges (10x each leg)\nRun 400m\n3x Turkish Get up each hand\n10x Jumping lunges (5x each leg)"
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "For Time:"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -24356,15 +25429,22 @@
               ],
               "structure": "sequence",
               "execution": {
-                "method": "roundsForTime",
+                "method": "fixedRounds",
                 "source_text": "Block 2\n10 Rounds (grind, not for time)\n5x Pull up\n10x Dip\n15x Push up",
                 "rounds": {
                   "value": 10
                 }
               },
               "scoring": {
-                "method": "completionTime",
-                "source_text": "Block 2\n10 Rounds (grind, not for time)\n5x Pull up\n10x Dip\n15x Push up"
+                "method": "none",
+                "source_text": "10 Rounds (grind, not for time)"
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 Rounds (grind, not for time)"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -24385,8 +25465,8 @@
         "source_text": "PALIN IN 2012!"
       },
       "scoring": {
-        "method": "completionTime",
-        "source_text": "PALIN IN 2012!"
+        "method": "none",
+        "source_text": null
       }
     },
     {
@@ -24548,6 +25628,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -24625,6 +25712,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 Rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -24736,8 +25830,15 @@
                 }
               },
               "scoring": {
-                "method": "roundsAndRepetitions",
+                "method": "totalRepetitions",
                 "source_text": "SECRET SERVICE SNATCH TEST\nPerform as many KB snatches as possible in 10 min, alternating left and right hand as desired, KB may be set down to rest if\nnecessary, those are \"Official\" (Gentlemen's rules). \"Tier One\" rules dictate that the KB may not be set down during the 10 min\neffort, only one transfer swing is allowed to change hands, and any rest must be taken with the KB held overhead in the locked-out\nposition. Men use the 53# KB.\n100 - Lethargic, 150 - Good (Team Guy Standard), 200 - Really good, 250 - Ridiculous, 275 - Record"
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Perform as many kettlebell snatches as possible in 10 minutes, alternating hands as desired. Follow the source's official or Tier One handling rules."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -24981,6 +26082,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 Rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -25055,6 +26163,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 Rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -25139,6 +26254,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 Rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -25215,7 +26337,10 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Tabata Squats (rest in bottom hold, thighs parallel to floor)"
+                    "source_text": "Tabata Squats (rest in bottom hold, thighs parallel to floor)",
+                    "qualifiers": [
+                      "maximumRepetitions"
+                    ]
                   },
                   "notes": [],
                   "source_text": "Tabata Squats (rest in bottom hold, thighs parallel to floor)",
@@ -25233,7 +26358,10 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Tabata Push-Ups (rest locked out at top, aka Forward leaning rest)"
+                    "source_text": "Tabata Push-Ups (rest locked out at top, aka Forward leaning rest)",
+                    "qualifiers": [
+                      "maximumRepetitions"
+                    ]
                   },
                   "notes": [],
                   "source_text": "Tabata Push-Ups (rest locked out at top, aka Forward leaning rest)",
@@ -25258,7 +26386,10 @@
                       "kind": "absolute",
                       "equipment_kind": "other",
                       "application": "total"
-                    }
+                    },
+                    "qualifiers": [
+                      "maximumRepetitions"
+                    ]
                   },
                   "notes": [],
                   "source_text": "Tabata Ball Slam @ 20# ball (rest with ball overhead, both arms locked out)",
@@ -25276,7 +26407,10 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Tabata Sit-Up (rest with legs held straight 6-12 inches above floor, head off floor)"
+                    "source_text": "Tabata Sit-Up (rest with legs held straight 6-12 inches above floor, head off floor)",
+                    "qualifiers": [
+                      "maximumRepetitions"
+                    ]
                   },
                   "notes": [],
                   "source_text": "Tabata Sit-Up (rest with legs held straight 6-12 inches above floor, head off floor)",
@@ -25301,7 +26435,10 @@
                       "kind": "absolute",
                       "equipment_kind": "kettlebell",
                       "application": "total"
-                    }
+                    },
+                    "qualifiers": [
+                      "maximumRepetitions"
+                    ]
                   },
                   "notes": [],
                   "source_text": "Tabata KB Swing @ 53# (rest without setting KB down or supporting it on your body)",
@@ -25315,11 +26452,32 @@
               "structure": "circuit",
               "execution": {
                 "method": "tabata",
-                "source_text": "TABATA HELL\nOne min rest between movements, score is sum of all reps\n1. Tabata Squats (rest in bottom hold, thighs parallel to floor)\n2. Tabata Push-ups (rest locked out at top, aka Forward leaning rest)\n3. Tabata Ball Slam @ 20# ball (rest with ball overhead, both arms locked out)\n4. Tabata Sit-up (rest with legs held straight 6-12\" above floor, head off floor)\n5. Tabata KB Swing @ 53# (rest without setting KB down or supporting it on your body)"
+                "source_text": "TABATA HELL\nOne min rest between movements, score is sum of all reps\n1. Tabata Squats (rest in bottom hold, thighs parallel to floor)\n2. Tabata Push-ups (rest locked out at top, aka Forward leaning rest)\n3. Tabata Ball Slam @ 20# ball (rest with ball overhead, both arms locked out)\n4. Tabata Sit-up (rest with legs held straight 6-12\" above floor, head off floor)\n5. Tabata KB Swing @ 53# (rest without setting KB down or supporting it on your body)",
+                "rounds": {
+                  "value": 8
+                },
+                "work_interval": {
+                  "value": 20,
+                  "unit": "seconds"
+                },
+                "rest_interval": {
+                  "value": 10,
+                  "unit": "seconds"
+                }
               },
               "scoring": {
                 "method": "totalRepetitions",
                 "source_text": "One minute rest between movements; score is the sum of all reps"
+              },
+              "guidance": {
+                "prescription_summary": "8 intervals per movement: 20 sec work / 10 sec rest.",
+                "execution_rules": [
+                  "One minute rest between movements; score is the sum of all reps"
+                ],
+                "additional_instructions": [
+                  "App default: standard 8 x 20/10 Tabata timing. The Horsemen PDF does not specify interval timing; its rest positions and 1-minute break between movements still apply.",
+                  "Timing reference: https://www.crossfit.com/workout/2010/02/17"
+                ]
               }
             }
           ],
@@ -25447,6 +26605,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Every minute for 20 minutes"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -25611,6 +26776,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "15-14-13-12-11-10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -25703,6 +26875,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -25965,6 +27144,13 @@
                   "scoring": {
                     "method": "none",
                     "source_text": null
+                  },
+                  "guidance": {
+                    "prescription_summary": null,
+                    "execution_rules": [
+                      "Press @ 35# (KB must touch floor between reps)"
+                    ],
+                    "additional_instructions": []
                   }
                 }
               ],
@@ -26154,6 +27340,14 @@
                   "scoring": {
                     "method": "none",
                     "source_text": null
+                  },
+                  "guidance": {
+                    "prescription_summary": null,
+                    "execution_rules": [
+                      "Row 500m +50x Box Jump @ 24\" +50x Push up",
+                      "20x"
+                    ],
+                    "additional_instructions": []
                   }
                 },
                 {
@@ -26562,6 +27756,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -27610,7 +28811,16 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
-              }
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Easy effort utilizing any low impact movement done for 30-60 minutes at very low heart rate (-65% @ MHR). The purpose of this",
+                  "extremely light workout is to move blood around, flush by-products of the previous day's effort and create a demand for food."
+                ],
+                "additional_instructions": []
+              },
+              "minimum_completed_children": 1
             }
           ],
           "structure": "sequence",
@@ -27821,6 +29031,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "25-20-15-10-5"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -28955,6 +30172,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -29051,6 +30275,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -29146,6 +30377,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -29348,6 +30586,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -29469,6 +30714,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -29605,6 +30857,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "15-10-5"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -29726,6 +30985,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -29937,6 +31203,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -29980,7 +31253,9 @@
                 },
                 {
                   "id": "workout-chin-up-soldier-on-block-03-compound-03",
-                  "selected_child_ids": ["workout-chin-up-soldier-on-block-03-compound-03-item-02"],
+                  "selected_child_ids": [
+                    "workout-chin-up-soldier-on-block-03-compound-03-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "15 ft rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -30055,6 +31330,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -30135,6 +31417,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -30284,6 +31573,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "7 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -30395,6 +31691,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -30490,6 +31793,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -30640,6 +31950,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -30745,6 +32062,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "6 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -30813,6 +32137,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds",
+                  "30 seconds rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -30877,7 +32209,59 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Power Snatch 80% 3r, 85% 2r, 90% 1r, 80% 3r x 2s"
+                    "source_text": "Power Snatch 80% 3r, 85% 2r, 90% 1r, 80% 3r x 2s",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r x 2s"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r x 2s"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "1. Power Snatch 80% 3r, 85% 2r, 90% 1r, 80% 3r x 2s",
@@ -30895,7 +32279,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Power Clean 80% 3r, 85% 2r, 90% 1r x 2s"
+                    "source_text": "Power Clean 80% 3r, 85% 2r, 90% 1r x 2s",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r x 2s"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r x 2s"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "2. Power Clean 80% 3r, 85% 2r, 90% 1r x 2s",
@@ -30913,7 +32339,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Power Jerk 80% 3r, 85% 2r, 90% 1r x 2s"
+                    "source_text": "Power Jerk 80% 3r, 85% 2r, 90% 1r x 2s",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r x 2s"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r x 2s"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "3. Power Jerk 80% 3r, 85% 2r, 90% 1r x 2s",
@@ -30931,7 +32399,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Clean Pull 80% 2r, 85% 3r, 90% 2r, 100% 1r"
+                    "source_text": "Clean Pull 80% 2r, 85% 3r, 90% 2r, 100% 1r",
+                    "entries": [
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 2r"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 100,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "100% 1r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "4. Clean Pull 80% 2r, 85% 3r, 90% 2r, 100% 1r",
@@ -30949,7 +32459,79 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Front Squat 80% 2r, 85% 3r, 90% 2r x 3s, 85% 3r, 80% 3r"
+                    "source_text": "Front Squat 80% 2r, 85% 3r, 90% 2r x 3s, 85% 3r, 80% 3r",
+                    "entries": [
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 2r"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 2r x 3s"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 2r x 3s"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 2r x 3s"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 3r"
+                      },
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "5. Front Squat 80% 2r, 85% 3r, 90% 2r x 3s, 85% 3r, 80% 3r",
@@ -30967,7 +32549,39 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Bench Press 80% 3r, 85% 2r, 90% 2r"
+                    "source_text": "Bench Press 80% 3r, 85% 2r, 90% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "6. Bench Press 80% 3r, 85% 2r, 90% 2r",
@@ -31131,6 +32745,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "7 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -31205,7 +32826,9 @@
                 },
                 {
                   "id": "workout-honey-butter-block-02-compound-04",
-                  "selected_child_ids": ["workout-honey-butter-block-02-compound-04-item-02"],
+                  "selected_child_ids": [
+                    "workout-honey-butter-block-02-compound-04-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -31276,6 +32899,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -31358,6 +32988,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -31522,6 +33159,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -31623,6 +33267,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -31700,6 +33351,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -31856,6 +33514,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -31957,6 +33622,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -32035,6 +33707,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -32162,6 +33841,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5-4-3-2-1-1-1-1"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -32236,6 +33922,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -32313,6 +34006,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -32609,6 +34309,16 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Perform 3-5 ladders from 1-3 reps with progressive loading.",
+                  "Complete each ladder without rest; rest at least 3 minutes between ladders.",
+                  "Use three bars: 95% for 1 rep, 90% for 2 reps, and 85% for 3 reps.",
+                  "All repetitions must be technically perfect."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -32765,6 +34475,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -32874,6 +34591,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -32917,7 +34641,9 @@
                 },
                 {
                   "id": "workout-russian-aggression-block-04-compound-03",
-                  "selected_child_ids": ["workout-russian-aggression-block-04-compound-03-item-02"],
+                  "selected_child_ids": [
+                    "workout-russian-aggression-block-04-compound-03-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10 Pull ups",
                   "display_title": "Combined Sequence",
@@ -33009,6 +34735,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -33081,6 +34814,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds",
+                  "30 seconds rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -33145,7 +34886,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Snatch 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Snatch 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "1. Snatch 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33163,7 +34946,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Power Clean 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Power Clean 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "2. Power Clean 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33181,7 +35006,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Jerk from Rack 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Jerk from Rack 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "3. Jerk from Rack 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33199,7 +35066,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Clean Pull 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Clean Pull 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "4. Clean Pull 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33217,7 +35126,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Front Squat 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Front Squat 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "5. Front Squat 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33235,7 +35186,49 @@
                   "description": null,
                   "context_tag_ids": [],
                   "prescription": {
-                    "source_text": "Good Morning 80% 3r, 85% 2r, 90% 1r, 85% 2r"
+                    "source_text": "Good Morning 80% 3r, 85% 2r, 90% 1r, 85% 2r",
+                    "entries": [
+                      {
+                        "reps": 3,
+                        "load": {
+                          "value": 80,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "80% 3r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      },
+                      {
+                        "reps": 1,
+                        "load": {
+                          "value": 90,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "90% 1r"
+                      },
+                      {
+                        "reps": 2,
+                        "load": {
+                          "value": 85,
+                          "unit": "percent",
+                          "kind": "percentage",
+                          "reference": "oneRepMax"
+                        },
+                        "source_text": "85% 2r"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "6. Good Morning 80% 3r, 85% 2r, 90% 1r, 85% 2r",
@@ -33445,6 +35438,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -33510,7 +35510,9 @@
                 },
                 {
                   "id": "workout-soviet-capitalists-block-03-compound-04",
-                  "selected_child_ids": ["workout-soviet-capitalists-block-03-compound-04-item-02"],
+                  "selected_child_ids": [
+                    "workout-soviet-capitalists-block-03-compound-04-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "1x Rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -33581,6 +35583,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "7 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -33694,6 +35703,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -33865,6 +35881,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "6 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -33908,7 +35931,9 @@
                 },
                 {
                   "id": "workout-tongue-lashing-block-03-compound-03",
-                  "selected_child_ids": ["workout-tongue-lashing-block-03-compound-03-item-02"],
+                  "selected_child_ids": [
+                    "workout-tongue-lashing-block-03-compound-03-item-02"
+                  ],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10x pull ups",
                   "display_title": "Combined Sequence",
@@ -33979,6 +36004,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -34009,19 +36041,37 @@
                     "prescription_summary": "30/30 Jingle Jangles",
                     "execution_rules": [],
                     "additional_instructions": [
-                      "The source gives 30/30 without specifying a round count or units here. Confirm the intended timing before training; the app does not turn it into 30 repetitions."
+                      "App default: four intervals of 30 seconds work and 30 seconds rest. The original wording is preserved; the PDF does not state a total round count for this block."
                     ]
                   }
                 }
               ],
               "structure": "singleActivity",
               "execution": {
-                "method": "sourceDefined",
-                "source_text": "Block 4\n30/30 Jingle Jangles"
+                "method": "workRest",
+                "source_text": "Block 4\n30/30 Jingle Jangles",
+                "rounds": {
+                  "value": 4
+                },
+                "work_interval": {
+                  "value": 30,
+                  "unit": "seconds"
+                },
+                "rest_interval": {
+                  "value": 30,
+                  "unit": "seconds"
+                }
               },
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "execution_rules": [],
+                "additional_instructions": [
+                  "The PDF says 30/30 Jingle Jangles without a round count. The app uses four 30-second work/rest intervals, consistent with the explicit Jingle Jangles block elsewhere in this program. This is an editorial default, not a verified original round count."
+                ],
+                "prescription_summary": "App default: 4 x 30 sec shuttles / 30 sec rest."
               }
             }
           ],
@@ -34143,6 +36193,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -34245,6 +36302,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -34358,6 +36422,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Every 50 seconds for 10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -34424,6 +36495,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Every 50 seconds for 10 rounds"
+                ],
+                "additional_instructions": []
               }
             },
             {
@@ -34565,6 +36643,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -35204,6 +37289,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "Move directly between movements without a break; do not put down the kettlebell."
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -35326,7 +37418,9 @@
       "description": null,
       "guidance": {
         "prescription_summary": "4x Barbell Complex (#75, 85#, 95#, 105#) or (#85, 95#, 105#, 115#)",
-        "execution_rules": ["Do not put the bar down until the push-ups."],
+        "execution_rules": [
+          "Do not put the bar down until the push-ups."
+        ],
         "additional_instructions": []
       },
       "category_ids": [
@@ -35416,6 +37510,13 @@
                   "scoring": {
                     "method": "none",
                     "source_text": null
+                  },
+                  "guidance": {
+                    "prescription_summary": null,
+                    "execution_rules": [
+                      "(#85, 95#, 105#, 115#)"
+                    ],
+                    "additional_instructions": []
                   }
                 },
                 {
@@ -35438,6 +37539,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "1 complex = 6 reps each of: DL, Row, Hang Clean, Front Squat, Push Press, Back Squat, Pushups"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -35576,6 +37684,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -35661,7 +37776,49 @@
                       "kind": "absolute",
                       "equipment_kind": "kettlebell",
                       "application": "total"
-                    }
+                    },
+                    "entries": [
+                      {
+                        "reps": 20,
+                        "source_text": "20"
+                      },
+                      {
+                        "reps": 18,
+                        "source_text": "18"
+                      },
+                      {
+                        "reps": 16,
+                        "source_text": "16"
+                      },
+                      {
+                        "reps": 14,
+                        "source_text": "14"
+                      },
+                      {
+                        "reps": 12,
+                        "source_text": "12"
+                      },
+                      {
+                        "reps": 10,
+                        "source_text": "10"
+                      },
+                      {
+                        "reps": 8,
+                        "source_text": "8"
+                      },
+                      {
+                        "reps": 6,
+                        "source_text": "6"
+                      },
+                      {
+                        "reps": 4,
+                        "source_text": "4"
+                      },
+                      {
+                        "reps": 2,
+                        "source_text": "2"
+                      }
+                    ]
                   },
                   "notes": [],
                   "source_text": "KB Swings @ 70# x2 (20x, 18x...)",
@@ -35722,6 +37879,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "10-9-8-7-6-5-4-3-2-1"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -35854,6 +38018,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "50 seconds rest"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -36020,6 +38192,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -36172,6 +38351,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -36317,6 +38503,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -36504,6 +38697,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "6x5 @ 135# +"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -36771,6 +38971,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "3 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -37137,6 +39344,14 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds",
+                  "SAM shoulder drill: 5x pole press, 3x halo, 5x OHS with PVC pipe"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -37289,6 +39504,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "4 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -37431,6 +39653,13 @@
               "scoring": {
                 "method": "none",
                 "source_text": null
+              },
+              "guidance": {
+                "prescription_summary": null,
+                "execution_rules": [
+                  "5 rounds"
+                ],
+                "additional_instructions": []
               }
             }
           ],
@@ -37554,17 +39783,82 @@
       "description": "6 reps each of deadlift, bent-over row, hang power clean, front squat, push press, back squat, and push-up. Do not put the bar down until the push-ups.",
       "guidance": {
         "prescription_summary": "6 reps each",
-        "execution_rules": ["Do not put the bar down until the push-ups."],
+        "execution_rules": [
+          "Do not put the bar down until the push-ups."
+        ],
         "additional_instructions": []
       },
       "movements": [
-        { "id": "deadlift", "title": "DL", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "row", "title": "Row", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "hang-clean", "title": "Hang Clean", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "front-squat", "title": "Front Squat", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "push-press", "title": "Push Press", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "back-squat", "title": "Back Squat", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
-        { "id": "pushups", "title": "Pushups", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } }
+        {
+          "id": "deadlift",
+          "title": "DL",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "row",
+          "title": "Row",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "hang-clean",
+          "title": "Hang Clean",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "front-squat",
+          "title": "Front Squat",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "push-press",
+          "title": "Push Press",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "back-squat",
+          "title": "Back Squat",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        },
+        {
+          "id": "pushups",
+          "title": "Pushups",
+          "prescription": {
+            "reps": {
+              "value": 6
+            },
+            "source_text": "6 reps"
+          }
+        }
       ],
       "tag_ids": [],
       "aliases": [],
@@ -37573,7 +39867,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "curtis-p",
@@ -37641,7 +39936,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-air-squat",
@@ -37657,7 +39953,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-airdyne",
@@ -37671,7 +39968,8 @@
         "source_id": "source-1",
         "page": 18,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ankles-to-bar",
@@ -37685,7 +39983,8 @@
         "source_id": "source-1",
         "page": 26,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-arm-hauler",
@@ -37699,7 +39998,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-athlete-selected-big-lift",
@@ -37713,7 +40013,8 @@
         "source_id": "source-1",
         "page": 17,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-atomic-sit-up",
@@ -37727,7 +40028,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-back-extension",
@@ -37741,7 +40043,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ball-slam",
@@ -37757,7 +40060,8 @@
         "source_id": "source-1",
         "page": 22,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-band-ghd-sit-up",
@@ -37771,7 +40075,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-bear-crawl",
@@ -37787,7 +40092,8 @@
         "source_id": "source-1",
         "page": 21,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-bench-press",
@@ -37803,7 +40109,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-bench-sit-up",
@@ -37817,7 +40124,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-box-jump",
@@ -37834,7 +40142,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-box-jump-and-depth-jump",
@@ -37851,7 +40160,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-burpee",
@@ -37867,7 +40177,8 @@
         "source_id": "source-1",
         "page": 26,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-calories-on-airdyne",
@@ -37881,7 +40192,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-calories-on-rower",
@@ -37898,7 +40210,8 @@
         "source_id": "source-1",
         "page": 18,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-cauldron",
@@ -37912,7 +40225,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-clapping-pull-up",
@@ -37929,7 +40243,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-clapping-push-up",
@@ -37946,7 +40261,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-clean",
@@ -37962,7 +40278,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-clean-and-jerk",
@@ -37978,7 +40295,8 @@
         "source_id": "source-1",
         "page": 25,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-clean-and-press",
@@ -37994,7 +40312,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-clean-and-squat",
@@ -38010,7 +40329,8 @@
         "source_id": "source-1",
         "page": 15,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-clean-pull",
@@ -38026,7 +40346,8 @@
         "source_id": "source-1",
         "page": 14,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-clean-squat-and-push-press",
@@ -38043,7 +40364,8 @@
         "source_id": "source-1",
         "page": 14,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-climb",
@@ -38059,7 +40381,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-close-grip-chin-up",
@@ -38075,7 +40398,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-corkscrew",
@@ -38089,7 +40413,8 @@
         "source_id": "source-1",
         "page": 16,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-crosswalk-carry",
@@ -38105,7 +40430,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-cycle",
@@ -38121,7 +40447,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-dead-hang",
@@ -38137,7 +40464,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-deadlift",
@@ -38153,7 +40481,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-decide-and-throw",
@@ -38171,7 +40500,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-decline-push-up",
@@ -38187,7 +40517,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-deep-kettlebell-squat",
@@ -38203,7 +40534,8 @@
         "source_id": "source-1",
         "page": 18,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-depth-jump-and-broad-jump",
@@ -38220,7 +40552,8 @@
         "source_id": "source-1",
         "page": 23,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-diamond-push-up",
@@ -38236,7 +40569,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-dip",
@@ -38252,7 +40586,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-double-under",
@@ -38266,7 +40601,8 @@
         "source_id": "source-1",
         "page": 25,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-dumbbell-or-kettlebell-military-press",
@@ -38282,7 +40618,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-dumbbell-push-press",
@@ -38299,7 +40636,8 @@
         "source_id": "source-1",
         "page": 10,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-dumbbell-snatch",
@@ -38315,7 +40653,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-elevated-push-up",
@@ -38331,7 +40670,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-elliptical",
@@ -38345,7 +40685,8 @@
         "source_id": "source-1",
         "page": 19,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-farmer-carry",
@@ -38361,7 +40702,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-fast-rope-drag",
@@ -38377,7 +40719,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-fingerboard-hang",
@@ -38393,7 +40736,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-fingertip-push-up",
@@ -38409,7 +40753,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-floor-wiper",
@@ -38423,7 +40768,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-flutter-kick",
@@ -38437,7 +40783,8 @@
         "source_id": "source-1",
         "page": 33,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-frog-hop",
@@ -38453,7 +40800,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-front-plank",
@@ -38469,7 +40817,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-front-squat",
@@ -38485,7 +40834,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-get-up",
@@ -38501,7 +40851,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ghd-sit-up",
@@ -38515,7 +40866,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-glute-ham-raise",
@@ -38531,7 +40883,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-glute-ham-sit-up",
@@ -38545,7 +40898,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-goblet-squat",
@@ -38561,7 +40915,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-good-morning",
@@ -38575,7 +40930,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-half-moon",
@@ -38589,7 +40945,8 @@
         "source_id": "source-1",
         "page": 10,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-heavy-bag-carry",
@@ -38605,7 +40962,8 @@
         "source_id": "source-1",
         "page": 17,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-heavy-bag-clean-and-press",
@@ -38621,7 +40979,8 @@
         "source_id": "source-1",
         "page": 16,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-heavy-kettlebell-swing",
@@ -38637,7 +40996,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-heavy-object-throw",
@@ -38655,7 +41015,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-heavy-rock-squat-and-carry",
@@ -38672,7 +41033,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-hike",
@@ -38688,7 +41050,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-jerk",
@@ -38704,7 +41067,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-jerk-from-rack",
@@ -38720,7 +41084,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-jump-squat",
@@ -38738,7 +41103,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-jumping-lunge",
@@ -38755,7 +41121,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-jumping-pull-up",
@@ -38773,7 +41140,8 @@
         "source_id": "source-1",
         "page": 18,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-kb-complex",
@@ -38787,7 +41155,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-around-the-world",
@@ -38801,7 +41170,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-bear-crawl",
@@ -38817,7 +41187,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-figure-eight",
@@ -38831,7 +41202,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-get-up",
@@ -38847,7 +41219,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-rack-step-up",
@@ -38863,7 +41236,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-snatch",
@@ -38879,7 +41253,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-step-up",
@@ -38895,7 +41270,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kettlebell-swing",
@@ -38911,7 +41287,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-kipping-pull-up",
@@ -38927,7 +41304,8 @@
         "source_id": "source-1",
         "page": 26,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-knees-to-elbows",
@@ -38941,7 +41319,8 @@
         "source_id": "source-1",
         "page": 26,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-left-side-plank",
@@ -38957,7 +41336,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-lunge",
@@ -38971,7 +41351,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-lunge-step",
@@ -38985,7 +41366,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-medicine-ball-toss-and-run",
@@ -39001,7 +41383,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-mountain-climber",
@@ -39017,7 +41400,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-one-arm-negative",
@@ -39031,7 +41415,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-one-arm-overhead-lunge",
@@ -39045,7 +41430,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-one-arm-push-up",
@@ -39061,7 +41447,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-paddle",
@@ -39077,7 +41464,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-parallette-push-up",
@@ -39093,7 +41481,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-plate-shuffle",
@@ -39107,7 +41496,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-plyometric-push-up",
@@ -39124,7 +41514,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-pole-press",
@@ -39140,7 +41531,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-poor-man-s-reverse-hyper",
@@ -39154,7 +41546,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-power-clean",
@@ -39170,7 +41563,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-power-jerk",
@@ -39186,7 +41580,8 @@
         "source_id": "source-1",
         "page": 14,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-power-snatch",
@@ -39202,7 +41597,8 @@
         "source_id": "source-1",
         "page": 14,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-press",
@@ -39218,7 +41614,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-pull-up",
@@ -39234,7 +41631,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-push-jerk",
@@ -39251,7 +41649,8 @@
         "source_id": "source-1",
         "page": 12,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-push-press",
@@ -39268,7 +41667,8 @@
         "source_id": "source-1",
         "page": 26,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-push-up",
@@ -39284,7 +41684,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-pvc-halo",
@@ -39300,7 +41701,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-right-side-plank",
@@ -39316,7 +41718,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ring-dip",
@@ -39332,7 +41735,8 @@
         "source_id": "source-1",
         "page": 25,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ring-push-up",
@@ -39348,7 +41752,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ring-support-hold",
@@ -39364,7 +41769,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-rob-shauls",
@@ -39378,7 +41784,8 @@
         "source_id": "source-1",
         "page": 17,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-rope-climb",
@@ -39394,7 +41801,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-rope-slam",
@@ -39410,7 +41818,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-rotator-scarecrow",
@@ -39427,7 +41836,8 @@
         "source_id": "source-1",
         "page": 15,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-row",
@@ -39444,7 +41854,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-rower",
@@ -39461,7 +41872,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-run",
@@ -39477,7 +41889,8 @@
         "source_id": "source-1",
         "page": 29,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-russian-twist",
@@ -39491,7 +41904,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sandbag-clean-and-press",
@@ -39507,7 +41921,8 @@
         "source_id": "source-1",
         "page": 16,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-sandbag-clean-and-squat",
@@ -39523,7 +41938,8 @@
         "source_id": "source-1",
         "page": 10,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-sandbag-get-up",
@@ -39539,7 +41955,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-sandbag-half-moon",
@@ -39553,7 +41970,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-sandbag-squat-jump",
@@ -39571,7 +41989,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-shoulder-dislocate-stretch",
@@ -39587,7 +42006,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-shoulder-get-up",
@@ -39603,7 +42023,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-shuttle-run",
@@ -39620,7 +42041,8 @@
         "source_id": "source-1",
         "page": 21,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sit-up",
@@ -39634,7 +42056,8 @@
         "source_id": "source-1",
         "page": 25,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-ski",
@@ -39650,7 +42073,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sled-drag",
@@ -39666,7 +42090,8 @@
         "source_id": "source-1",
         "page": 23,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sled-or-tire-drag",
@@ -39682,7 +42107,8 @@
         "source_id": "source-1",
         "page": 21,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sled-push",
@@ -39698,7 +42124,8 @@
         "source_id": "source-1",
         "page": 11,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sledgehammer-tire-swing",
@@ -39714,7 +42141,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-snatch",
@@ -39730,7 +42158,8 @@
         "source_id": "source-1",
         "page": 23,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-speedball",
@@ -39746,7 +42175,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-sprint",
@@ -39762,7 +42192,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-squat",
@@ -39778,7 +42209,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-squat-jump",
@@ -39796,7 +42228,8 @@
         "source_id": "source-1",
         "page": 7,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-stair-master",
@@ -39810,7 +42243,8 @@
         "source_id": "source-1",
         "page": 19,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-standing-military-press",
@@ -39826,7 +42260,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-standing-press",
@@ -39842,7 +42277,8 @@
         "source_id": "source-1",
         "page": 13,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-step-up",
@@ -39858,7 +42294,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-strict-pull-up",
@@ -39874,7 +42311,8 @@
         "source_id": "source-1",
         "page": 27,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-suitcase-carry",
@@ -39890,7 +42328,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-swim",
@@ -39906,7 +42345,8 @@
         "source_id": "source-1",
         "page": 24,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-system-board-ladder",
@@ -39920,7 +42360,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-thruster",
@@ -39936,7 +42377,8 @@
         "source_id": "source-1",
         "page": 22,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-tire-drag",
@@ -39952,7 +42394,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-tire-flip",
@@ -39966,7 +42409,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-towel-halo",
@@ -39982,7 +42426,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-towel-kettlebell-halo",
@@ -39998,7 +42443,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-towel-kettlebell-lift",
@@ -40012,7 +42458,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-towel-pull-up",
@@ -40028,7 +42475,8 @@
         "source_id": "source-1",
         "page": 32,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-tuck-hang",
@@ -40044,7 +42492,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-v-sit",
@@ -40058,7 +42507,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-vertical-sit-up",
@@ -40072,7 +42522,8 @@
         "source_id": "source-1",
         "page": 28,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-walking-the-dog",
@@ -40086,7 +42537,8 @@
         "source_id": "source-1",
         "page": 19,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-wall-ball",
@@ -40100,7 +42552,8 @@
         "source_id": "source-1",
         "page": 20,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "exercise-weighted-pull-up",
@@ -40116,7 +42569,8 @@
         "source_id": "source-1",
         "page": 23,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-weighted-push-up",
@@ -40132,7 +42586,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-weighted-sit-up",
@@ -40146,7 +42601,8 @@
         "source_id": "source-1",
         "page": 25,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-weighted-squat",
@@ -40162,7 +42618,8 @@
         "source_id": "source-1",
         "page": 31,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "exercise-windshield-wiper",
@@ -40176,7 +42633,8 @@
         "source_id": "source-1",
         "page": 30,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "half-moons",
@@ -40190,7 +42648,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "handstand-push-up",
@@ -40206,7 +42665,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "hang-squat-clean",
@@ -40223,7 +42683,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "jingle-jangles",
@@ -40237,7 +42698,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "kettlebell-pull",
@@ -40251,7 +42713,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "leg-blaster",
@@ -40479,7 +42942,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "renegade-man-maker",
@@ -40553,7 +43017,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "sam-shoulder-mobility-drill",
@@ -40567,7 +43032,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "sandbag-double-eagle",
@@ -40647,7 +43113,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": false
     },
     {
       "id": "sumo-deadlift-high-pull",
@@ -40663,7 +43130,8 @@
         "source_id": "source-1",
         "page": 35,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     },
     {
       "id": "the-exercise",
@@ -40717,7 +43185,8 @@
         "source_id": "source-1",
         "page": 34,
         "block_id": null
-      }
+      },
+      "tracks_load": true
     }
   ],
   "editorial_issues": [

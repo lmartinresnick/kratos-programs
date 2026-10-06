@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 6,
+  "data_version": 7,
   "program": {
     "id": "luke-program",
     "source_title": "Luke Program",
@@ -3325,7 +3325,8 @@
       "abbreviations": [
         "DL",
         "SL"
-      ]
+      ],
+      "tracks_load": false
     },
     {
       "id": "anterior-tibs",
@@ -3334,7 +3335,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "heavy-front-squats",
@@ -3345,7 +3347,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "box-jumps",
@@ -3357,7 +3360,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "sl-bb-rdl",
@@ -3372,7 +3376,8 @@
         "SL",
         "BB",
         "RDL"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "sa-kb-farmers-march",
@@ -3386,7 +3391,8 @@
       "abbreviations": [
         "SA",
         "KB"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "reverse-lunges-knee-drive",
@@ -3397,7 +3403,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "iso-calf-hold-db",
@@ -3412,7 +3419,8 @@
       "abbreviations": [
         "ISO",
         "DB"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "depth-drops",
@@ -3423,7 +3431,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "dl-double-hop-hurdles",
@@ -3437,7 +3446,8 @@
       "aliases": [],
       "abbreviations": [
         "DL"
-      ]
+      ],
+      "tracks_load": false
     },
     {
       "id": "bench-press",
@@ -3448,7 +3458,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "bent-over-medball-pass",
@@ -3459,7 +3470,8 @@
         "power"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "pendlay-rows",
@@ -3470,7 +3482,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "kb-pull-through",
@@ -3483,7 +3496,8 @@
       "aliases": [],
       "abbreviations": [
         "KB"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "eccentric-pull-ups",
@@ -3494,7 +3508,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "banded-face-pulls",
@@ -3505,7 +3520,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "sl-lateral-pogos",
@@ -3518,7 +3534,8 @@
       "aliases": [],
       "abbreviations": [
         "SL"
-      ]
+      ],
+      "tracks_load": false
     },
     {
       "id": "skater-hops-stick-landing",
@@ -3530,7 +3547,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "heavy-trap-bar-dl",
@@ -3543,7 +3561,8 @@
       "aliases": [],
       "abbreviations": [
         "DL"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "double-broad-jump",
@@ -3555,7 +3574,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "goblet-hold-lateral-lunge",
@@ -3566,7 +3586,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "copenhagen",
@@ -3578,7 +3599,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "heel-elevated-iso-split-squat",
@@ -3592,7 +3614,8 @@
       "aliases": [],
       "abbreviations": [
         "Iso"
-      ]
+      ],
+      "tracks_load": false
     },
     {
       "id": "swiss-ball-hammy-curls",
@@ -3603,7 +3626,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "split-squat-pulses",
@@ -3614,7 +3638,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "approach-tuck-jumps",
@@ -3626,7 +3651,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "iso-push-up",
@@ -3640,7 +3666,8 @@
       "aliases": [],
       "abbreviations": [
         "ISO"
-      ]
+      ],
+      "tracks_load": false
     },
     {
       "id": "plyo-push-up",
@@ -3652,7 +3679,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "db-bent-over-row",
@@ -3665,7 +3693,8 @@
       "aliases": [],
       "abbreviations": [
         "DB"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "half-kneeling-sa-military-press",
@@ -3678,7 +3707,8 @@
       "aliases": [],
       "abbreviations": [
         "SA"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "swimmers",
@@ -3689,7 +3719,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "kb-chop",
@@ -3702,7 +3733,8 @@
       "aliases": [],
       "abbreviations": [
         "KB"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "speed-interval",
@@ -3714,7 +3746,8 @@
         "conditioning"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "run-interval",
@@ -3726,7 +3759,8 @@
         "conditioning"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "rowing-interval",
@@ -3738,7 +3772,8 @@
         "conditioning"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "assault-bike-interval",
@@ -3750,7 +3785,8 @@
         "conditioning"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     }
   ],
   "editorial_issues": [
