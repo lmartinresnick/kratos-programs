@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 4,
+  "data_version": 5,
   "program": {
     "id": "captain-america-workout",
     "source_title": "Captain America Workout (12 Weeks)",
@@ -4706,7 +4706,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "reverse-lunge",
@@ -4717,7 +4718,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "jump-squat",
@@ -4728,7 +4730,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "box-jump",
@@ -4739,7 +4742,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "romanian-deadlift",
@@ -4750,7 +4754,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "calf-raise",
@@ -4761,7 +4766,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "plank",
@@ -4770,7 +4776,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "sit-up",
@@ -4779,7 +4786,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "reverse-crunch",
@@ -4788,7 +4796,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "oblique-crunch",
@@ -4797,7 +4806,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "jump-rope",
@@ -4808,7 +4818,8 @@
         "cardio"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "incline-dumbbell-press",
@@ -4819,7 +4830,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "military-press",
@@ -4830,7 +4842,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "pull-up",
@@ -4841,7 +4854,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "arnold-press",
@@ -4852,7 +4866,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "push-up",
@@ -4863,7 +4878,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "inverted-row",
@@ -4874,7 +4890,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "flutter-kick",
@@ -4883,7 +4900,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "scissor-kick",
@@ -4892,7 +4910,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "bicycle-crunch",
@@ -4901,7 +4920,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "penguin",
@@ -4910,7 +4930,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "mile-jog",
@@ -4921,7 +4942,8 @@
         "cardio"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "trap-bar-deadlift",
@@ -4932,7 +4954,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "front-squat",
@@ -4943,7 +4966,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "leg-press",
@@ -4954,7 +4978,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "single-leg-romanian-deadlift",
@@ -4967,7 +4992,8 @@
       "aliases": [],
       "abbreviations": [
         "RDL"
-      ]
+      ],
+      "tracks_load": true
     },
     {
       "id": "jumping-lunge",
@@ -4978,7 +5004,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "crunch",
@@ -4987,7 +5014,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "russian-twist",
@@ -4996,7 +5024,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "leg-lift",
@@ -5005,7 +5034,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "side-plank",
@@ -5014,7 +5044,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "incline-bench-press",
@@ -5025,7 +5056,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "bent-over-row",
@@ -5036,7 +5068,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "kneeling-shoulder-press",
@@ -5047,7 +5080,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "single-arm-dumbbell-row",
@@ -5058,7 +5092,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "dip",
@@ -5069,7 +5104,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "chin-up",
@@ -5080,7 +5116,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "forearm-plank",
@@ -5089,7 +5126,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "push-up-plank",
@@ -5098,7 +5136,8 @@
       "description": null,
       "tag_ids": [],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "dumbbell-biceps-curl",
@@ -5109,7 +5148,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "hammer-curl",
@@ -5120,7 +5160,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "close-grip-push-up",
@@ -5131,7 +5172,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "overhead-dumbbell-triceps-extension",
@@ -5142,7 +5184,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     }
   ],
   "editorial_issues": [

@@ -5,8 +5,8 @@
     {
       "id": "captain-america-workout",
       "file": "captain-america-workout.json",
-      "sha256": "25a8526fc02cd52dbe81ca0c4d81deaca022f0f45bc6d92797a9787a0a3d38dd",
-      "byte_count": 163143,
+      "sha256": "6cc37232f7a775e135d36ac6a7c978cad4e8285455c0c65af1b78773063b7f23",
+      "byte_count": 164330,
       "program_schema_version": "2.0.0",
       "display_title": "Captain America Workout",
       "summary": null,
@@ -14,7 +14,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "data_version": 4,
+      "data_version": 5,
       "difficulty": null,
       "duration": {
         "weeks": 12,
@@ -25,8 +25,8 @@
     {
       "id": "chadwick-boseman-workout",
       "file": "chadwick-boseman-workout.json",
-      "sha256": "1149c8ab264a9b6d94543126d18de6b745574ca969a2aaff24148a57a8bc4094",
-      "byte_count": 143378,
+      "sha256": "08d8d487a85b4e66b34563953519baec33c891967068aedafa8ea5fed3f87f35",
+      "byte_count": 143848,
       "program_schema_version": "2.0.0",
       "display_title": "Chadwick Boseman Inspired Workout: Train Like Black Panther",
       "summary": "Work out like Chadwick Boseman with this Black Panther Inspired Workout Program. This workout program combines strength, combat, and flexibility training.",
@@ -34,7 +34,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "data_version": 5,
+      "data_version": 6,
       "difficulty": "intermediate",
       "duration": {
         "weeks": 8,
@@ -47,8 +47,8 @@
     {
       "id": "horsemen",
       "file": "horsemen.json",
-      "sha256": "296cc720680913e6f93d456404c3756d6ce7b629b56f74c7976a59fd6ec8bdb0",
-      "byte_count": 1472793,
+      "sha256": "93ae940e886fa52c24c3448d4b1bfc587515abbf7ea58e037ab952c48a29fc6a",
+      "byte_count": 1555046,
       "program_schema_version": "2.0.0",
       "display_title": "Horsemen",
       "summary": "A four-month operator-fitness program combining strength, power endurance, job-specific conditioning, and maintenance.",
@@ -56,7 +56,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "data_version": 18,
+      "data_version": 25,
       "difficulty": "advanced",
       "duration": {
         "weeks": 16,
@@ -72,15 +72,15 @@
     {
       "id": "luke-program",
       "file": "luke-program.json",
-      "sha256": "193eb9eb82b14af11f75c84c83f3a618ad5088355c5598d5a45a09e32b6a5729",
-      "byte_count": 124489,
+      "sha256": "0e8738205d0756c7dc36ce8b8376aa4da591ab937525411522ddf4614ca24c12",
+      "byte_count": 125485,
       "program_schema_version": "2.0.0",
       "display_title": "Luke Program",
       "summary": null,
       "content_types": [
         "schedule"
       ],
-      "data_version": 6,
+      "data_version": 7,
       "difficulty": null,
       "duration": {
         "weeks": 6,
@@ -91,15 +91,15 @@
     {
       "id": "mobility-program",
       "file": "mobility-program.json",
-      "sha256": "d4b106742809689fbaf8c808b6d503cfa51dcfdd8d87389c6fffbb4fbbc31e08",
-      "byte_count": 67356,
+      "sha256": "6c1569f722617aaa824fe1e5e211292ed25f55687ce892100380f9ba3e899255",
+      "byte_count": 68588,
       "program_schema_version": "2.0.0",
       "display_title": "Mobility",
       "summary": null,
       "content_types": [
         "workoutCollection"
       ],
-      "data_version": 5,
+      "data_version": 6,
       "difficulty": null,
       "duration": {
         "weeks": null,
@@ -110,15 +110,15 @@
     {
       "id": "vertical-jump-base",
       "file": "vertical-jump-base.json",
-      "sha256": "715f7a3fd9977e7c7bbae7bcad188ac1650be85bdfe841686740f2534c9b9789",
-      "byte_count": 174278,
+      "sha256": "cef390fda38a920771be3f6eb8992bd9fce169ffccf7c37ad8b175ebf914ce5e",
+      "byte_count": 175463,
       "program_schema_version": "2.0.0",
       "display_title": "Vertical Jump Base",
       "summary": null,
       "content_types": [
         "schedule"
       ],
-      "data_version": 5,
+      "data_version": 6,
       "difficulty": null,
       "duration": {
         "weeks": 8,

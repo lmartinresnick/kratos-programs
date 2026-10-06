@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 5,
+  "data_version": 6,
   "program": {
     "id": "chadwick-boseman-workout",
     "source_title": "CHADWICK BOSEMAN INSPIRED WORKOUT: TRAIN LIKE BLACK PANTHER",
@@ -3383,7 +3383,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "push-up",
@@ -3394,7 +3395,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "bodyweight-walking-lunge",
@@ -3405,7 +3407,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "pull-up",
@@ -3416,7 +3419,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "dumbbell-overhead-press",
@@ -3427,7 +3431,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "plank",
@@ -3439,7 +3444,8 @@
         "isometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "bent-over-row",
@@ -3450,7 +3456,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "air-squat",
@@ -3461,7 +3468,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "dip",
@@ -3472,7 +3480,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "chin-up",
@@ -3483,7 +3492,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "ab-crunch",
@@ -3494,7 +3504,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "squat",
@@ -3505,7 +3516,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "dumbbell-bench-press",
@@ -3516,7 +3528,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "lateral-raise",
@@ -3527,7 +3540,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "step-ups",
@@ -3538,7 +3552,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "band-pull-apart",
@@ -3549,7 +3564,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "leg-raises",
@@ -3560,7 +3576,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     }
   ],
   "editorial_issues": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 5,
+  "data_version": 6,
   "program": {
     "id": "vertical-jump-base",
     "source_title": "Vertical Jump Base",
@@ -4587,7 +4587,8 @@
       "aliases": [
         "Clean Pulls"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "back-squat",
@@ -4600,7 +4601,8 @@
       "aliases": [
         "Back Squats"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "lunge",
@@ -4613,7 +4615,8 @@
       "aliases": [
         "Lunges"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "romanian-deadlift",
@@ -4626,7 +4629,8 @@
       "aliases": [
         "Romanian Deadlifts"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "reverse-hyperextension",
@@ -4639,7 +4643,8 @@
       "aliases": [
         "Reverse Hyperextensions"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "squat-jump",
@@ -4653,7 +4658,8 @@
       "aliases": [
         "Squat Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "ankle-hop",
@@ -4667,7 +4673,8 @@
       "aliases": [
         "Ankle Hops"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "bench-press",
@@ -4678,7 +4685,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "bent-over-row",
@@ -4691,7 +4699,8 @@
       "aliases": [
         "Bent-Over Rows"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "standing-military-press",
@@ -4702,7 +4711,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "medicine-ball-backwards-toss",
@@ -4715,7 +4725,8 @@
       "aliases": [
         "Backwards toss"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "medicine-ball-forward-toss",
@@ -4729,7 +4740,8 @@
         "Forwards toss",
         "Medicine Ball Front Toss"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "snatch-pull",
@@ -4743,7 +4755,8 @@
       "aliases": [
         "Snatch Pulls"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "front-squat",
@@ -4756,7 +4769,8 @@
       "aliases": [
         "Front Squats"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "step-up",
@@ -4769,7 +4783,8 @@
       "aliases": [
         "Step-Ups"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "good-morning",
@@ -4782,7 +4797,8 @@
       "aliases": [
         "Good Mornings"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "single-leg-rdl",
@@ -4793,7 +4809,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "countermovement-jump",
@@ -4807,7 +4824,8 @@
       "aliases": [
         "Counter-movement jumps, stick landing"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "split-cycle-jump",
@@ -4821,7 +4839,8 @@
       "aliases": [
         "Split cycle jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "incline-press",
@@ -4832,7 +4851,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "single-arm-dumbbell-row",
@@ -4845,7 +4865,8 @@
       "aliases": [
         "Single-Arm Dumbbell Rows"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "standing-kettlebell-press",
@@ -4856,7 +4877,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "medicine-ball-chest-pass",
@@ -4869,7 +4891,8 @@
       "aliases": [
         "Chest pass"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "medicine-ball-side-toss",
@@ -4882,7 +4905,8 @@
       "aliases": [
         "Side toss"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "deadlift",
@@ -4893,7 +4917,8 @@
         "strength"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "split-squat",
@@ -4906,7 +4931,8 @@
       "aliases": [
         "Split Squats"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "split-jump",
@@ -4920,7 +4946,8 @@
       "aliases": [
         "Split Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "snatch-grip-deadlift",
@@ -4933,7 +4960,8 @@
       "aliases": [
         "Snatch-Grip Deadlifts"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "box-jump",
@@ -4947,7 +4975,8 @@
       "aliases": [
         "Box Jumps (to a height)"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "lying-medicine-ball-chest-pass",
@@ -4958,7 +4987,8 @@
         "power"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "jump-rope",
@@ -4969,7 +4999,8 @@
         "cardio"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "stretching",
@@ -4980,7 +5011,8 @@
         "mobility"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "slow-motion-squat",
@@ -4993,7 +5025,8 @@
       "aliases": [
         "Slow Motion Squats"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "lateral-jump",
@@ -5007,7 +5040,8 @@
       "aliases": [
         "Lateral Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "alternating-jump-lunge",
@@ -5021,7 +5055,8 @@
       "aliases": [
         "Alternating Jump Lunges"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "tuck-jump",
@@ -5035,7 +5070,8 @@
       "aliases": [
         "Tuck Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "toe-raise",
@@ -5048,7 +5084,8 @@
       "aliases": [
         "Toe Raises"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "four-corners",
@@ -5060,7 +5097,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "single-leg-lateral-jump",
@@ -5074,7 +5112,8 @@
       "aliases": [
         "Single-Leg Lateral Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "high-reach-jump",
@@ -5088,7 +5127,8 @@
       "aliases": [
         "High Reach Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "straight-leg-calf-jump",
@@ -5102,7 +5142,8 @@
       "aliases": [
         "Straight-Leg Calf Jumps"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     },
     {
       "id": "eccentric-squat",
@@ -5115,7 +5156,8 @@
       "aliases": [
         "Eccentric Squats"
       ],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": true
     },
     {
       "id": "single-leg-four-corners",
@@ -5127,7 +5169,8 @@
         "plyometric"
       ],
       "aliases": [],
-      "abbreviations": []
+      "abbreviations": [],
+      "tracks_load": false
     }
   ],
   "editorial_issues": [
