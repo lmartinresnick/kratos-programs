@@ -1,11 +1,23 @@
 {
   "schema_version": "2.0.0",
-  "data_version": 17,
+  "data_version": 18,
   "program": {
     "id": "horsemen",
     "source_title": "HORSEMEN TRAINING PROGRAM I",
     "display_title": "Horsemen",
+    "workout_presentation": {
+      "uses_activity_headings": true,
+      "collapses_redundant_groups": true,
+      "shows_instruction_rows": false
+    },
     "summary": "A four-month operator-fitness program combining strength, power endurance, job-specific conditioning, and maintenance.",
+    "guidance": {
+      "prescription_summary": null,
+      "execution_rules": [],
+      "additional_instructions": [
+        "If there's no load prescribed (or height for box jumps) then it's on you to do what you feel you can for the workout. If you've been killing yourself and you need a break then go light. If it's low reps with low number of rounds then the exercise should be performed at a higher weight."
+      ]
+    },
     "goals": [
       "Strength",
       "Power endurance",
@@ -282,6 +294,7 @@
                 "id": "week-01-day-01-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-03"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2082,6 +2095,7 @@
                 "id": "week-05-day-03-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-01"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2616,6 +2630,7 @@
                 "id": "week-06-day-05-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-05"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -2867,6 +2882,7 @@
                 "id": "week-07-day-02-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-02"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -3367,6 +3383,7 @@
                 "id": "week-08-day-03-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-04"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -5428,6 +5445,7 @@
                 "id": "week-13-day-02-main-1",
                 "activity_type": "workoutReference",
                 "workout_id": "workout-riley-black",
+                "selected_exercise_ids": ["workout-riley-black-movement-06"],
                 "assignment_origin": "editorial",
                 "optional": false,
                 "source_constraints": {
@@ -12890,6 +12908,7 @@
                 },
                 {
                   "id": "workout-bad-bush-block-01-compound-03",
+                  "selected_child_ids": ["workout-bad-bush-block-01-compound-03-item-02"],
                   "node_type": "section",
                   "source_title": "3. 1x Rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -25299,8 +25318,8 @@
                 "source_text": "TABATA HELL\nOne min rest between movements, score is sum of all reps\n1. Tabata Squats (rest in bottom hold, thighs parallel to floor)\n2. Tabata Push-ups (rest locked out at top, aka Forward leaning rest)\n3. Tabata Ball Slam @ 20# ball (rest with ball overhead, both arms locked out)\n4. Tabata Sit-up (rest with legs held straight 6-12\" above floor, head off floor)\n5. Tabata KB Swing @ 53# (rest without setting KB down or supporting it on your body)"
               },
               "scoring": {
-                "method": "none",
-                "source_text": null
+                "method": "totalRepetitions",
+                "source_text": "One minute rest between movements; score is the sum of all reps"
               }
             }
           ],
@@ -29961,6 +29980,7 @@
                 },
                 {
                   "id": "workout-chin-up-soldier-on-block-03-compound-03",
+                  "selected_child_ids": ["workout-chin-up-soldier-on-block-03-compound-03-item-02"],
                   "node_type": "section",
                   "source_title": "15 ft rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -31185,6 +31205,7 @@
                 },
                 {
                   "id": "workout-honey-butter-block-02-compound-04",
+                  "selected_child_ids": ["workout-honey-butter-block-02-compound-04-item-02"],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -32896,6 +32917,7 @@
                 },
                 {
                   "id": "workout-russian-aggression-block-04-compound-03",
+                  "selected_child_ids": ["workout-russian-aggression-block-04-compound-03-item-02"],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10 Pull ups",
                   "display_title": "Combined Sequence",
@@ -33488,6 +33510,7 @@
                 },
                 {
                   "id": "workout-soviet-capitalists-block-03-compound-04",
+                  "selected_child_ids": ["workout-soviet-capitalists-block-03-compound-04-item-02"],
                   "node_type": "section",
                   "source_title": "1x Rope climb or 10x Pull ups",
                   "display_title": "Combined Sequence",
@@ -33885,6 +33908,7 @@
                 },
                 {
                   "id": "workout-tongue-lashing-block-03-compound-03",
+                  "selected_child_ids": ["workout-tongue-lashing-block-03-compound-03-item-02"],
                   "node_type": "section",
                   "source_title": "1x Rope Climb or 10x pull ups",
                   "display_title": "Combined Sequence",
@@ -33965,57 +33989,32 @@
               "source_text": "30/30 Jingle Jangles",
               "children": [
                 {
-                  "id": "workout-tongue-lashing-block-04-compound-01",
-                  "node_type": "section",
-                  "source_title": "30/30 Jingle Jangles",
-                  "display_title": "Combined Sequence",
-                  "source_text": "30/30 Jingle Jangles",
-                  "children": [
-                    {
-                      "id": "workout-tongue-lashing-block-04-compound-01-item-01",
-                      "node_type": "instruction",
-                      "text": "30",
-                      "source_text": "30",
-                      "source_ref": {
-                        "source_id": "source-1",
-                        "page": 13,
-                        "block_id": null
-                      }
-                    },
-                    {
-                      "id": "workout-tongue-lashing-block-04-compound-01-item-02",
-                      "node_type": "exercise",
-                      "exercise_id": "jingle-jangles",
-                      "title": "30 Jingle Jangles",
-                      "description": null,
-                      "context_tag_ids": [],
-                      "prescription": {
-                        "source_text": "30 Jingle Jangles",
-                        "reps": {
-                          "value": 30
-                        }
-                      },
-                      "notes": [],
-                      "source_text": "30 Jingle Jangles",
-                      "source_ref": {
-                        "source_id": "source-1",
-                        "page": 13,
-                        "block_id": null
-                      }
-                    }
-                  ],
-                  "structure": "complex",
-                  "execution": {
-                    "method": "sourceDefined",
-                    "source_text": "30/30 Jingle Jangles\n30/30 Jingle Jangles"
+                  "id": "workout-tongue-lashing-block-04-compound-01-item-02",
+                  "node_type": "exercise",
+                  "exercise_id": "jingle-jangles",
+                  "title": "30/30 Jingle Jangles",
+                  "description": null,
+                  "context_tag_ids": [],
+                  "prescription": {
+                    "source_text": "30/30 Jingle Jangles"
                   },
-                  "scoring": {
-                    "method": "none",
-                    "source_text": null
+                  "notes": [],
+                  "source_text": "30/30 Jingle Jangles",
+                  "source_ref": {
+                    "source_id": "source-1",
+                    "page": 13,
+                    "block_id": null
+                  },
+                  "guidance": {
+                    "prescription_summary": "30/30 Jingle Jangles",
+                    "execution_rules": [],
+                    "additional_instructions": [
+                      "The source gives 30/30 without specifying a round count or units here. Confirm the intended timing before training; the app does not turn it into 30 repetitions."
+                    ]
                   }
                 }
               ],
-              "structure": "sequence",
+              "structure": "singleActivity",
               "execution": {
                 "method": "sourceDefined",
                 "source_text": "Block 4\n30/30 Jingle Jangles"
@@ -34772,6 +34771,14 @@
       "source_title": "12 minute KB complex @ 35#, 1 minute each. Move directly from one exercise to the next, no break. Do not put down KB or stop movement: 1-arm swing-right; Figure 8 right to left; 1-arm swing-left; Figure 8 left to right; Clean & Press-right; Slasher to halo; Clean & Press-left; Slasher to halo; KB Snatch-right; Right leg lunge; KB Snatch-left; Left leg lunge.",
       "display_title": "12-Minute KB Complex",
       "description": null,
+      "guidance": {
+        "prescription_summary": "12 minute KB complex @ 35#, 1 minute each.",
+        "execution_rules": [
+          "Move directly from one exercise to the next, no break.",
+          "Do not put down KB or stop movement"
+        ],
+        "additional_instructions": []
+      },
       "category_ids": [
         "category-warm-up"
       ],
@@ -35317,6 +35324,11 @@
       "source_title": "4x Barbell Complex (#75, 85#, 95#, 105#) or (#85, 95#, 105#, 115#)",
       "display_title": "Barbell Complex",
       "description": null,
+      "guidance": {
+        "prescription_summary": "4x Barbell Complex (#75, 85#, 95#, 105#) or (#85, 95#, 105#, 115#)",
+        "execution_rules": ["Do not put the bar down until the push-ups."],
+        "additional_instructions": []
+      },
       "category_ids": [
         "category-warm-up"
       ],
@@ -35356,6 +35368,18 @@
                       "node_type": "exercise",
                       "exercise_id": "barbell-complex",
                       "title": "4x Barbell Complex (#75, 85#, 95#, 105#)",
+                      "display_title": "Barbell Complex",
+                      "guidance": {
+                        "prescription_summary": "1 complex = 6 reps each of:",
+                        "execution_rules": [],
+                        "additional_instructions": []
+                      },
+                      "logging": {
+                        "count": 4,
+                        "tracks_load": true,
+                        "action_title": "Log complex",
+                        "entry_label": "COMPLEX"
+                      },
                       "description": null,
                       "context_tag_ids": [],
                       "prescription": {
@@ -36506,6 +36530,11 @@
     },
     {
       "id": "workout-row-and-barbell-complex",
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "source_title": "Row 500m / 3x Barbell Complex",
       "display_title": "Row and Barbell Complex",
       "description": null,
@@ -36570,6 +36599,13 @@
                       "node_type": "exercise",
                       "exercise_id": "barbell-complex",
                       "title": "3x Barbell Complex",
+                      "display_title": "Barbell Complex",
+                      "logging": {
+                        "count": 3,
+                        "tracks_load": true,
+                        "action_title": "Log complex",
+                        "entry_label": "COMPLEX"
+                      },
                       "description": null,
                       "context_tag_ids": [],
                       "prescription": {
@@ -37516,6 +37552,20 @@
       "source_title": "Barbell Complex",
       "display_title": "Barbell Complex",
       "description": "6 reps each of deadlift, bent-over row, hang power clean, front squat, push press, back squat, and push-up. Do not put the bar down until the push-ups.",
+      "guidance": {
+        "prescription_summary": "6 reps each",
+        "execution_rules": ["Do not put the bar down until the push-ups."],
+        "additional_instructions": []
+      },
+      "movements": [
+        { "id": "deadlift", "title": "DL", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "row", "title": "Row", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "hang-clean", "title": "Hang Clean", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "front-squat", "title": "Front Squat", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "push-press", "title": "Push Press", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "back-squat", "title": "Back Squat", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } },
+        { "id": "pushups", "title": "Pushups", "prescription": { "reps": { "value": 6 }, "source_text": "6 reps" } }
+      ],
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -37527,9 +37577,47 @@
     },
     {
       "id": "curtis-p",
+      "tracks_load": true,
       "source_title": "Curtis P",
       "display_title": "Curtis P",
       "description": "At the prescribed weight: hang squat clean, forward lunge right, forward lunge left, and push press.",
+      "movements": [
+        {
+          "id": "curtis-p-movement-1",
+          "title": "Hang Squat Clean (HSC)",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "curtis-p-movement-2",
+          "title": "Lunge Forward Right leg",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "curtis-p-movement-3",
+          "title": "Lunge Forward Left leg",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "curtis-p-movement-4",
+          "title": "Push Press",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [
+          "At Prescribed Weight"
+        ],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40167,9 +40255,57 @@
     },
     {
       "id": "leg-blaster",
+      "tracks_load": false,
       "source_title": "Leg Blaster",
       "display_title": "Leg Blaster",
       "description": "20 squats, 10 lunges each leg, 10 jumping lunges each leg, and 10 squat jumps.",
+      "movements": [
+        {
+          "id": "leg-blaster-movement-1",
+          "title": "Squat",
+          "prescription": {
+            "reps": {
+              "value": 20
+            },
+            "source_text": "20 reps"
+          }
+        },
+        {
+          "id": "leg-blaster-movement-2",
+          "title": "Lunges each leg",
+          "prescription": {
+            "reps": {
+              "value": 10
+            },
+            "source_text": "10 reps"
+          }
+        },
+        {
+          "id": "leg-blaster-movement-3",
+          "title": "Jumping lunges each leg",
+          "prescription": {
+            "reps": {
+              "value": 10
+            },
+            "source_text": "10 reps"
+          }
+        },
+        {
+          "id": "leg-blaster-movement-4",
+          "title": "Squat Jumps",
+          "prescription": {
+            "reps": {
+              "value": 10
+            },
+            "source_text": "10 reps"
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40181,9 +40317,59 @@
     },
     {
       "id": "mini-leg-blaster",
+      "tracks_load": false,
       "source_title": "Mini Leg Blaster",
       "display_title": "Mini Leg Blaster",
       "description": "Half of a leg blaster; reduce every repetition count by half.",
+      "movements": [
+        {
+          "id": "mini-leg-blaster-movement-1",
+          "title": "Squat",
+          "prescription": {
+            "reps": {
+              "value": 10
+            },
+            "source_text": "10 reps"
+          }
+        },
+        {
+          "id": "mini-leg-blaster-movement-2",
+          "title": "Lunges each leg",
+          "prescription": {
+            "reps": {
+              "value": 5
+            },
+            "source_text": "5 reps"
+          }
+        },
+        {
+          "id": "mini-leg-blaster-movement-3",
+          "title": "Jumping lunges each leg",
+          "prescription": {
+            "reps": {
+              "value": 5
+            },
+            "source_text": "5 reps"
+          }
+        },
+        {
+          "id": "mini-leg-blaster-movement-4",
+          "title": "Squat Jumps",
+          "prescription": {
+            "reps": {
+              "value": 5
+            },
+            "source_text": "5 reps"
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [
+          "MINI LEG BLASTER IS ½ OF A LEG BLASTER (REDUCE EACH NUMBER BY ½)"
+        ],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40195,9 +40381,45 @@
     },
     {
       "id": "mr-spectacular",
+      "tracks_load": true,
       "source_title": "Mr. Spectacular",
       "display_title": "Mr. Spectacular",
       "description": "Two-hand kettlebell clean and press, walk out on the hands, perform a push-up, walk back, and repeat.",
+      "movements": [
+        {
+          "id": "mr-spectacular-movement-1",
+          "title": "2 Hand KB Clean/Press",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "mr-spectacular-movement-2",
+          "title": "Put down KB's and walk out on hands",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "mr-spectacular-movement-3",
+          "title": "Push up",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "mr-spectacular-movement-4",
+          "title": "Walk back up on hands and grab KB's",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40209,9 +40431,31 @@
     },
     {
       "id": "mutant-maker",
+      "tracks_load": true,
       "source_title": "Mutant Maker",
       "display_title": "Mutant Maker",
       "description": "Clean to thruster.",
+      "movements": [
+        {
+          "id": "mutant-maker-movement-1",
+          "title": "Clean",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "mutant-maker-movement-2",
+          "title": "Thruster",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40239,9 +40483,52 @@
     },
     {
       "id": "renegade-man-maker",
+      "tracks_load": true,
       "source_title": "Renegade Man Maker",
       "display_title": "Renegade Man Maker",
       "description": "Dumbbell clean and press, push-up, one row with each arm, then return to standing.",
+      "movements": [
+        {
+          "id": "renegade-man-maker-movement-1",
+          "title": "Power clean and press",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "renegade-man-maker-movement-2",
+          "title": "Push up",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "renegade-man-maker-movement-3",
+          "title": "Row right arm",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "renegade-man-maker-movement-4",
+          "title": "Row left arm",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "renegade-man-maker-movement-5",
+          "title": "Bring legs back underneath",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40284,9 +40571,59 @@
     },
     {
       "id": "sandbag-double-eagle",
+      "tracks_load": true,
       "source_title": "Sandbag Double Eagle",
       "display_title": "Sandbag Double Eagle",
       "description": "Clean a sandbag to the shoulder, move it behind the neck, perform 10 deep squats, drag a tire or sled forward, then drag it backward to the start.",
+      "movements": [
+        {
+          "id": "sandbag-double-eagle-movement-1",
+          "title": "Clean Sandbag to shoulder",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "sandbag-double-eagle-movement-2",
+          "title": "Pull it around neck",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "sandbag-double-eagle-movement-3",
+          "title": "Deep squats",
+          "prescription": {
+            "reps": {
+              "value": 10
+            },
+            "source_text": "10 reps"
+          }
+        },
+        {
+          "id": "sandbag-double-eagle-movement-4",
+          "title": "Drag tire/sled forward",
+          "prescription": {
+            "distance": {
+              "value": 40,
+              "unit": "ft"
+            },
+            "source_text": "40 ft"
+          }
+        },
+        {
+          "id": "sandbag-double-eagle-movement-5",
+          "title": "Put SB in tire and drag backwards to start point (SP)",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],
@@ -40330,9 +40667,33 @@
     },
     {
       "id": "the-exercise",
+      "tracks_load": true,
       "source_title": "The Exercise",
       "display_title": "The Exercise",
       "description": "Perform a snatch followed immediately by an overhead squat without lowering the weight.",
+      "movements": [
+        {
+          "id": "the-exercise-movement-1",
+          "title": "Snatch",
+          "prescription": {
+            "source_text": ""
+          }
+        },
+        {
+          "id": "the-exercise-movement-2",
+          "title": "OHS",
+          "prescription": {
+            "source_text": ""
+          }
+        }
+      ],
+      "guidance": {
+        "prescription_summary": null,
+        "execution_rules": [
+          "Without bringing the weight back down perform an OHS. That's one rep."
+        ],
+        "additional_instructions": []
+      },
       "tag_ids": [],
       "aliases": [],
       "abbreviations": [],

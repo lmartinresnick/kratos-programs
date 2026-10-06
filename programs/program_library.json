@@ -47,8 +47,8 @@
     {
       "id": "horsemen",
       "file": "horsemen.json",
-      "sha256": "7ab39b522e00d81a1fd431af44e8156856869ef1b7f6875b132bcbaed4a8fcfe",
-      "byte_count": 1461617,
+      "sha256": "296cc720680913e6f93d456404c3756d6ce7b629b56f74c7976a59fd6ec8bdb0",
+      "byte_count": 1472793,
       "program_schema_version": "2.0.0",
       "display_title": "Horsemen",
       "summary": "A four-month operator-fitness program combining strength, power endurance, job-specific conditioning, and maintenance.",
@@ -56,7 +56,7 @@
         "schedule",
         "workoutCollection"
       ],
-      "data_version": 17,
+      "data_version": 18,
       "difficulty": "advanced",
       "duration": {
         "weeks": 16,
